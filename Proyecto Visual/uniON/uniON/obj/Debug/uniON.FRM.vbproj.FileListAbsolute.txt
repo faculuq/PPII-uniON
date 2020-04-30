@@ -1,0 +1,14 @@
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.exe.config
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.exe
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.pdb
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.xml
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.AD.dll
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.AD.pdb
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.FRM.vbprojAssemblyReference.cache
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.Resources.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.FRM.vbproj.GenerateResource.cache
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.FRM.vbproj.CoreCompileInputs.cache
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.FRM.vbproj.CopyComplete
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.exe
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.xml
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.pdb

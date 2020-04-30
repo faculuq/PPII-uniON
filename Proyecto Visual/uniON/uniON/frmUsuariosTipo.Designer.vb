@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmPremiosTipo
+Partial Class frmUsuariosTipo
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -45,10 +45,10 @@ Partial Class frmPremiosTipo
         '
         Me.Panel.Controls.Add(Me.lblAccion)
         Me.Panel.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel.Location = New System.Drawing.Point(0, 446)
+        Me.Panel.Location = New System.Drawing.Point(0, 416)
         Me.Panel.Name = "Panel"
-        Me.Panel.Size = New System.Drawing.Size(824, 24)
-        Me.Panel.TabIndex = 27
+        Me.Panel.Size = New System.Drawing.Size(827, 24)
+        Me.Panel.TabIndex = 35
         '
         'lblAccion
         '
@@ -60,19 +60,19 @@ Partial Class frmPremiosTipo
         '
         'cmbCancelar
         '
-        Me.cmbCancelar.Location = New System.Drawing.Point(735, 382)
+        Me.cmbCancelar.Location = New System.Drawing.Point(735, 376)
         Me.cmbCancelar.Name = "cmbCancelar"
         Me.cmbCancelar.Size = New System.Drawing.Size(84, 34)
-        Me.cmbCancelar.TabIndex = 26
+        Me.cmbCancelar.TabIndex = 34
         Me.cmbCancelar.Text = "Cancelar"
         Me.cmbCancelar.UseVisualStyleBackColor = True
         '
         'cmbAceptar
         '
-        Me.cmbAceptar.Location = New System.Drawing.Point(608, 382)
+        Me.cmbAceptar.Location = New System.Drawing.Point(608, 376)
         Me.cmbAceptar.Name = "cmbAceptar"
         Me.cmbAceptar.Size = New System.Drawing.Size(84, 34)
-        Me.cmbAceptar.TabIndex = 25
+        Me.cmbAceptar.TabIndex = 33
         Me.cmbAceptar.Text = "Aceptar"
         Me.cmbAceptar.UseVisualStyleBackColor = True
         '
@@ -83,10 +83,10 @@ Partial Class frmPremiosTipo
         Me.GroupBox1.Controls.Add(Me.txtIdPremio)
         Me.GroupBox1.Controls.Add(Me.lblDescripcion)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(5, 197)
+        Me.GroupBox1.Location = New System.Drawing.Point(5, 191)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(814, 179)
-        Me.GroupBox1.TabIndex = 28
+        Me.GroupBox1.TabIndex = 36
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Informacion"
         '
@@ -119,9 +119,9 @@ Partial Class frmPremiosTipo
         Me.lblDescripcion.AutoSize = True
         Me.lblDescripcion.Location = New System.Drawing.Point(241, 62)
         Me.lblDescripcion.Name = "lblDescripcion"
-        Me.lblDescripcion.Size = New System.Drawing.Size(63, 13)
+        Me.lblDescripcion.Size = New System.Drawing.Size(44, 13)
         Me.lblDescripcion.TabIndex = 1
-        Me.lblDescripcion.Text = "Descripcion"
+        Me.lblDescripcion.Text = "Nombre"
         '
         'Label1
         '
@@ -134,44 +134,44 @@ Partial Class frmPremiosTipo
         '
         'cmbModificar
         '
-        Me.cmbModificar.Location = New System.Drawing.Point(730, 139)
+        Me.cmbModificar.Location = New System.Drawing.Point(730, 133)
         Me.cmbModificar.Name = "cmbModificar"
         Me.cmbModificar.Size = New System.Drawing.Size(84, 34)
-        Me.cmbModificar.TabIndex = 24
+        Me.cmbModificar.TabIndex = 32
         Me.cmbModificar.Text = "Modificar"
         Me.cmbModificar.UseVisualStyleBackColor = True
         '
         'cmbAgregar
         '
-        Me.cmbAgregar.Location = New System.Drawing.Point(608, 139)
+        Me.cmbAgregar.Location = New System.Drawing.Point(608, 133)
         Me.cmbAgregar.Name = "cmbAgregar"
         Me.cmbAgregar.Size = New System.Drawing.Size(84, 34)
-        Me.cmbAgregar.TabIndex = 23
+        Me.cmbAgregar.TabIndex = 31
         Me.cmbAgregar.Text = "Agregar"
         Me.cmbAgregar.UseVisualStyleBackColor = True
         '
         'cmbLimpiar
         '
-        Me.cmbLimpiar.Location = New System.Drawing.Point(5, 139)
+        Me.cmbLimpiar.Location = New System.Drawing.Point(5, 133)
         Me.cmbLimpiar.Name = "cmbLimpiar"
         Me.cmbLimpiar.Size = New System.Drawing.Size(84, 34)
-        Me.cmbLimpiar.TabIndex = 22
+        Me.cmbLimpiar.TabIndex = 30
         Me.cmbLimpiar.Text = "Limpiar"
         Me.cmbLimpiar.UseVisualStyleBackColor = True
         '
         'grl_grilla
         '
         Me.grl_grilla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.grl_grilla.Location = New System.Drawing.Point(0, 12)
+        Me.grl_grilla.Location = New System.Drawing.Point(0, 6)
         Me.grl_grilla.Name = "grl_grilla"
         Me.grl_grilla.Size = New System.Drawing.Size(814, 121)
-        Me.grl_grilla.TabIndex = 21
+        Me.grl_grilla.TabIndex = 29
         '
-        'frmPremiosTipo
+        'frmUsuariosTipo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(824, 470)
+        Me.ClientSize = New System.Drawing.Size(827, 440)
         Me.Controls.Add(Me.Panel)
         Me.Controls.Add(Me.cmbCancelar)
         Me.Controls.Add(Me.cmbAceptar)
@@ -180,8 +180,8 @@ Partial Class frmPremiosTipo
         Me.Controls.Add(Me.cmbAgregar)
         Me.Controls.Add(Me.cmbLimpiar)
         Me.Controls.Add(Me.grl_grilla)
-        Me.Name = "frmPremiosTipo"
-        Me.Text = "frmPremiosTipo"
+        Me.Name = "frmUsuariosTipo"
+        Me.Text = "Usuarios Tipo"
         Me.Panel.ResumeLayout(False)
         Me.Panel.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)

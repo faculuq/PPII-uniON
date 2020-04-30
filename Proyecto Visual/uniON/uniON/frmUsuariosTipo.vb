@@ -1,6 +1,8 @@
 ﻿Imports uniON.AD
 
-Public Class frmPremiosTipo
+Public Class frmUsuariosTipo
+
+
 #Region "Variables"
     Private eEstado As EstadodelFormulario
 #End Region
@@ -37,7 +39,7 @@ Public Class frmPremiosTipo
 
                 Case EstadodelFormulario.eAgregar
 
-                    HabililtarEdicion()
+                    HabilitarEdicion()
                     txtIdPremio.Enabled = False
                     cmbAceptar.Enabled = True
                     cmbCancelar.Enabled = True
@@ -72,11 +74,9 @@ Public Class frmPremiosTipo
 
 #Region "Formulario"
 
-    Private Sub frmPremiosTipo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmUsuariosTipo_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Estado = EstadodelFormulario.eConsulta
-
     End Sub
-
 #End Region
 
 #Region "Procedimientos"
@@ -86,9 +86,9 @@ Public Class frmPremiosTipo
 
     Private Sub BuscarTodos()
         Dim oDs As New DataSet
-        Dim oPremioTipo As New cPremiosTipo
+        Dim oUsuarioTipo As New cUsuariosTipo
 
-        oDs = oPremioTipo.BuscarTodos
+        oDs = oUsuarioTipo.BuscarTodos
 
         grl_grilla.DataSource = oDs.Tables(0)
 
@@ -96,21 +96,21 @@ Public Class frmPremiosTipo
         grl_grilla.Columns(0).Width = 50
 
         oDs = Nothing
-        oPremioTipo = Nothing
+        oUsuarioTipo = Nothing
     End Sub
 
-    Private Sub BuscarPorID(ByVal IdTipoPremio As Integer)
+    Private Sub BuscarPorID(ByVal IdTipoUsuario As Integer)
         Dim oDs As New DataSet
-        Dim oPremioTipo As New cPremiosTipo
+        Dim oUsuarioTipo As New cUsuariosTipo
 
-        oDs = oPremioTipo.BuscarPorId(IdTipoPremio)
+        oDs = oUsuarioTipo.BuscarPorId(IdTipoUsuario)
 
-        txtIdPremio.Text = oDs.Tables(0).Rows(0).Item("IdTipoPremio")
+        txtIdPremio.Text = oDs.Tables(0).Rows(0).Item("IdTipoUsuario")
         txtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion")
         chkActivo.Checked = oDs.Tables(0).Rows(0).Item("Activo")
 
         oDs = Nothing
-        oPremioTipo = Nothing
+        oUsuarioTipo = Nothing
     End Sub
 
     Private Sub Limpiar()
@@ -158,16 +158,16 @@ Public Class frmPremiosTipo
         Try
             If Validar() = True Then
 
-                Dim oPremioTipo As New cPremiosTipo
+                Dim oUsuarioTipo As New cUsuariosTipo
 
                 If Me.Estado = EstadodelFormulario.eEditar Then
-                    oPremioTipo.Modificar(txtIdPremio.Text, txtDescripcion.Text, chkActivo.Checked)
+                    oUsuarioTipo.Modificar(txtIdPremio.Text, txtDescripcion.Text, chkActivo.Checked)
                     MsgBox("Se modificó correctamente el país con el código nro: " + txtIdPremio.Text, MsgBoxStyle.Information, "Exitos!")
                 End If
 
                 If Me.Estado = EstadodelFormulario.eAgregar Then
                     Dim resultado As Integer
-                    resultado = oPremioTipo.Agregar(txtDescripcion.Text, chkActivo.Checked)
+                    resultado = oUsuarioTipo.Agregar(txtDescripcion.Text, chkActivo.Checked)
                     MsgBox("Se agregó correctamente el país " + txtDescripcion.Text + " con el código nro: " + resultado.ToString, MsgBoxStyle.Information, "Exitos!")
                 End If
 
