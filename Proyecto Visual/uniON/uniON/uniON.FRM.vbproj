@@ -73,11 +73,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="frmEstadosCategorias.Designer.vb">
+      <DependentUpon>frmEstadosCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadosCategorias.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCiudades.Designer.vb">
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEstados.resx">
       <DependentUpon>frmEstados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadosCategorias.resx">
+      <DependentUpon>frmEstadosCategorias.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEventosTipos.resx">
       <DependentUpon>frmEventosTipos.vb</DependentUpon>
