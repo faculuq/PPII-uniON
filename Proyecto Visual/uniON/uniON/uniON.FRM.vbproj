@@ -80,6 +80,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCiudades.Designer.vb">
+      <DependentUpon>frmCiudades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCiudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventosTipos.Designer.vb">
+      <DependentUpon>frmEventosTipos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventosTipos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPremiosTipo.Designer.vb">
       <DependentUpon>frmPremiosTipo.vb</DependentUpon>
     </Compile>
@@ -107,14 +119,14 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Prueba.Designer.vb">
-      <DependentUpon>Prueba.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Prueba.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmCiudades.resx">
+      <DependentUpon>frmCiudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventosTipos.resx">
+      <DependentUpon>frmEventosTipos.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPremiosTipo.resx">
       <DependentUpon>frmPremiosTipo.vb</DependentUpon>
     </EmbeddedResource>
