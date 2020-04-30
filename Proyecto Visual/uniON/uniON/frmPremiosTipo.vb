@@ -81,14 +81,14 @@ Public Class frmPremiosTipo
 
 #Region "Procedimientos"
     Private Sub CargarGrilla()
-        BuscarTodos()
+        PremiosTiposBuscarTodos()
     End Sub
 
-    Private Sub BuscarTodos()
+    Private Sub PremiosTiposBuscarTodos()
         Dim oDs As New DataSet
         Dim oPremioTipo As New cPremiosTipo
 
-        oDs = oPremioTipo.BuscarTodos
+        oDs = oPremioTipo.PremiosTiposBuscarTodos
 
         grl_grilla.DataSource = oDs.Tables(0)
 
@@ -99,11 +99,11 @@ Public Class frmPremiosTipo
         oPremioTipo = Nothing
     End Sub
 
-    Private Sub BuscarPorID(ByVal IdTipoPremio As Integer)
+    Private Sub PremiosTiposBuscarPorId(ByVal IdTipoPremio As Integer)
         Dim oDs As New DataSet
         Dim oPremioTipo As New cPremiosTipo
 
-        oDs = oPremioTipo.BuscarPorId(IdTipoPremio)
+        oDs = oPremioTipo.PremiosTiposBuscarPorId(IdTipoPremio)
 
         txtIdPremio.Text = oDs.Tables(0).Rows(0).Item("IdTipoPremio")
         txtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion")
@@ -146,7 +146,7 @@ Public Class frmPremiosTipo
 #End Region
 
 #Region "Botones de comando"
-    Private Sub cmdAgregar_Click(sender As Object, e As EventArgs)
+    Private Sub cmdAgregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbAgregar.Click
         Me.Estado = EstadodelFormulario.eAgregar
     End Sub
 
@@ -161,14 +161,14 @@ Public Class frmPremiosTipo
                 Dim oPremioTipo As New cPremiosTipo
 
                 If Me.Estado = EstadodelFormulario.eEditar Then
-                    oPremioTipo.Modificar(txtIdPremio.Text, txtDescripcion.Text, chkActivo.Checked)
-                    MsgBox("Se modificó correctamente el país con el código nro: " + txtIdPremio.Text, MsgBoxStyle.Information, "Exitos!")
+                    oPremioTipo.PremiosTiposModificar(txtIdPremio.Text, txtDescripcion.Text, chkActivo.Checked)
+                    MsgBox("Se modificó correctamente el Premio con el código nro: " + txtIdPremio.Text, MsgBoxStyle.Information, "Exitos!")
                 End If
 
                 If Me.Estado = EstadodelFormulario.eAgregar Then
                     Dim resultado As Integer
-                    resultado = oPremioTipo.Agregar(txtDescripcion.Text, chkActivo.Checked)
-                    MsgBox("Se agregó correctamente el país " + txtDescripcion.Text + " con el código nro: " + resultado.ToString, MsgBoxStyle.Information, "Exitos!")
+                    resultado = oPremioTipo.PremiosTiposAgregar(txtDescripcion.Text, chkActivo.Checked)
+                    MsgBox("Se agregó correctamente el Premio " + txtDescripcion.Text + " con el código nro: " + resultado.ToString, MsgBoxStyle.Information, "Exitos!")
                 End If
 
                 Me.Estado = EstadodelFormulario.eConsulta
@@ -203,7 +203,7 @@ Public Class frmPremiosTipo
     Private Function Validar() As Boolean
         If txtDescripcion.Text = "" Then
 
-            MsgBox("Complete el nombre del país", MsgBoxStyle.Exclamation, "Mensaje")
+            MsgBox("Complete el nombre del Premio", MsgBoxStyle.Exclamation, "Mensaje")
 
             Return False
         End If
@@ -216,7 +216,7 @@ Public Class frmPremiosTipo
 #Region "Grilla"
 
     Private Sub grlGrilla_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles grl_grilla.CellContentClick
-        BuscarPorID(grl_grilla.CurrentRow.Cells(0).Value)
+        PremiosTiposBuscarPorId(grl_grilla.CurrentRow.Cells(0).Value)
         cmbModificar.Enabled = True
     End Sub
 

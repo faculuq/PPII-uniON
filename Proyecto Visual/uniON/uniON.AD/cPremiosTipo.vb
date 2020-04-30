@@ -17,31 +17,31 @@ Public Class cPremiosTipo
 
     End Sub
 
-    Public Function BuscarPorId(ByVal IdTipoPremio As Integer) As DataSet
+    Public Function PremiosTiposBuscarPorId(ByVal IdTipoPremio As Integer) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("PremiosBuscarPorId", IdTipoPremio)
+            Return oDatabase.ExecuteDataSet("PremiosTiposBuscarPorId", IdTipoPremio)
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
 
-    Public Function BuscarTodos() As DataSet
+    Public Function PremiosTiposBuscarTodos() As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("PremiosBuscarTodos")
+            Return oDatabase.ExecuteDataSet("PremiosTiposBuscarTodos")
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
-    Public Function Agregar(ByVal Descripcion As String, ByVal Activo As Boolean) As Double
+    Public Function PremiosTiposAgregar(ByVal Descripcion As String, ByVal Activo As Boolean) As Double
         Try
-            Return oDatabase.ExecuteScalar("PremiosAgregar", Descripcion, Activo)
+            Return oDatabase.ExecuteScalar("PremiosTiposAgregar", Descripcion, Activo)
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
-    Public Function Modificar(ByVal IdTipoPremio As Integer, ByVal Descripcion As String, ByVal Activo As Boolean) As DataSet
+    Public Function PremiosTiposModificar(ByVal IdTipoPremio As Integer, ByVal Descripcion As String, ByVal Activo As Boolean) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("PremiosModificar", IdTipoPremio, Descripcion, Activo)
+            Return oDatabase.ExecuteDataSet("PremiosTiposModificar", IdTipoPremio, Descripcion, Activo)
         Catch ex As System.Exception
             Throw ex
         End Try

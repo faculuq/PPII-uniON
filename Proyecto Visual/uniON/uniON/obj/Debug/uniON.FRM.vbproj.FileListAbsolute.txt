@@ -39,3 +39,17 @@ C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Deb
 C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\Microsoft.Practices.Unity.Interception.dll
 C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\uniON.AD.pdb
 C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.FRM.vbproj.CopyComplete
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmCiudades.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmEstados.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmEstadosCategorias.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmEventosTipos.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmMenu.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmPaises.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmPremiosTipo.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmProvincias.resources
+C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmUsuariosTipo.resources
