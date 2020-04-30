@@ -45,7 +45,7 @@ Public Class frmPremiosTipo
                     grl_grilla.Enabled = False
                     Limpiar()
                     txtDescripcion.Focus()
-                    Panel.BackColor = Color.MediumAquamarine
+                    Panel.BackColor = Color.GreenYellow
                     lblAccion.Text = "Agregando"
                     lblAccion.ForeColor = Color.Black
 
@@ -57,7 +57,7 @@ Public Class frmPremiosTipo
                     cmbCancelar.Enabled = True
                     DesHabilitarComandos()
                     grl_grilla.Enabled = False
-                    Panel.BackColor = Color.MediumAquamarine
+                    Panel.BackColor = Color.GreenYellow
                     lblAccion.Text = "Modificando"
                     lblAccion.ForeColor = Color.Black
 

@@ -27,13 +27,15 @@ Partial Class frmMenu
         Me.PaisesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProvinciasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EstadosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.GreenYellow
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PaisesToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PaisesToolStripMenuItem, Me.EstadosToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -65,6 +67,19 @@ Partial Class frmMenu
         Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
+        'EstadosToolStripMenuItem
+        '
+        Me.EstadosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EstadosToolStripMenuItem1})
+        Me.EstadosToolStripMenuItem.Name = "EstadosToolStripMenuItem"
+        Me.EstadosToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
+        Me.EstadosToolStripMenuItem.Text = "Estados"
+        '
+        'EstadosToolStripMenuItem1
+        '
+        Me.EstadosToolStripMenuItem1.Name = "EstadosToolStripMenuItem1"
+        Me.EstadosToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.EstadosToolStripMenuItem1.Text = "Estados"
+        '
         'frmMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -86,4 +101,6 @@ Partial Class frmMenu
     Friend WithEvents PaisesToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ProvinciasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CiudadesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EstadosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EstadosToolStripMenuItem1 As ToolStripMenuItem
 End Class

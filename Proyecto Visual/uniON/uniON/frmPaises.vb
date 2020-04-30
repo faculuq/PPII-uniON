@@ -45,7 +45,7 @@ Public Class frmPaises
                     grlGrilla.Enabled = False
                     Limpiar()
                     txtPais.Focus()
-                    Panel1.BackColor = Color.MediumAquamarine
+                    Panel1.BackColor = Color.GreenYellow
                     lblAccion.Text = "Agregando"
                     lblAccion.ForeColor = Color.Black
 
@@ -57,7 +57,7 @@ Public Class frmPaises
                     cmdCancelar.Enabled = True
                     DesHabililarComandos()
                     grlGrilla.Enabled = False
-                    Panel1.BackColor = Color.MediumAquamarine
+                    Panel1.BackColor = Color.GreenYellow
                     lblAccion.Text = "Modificando"
                     lblAccion.ForeColor = Color.Black
 
