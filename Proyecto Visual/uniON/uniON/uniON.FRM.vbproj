@@ -73,29 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fmrProvincias.Designer.vb">
-      <DependentUpon>fmrProvincias.vb</DependentUpon>
-    </Compile>
-    <Compile Include="fmrProvincias.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmEstados.Designer.vb">
-      <DependentUpon>frmEstados.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmEstados.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPaises.Designer.vb">
-      <DependentUpon>frmPaises.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmPaises.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPremiosTipo.Designer.vb">
@@ -127,7 +109,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-
+    <EmbeddedResource Include="frmPremiosTipo.resx">
+      <DependentUpon>frmPremiosTipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuariosTipo.resx">
+      <DependentUpon>frmUsuariosTipo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
