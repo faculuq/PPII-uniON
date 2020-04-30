@@ -31,7 +31,7 @@ Public Class cProvincias
 
     Public Function BuscarPorID(ByVal IdProvincia As Integer) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("ProvinciaBuscarPorId", IdProvincia)
+            Return oDatabase.ExecuteDataSet("ProvinciasBuscarPorId", IdProvincia)
         Catch ex As System.Exception
             Throw ex
         End Try
@@ -47,7 +47,7 @@ Public Class cProvincias
 
     Public Function Modificar(ByVal IdProvincia As Integer, ByVal IdPais As Integer, ByVal Nombre As String, ByVal Activo As Boolean) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("ProvinciaModificar", IdProvincia, IdPais, Nombre, Activo)
+            Return oDatabase.ExecuteDataSet("ProvinciasModificar", IdProvincia, IdPais, Nombre, Activo)
         Catch ex As System.Exception
             Throw ex
         End Try

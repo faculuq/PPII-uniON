@@ -157,6 +157,9 @@
     <EmbeddedResource Include="frmEventosTipos.resx">
       <DependentUpon>frmEventosTipos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPaises.resx">
       <DependentUpon>frmPaises.vb</DependentUpon>
     </EmbeddedResource>

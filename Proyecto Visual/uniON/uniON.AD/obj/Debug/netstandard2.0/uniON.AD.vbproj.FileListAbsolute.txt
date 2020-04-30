@@ -13,3 +13,17 @@ C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\
 C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.vbproj.CopyComplete
 C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.dll
 C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.pdb
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\uniON.AD.deps.json
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\uniON.AD.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\uniON.AD.pdb
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\Microsoft.Practices.ServiceLocation.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\Microsoft.Practices.Unity.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\bin\Debug\netstandard2.0\Microsoft.Practices.Unity.Interception.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.vbprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.AssemblyInfo.vb
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.vbproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.dll
+C:\Users\usuario\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON.AD\obj\Debug\netstandard2.0\uniON.AD.pdb

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class frmMenu
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,12 +20,70 @@ Partial Class frmMenu
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.PaisesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PaisesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProvinciasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.BackColor = System.Drawing.Color.GreenYellow
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PaisesToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
+        Me.MenuStrip1.TabIndex = 0
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'PaisesToolStripMenuItem
+        '
+        Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PaisesToolStripMenuItem1, Me.ProvinciasToolStripMenuItem, Me.CiudadesToolStripMenuItem})
+        Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
+        Me.PaisesToolStripMenuItem.Text = "Paises"
+        '
+        'PaisesToolStripMenuItem1
+        '
+        Me.PaisesToolStripMenuItem1.Name = "PaisesToolStripMenuItem1"
+        Me.PaisesToolStripMenuItem1.Size = New System.Drawing.Size(128, 22)
+        Me.PaisesToolStripMenuItem1.Text = "Paises"
+        '
+        'ProvinciasToolStripMenuItem
+        '
+        Me.ProvinciasToolStripMenuItem.Name = "ProvinciasToolStripMenuItem"
+        Me.ProvinciasToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
+        Me.ProvinciasToolStripMenuItem.Text = "Provincias"
+        '
+        'CiudadesToolStripMenuItem
+        '
+        Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
+        Me.CiudadesToolStripMenuItem.Text = "Ciudades"
+        '
+        'frmMenu
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Form1"
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
+        Me.Name = "frmMenu"
+        Me.Text = "Menu"
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents PaisesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PaisesToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ProvinciasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CiudadesToolStripMenuItem As ToolStripMenuItem
 End Class
