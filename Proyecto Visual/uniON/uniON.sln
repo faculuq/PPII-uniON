@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "uniON.FRM", "uniON\uniON.FRM.vbproj", "{5CB33C8C-7293-4C91-8E23-7EF4DE3A0C8E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "uniON.WEB", "uniON.WEB\uniON.WEB.vbproj", "{A894BD8C-69DF-40A0-ADDE-CA15F089155F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "uniON.AD", "uniON.AD\uniON.AD.vbproj", "{60066B11-05F9-4002-9FBD-AE1D7575124C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CB33C8C-7293-4C91-8E23-7EF4DE3A0C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB33C8C-7293-4C91-8E23-7EF4DE3A0C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB33C8C-7293-4C91-8E23-7EF4DE3A0C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB33C8C-7293-4C91-8E23-7EF4DE3A0C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A894BD8C-69DF-40A0-ADDE-CA15F089155F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A894BD8C-69DF-40A0-ADDE-CA15F089155F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A894BD8C-69DF-40A0-ADDE-CA15F089155F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A894BD8C-69DF-40A0-ADDE-CA15F089155F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60066B11-05F9-4002-9FBD-AE1D7575124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60066B11-05F9-4002-9FBD-AE1D7575124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60066B11-05F9-4002-9FBD-AE1D7575124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60066B11-05F9-4002-9FBD-AE1D7575124C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58D4B470-742B-4C9E-8188-53E8B58794DB}
+	EndGlobalSection
+EndGlobal
