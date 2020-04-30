@@ -37,7 +37,7 @@ Public Class frmPremiosTipo
 
                 Case EstadodelFormulario.eAgregar
 
-                    HabililtarEdicion()
+                    HabilitarEdicion()
                     txtIdPremio.Enabled = False
                     cmbAceptar.Enabled = True
                     cmbCancelar.Enabled = True

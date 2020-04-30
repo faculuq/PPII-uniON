@@ -86,16 +86,34 @@
     <Compile Include="frmCiudades.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmEstados.Designer.vb">
+      <DependentUpon>frmEstados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstados.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmEventosTipos.Designer.vb">
       <DependentUpon>frmEventosTipos.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEventosTipos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPaises.Designer.vb">
+      <DependentUpon>frmPaises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaises.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPremiosTipo.Designer.vb">
       <DependentUpon>frmPremiosTipo.vb</DependentUpon>
     </Compile>
     <Compile Include="frmPremiosTipo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProvincias.Designer.vb">
+      <DependentUpon>frmProvincias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProvincias.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmUsuariosTipo.Designer.vb">
@@ -124,11 +142,20 @@
     <EmbeddedResource Include="frmCiudades.resx">
       <DependentUpon>frmCiudades.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEstados.resx">
+      <DependentUpon>frmEstados.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEventosTipos.resx">
       <DependentUpon>frmEventosTipos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPaises.resx">
+      <DependentUpon>frmPaises.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPremiosTipo.resx">
       <DependentUpon>frmPremiosTipo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProvincias.resx">
+      <DependentUpon>frmProvincias.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUsuariosTipo.resx">
       <DependentUpon>frmUsuariosTipo.vb</DependentUpon>
