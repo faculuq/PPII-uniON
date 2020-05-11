@@ -15,31 +15,31 @@ Public Class cUsuariosTipo
 
     End Sub
 
-    Public Function BuscarPorId(ByVal IdTipoUsuario As Integer) As DataSet
+    Public Function UsuariosTiposBuscarPorId(ByVal IdTipoUsuario As Integer) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("UsuariosBuscarPorId", IdTipoUsuario)
+            Return oDatabase.ExecuteDataSet("UsuariosTiposBuscarPorId", IdTipoUsuario)
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
 
-    Public Function BuscarTodos() As DataSet
+    Public Function UsuariosTiposBuscarTodos() As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("UsuariosBuscarTodos")
+            Return oDatabase.ExecuteDataSet("UsuariosTiposBuscarTodos")
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
-    Public Function Agregar(ByVal Descripcion As String, ByVal Activo As Boolean) As Double
+    Public Function UsuariosTiposAgregar(ByVal Descripcion As String, ByVal Activo As Boolean) As Double
         Try
-            Return oDatabase.ExecuteScalar("UsuariosAgregar", Descripcion, Activo)
+            Return oDatabase.ExecuteScalar("UsuariosTiposAgregar", Descripcion, Activo)
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
-    Public Function Modificar(ByVal IdTipoUsuario As Integer, ByVal Descripcion As String, ByVal Activo As Boolean) As DataSet
+    Public Function UsuariosTiposModificar(ByVal IdTipoUsuario As Integer, ByVal Descripcion As String, ByVal Activo As Boolean) As DataSet
         Try
-            Return oDatabase.ExecuteDataSet("UsuariosModificar", IdTipoUsuario, Descripcion, Activo)
+            Return oDatabase.ExecuteDataSet("UsuariosTiposModificar", IdTipoUsuario, Descripcion, Activo)
         Catch ex As System.Exception
             Throw ex
         End Try
