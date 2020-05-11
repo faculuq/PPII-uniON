@@ -83,19 +83,19 @@ li {
   cursor: pointer;
 }
 
+.signup-inactive a {
+  cursor: pointer;
+  color: rgba(255,255,255,.3);
+  text-decoration: none;
+  transition: all .25s ease;
+}
+
 .signup-active a {
   cursor: pointer;
   color: #ffffff;
   text-decoration: none;
   border-bottom: solid 2px #72C05B;
   padding-bottom: 10px;
-}
-
-.signup-inactive a {
-  cursor: pointer;
-  color: rgba(255,255,255,.3);
-  text-decoration: none;
-  transition: all .25s ease;
 }
 
 .form-signin {
@@ -171,13 +171,13 @@ li {
     stroke-width: .85px;
     stroke-dasharray: 60px 300px;
     stroke-dashoffset: -166px;
-    fill: rgba(255,255,255,.0);
+    fill: rgba(255,255,255,.3);
     transition: stroke-dashoffset 2s ease .5s, fill 1.5s ease 1.0s;
 }
 
 #check.checked path {
     stroke-dashoffset: 33px;
-    fill: rgba(255,255,255,.03);
+    fill: rgba(114,192,91,75);
 }
 
 .form-signin input, .form-signup input {
@@ -212,7 +212,7 @@ label {
     background: rgba(255,255,255,.3);
     border: none; 
     padding-right: 40px;
-    transition: background .5s ease;
+    transition: .5s ease;
  }
 
 [type="checkbox"]:not(:checked),
