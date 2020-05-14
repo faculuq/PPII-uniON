@@ -1,0 +1,41 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmLogin.aspx.vb" Inherits="uniON.WEB.frmLogin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="UTF-8">
+  <title>uniON</title>
+  <!-- partial:index.partial.html -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+   <div class="container">
+    <div class="frame">
+      <div class="nav">
+        <ul class="links">
+          <li class="signin-active"><a class="btn">Entrar</a></li>
+          <li class="signup-inactive"><a href="frmRegistro.aspx" class ="btn">Registrarte</a></li>
+        </ul>
+      </div>
+      <div ng-app ng-init="checked = false">
+        <form class="form-signin" action="" method="post" name="form">
+          <label for="username">Nombre de usuario</label>
+          <input class="form-styling" type="text" name="username" placeholder="" />
+          <label for="password">Contraseña</label>
+          <input class="form-styling" type="text" name="password" placeholder="" />
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox"><span class="ui"></span>Mantenerme conectado</label>
+          <div class="btn-animate">
+            <a class="btn-signin">Entrar</a>
+          </div>
+        </form>
+          </div>
+        </div>
+       </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
