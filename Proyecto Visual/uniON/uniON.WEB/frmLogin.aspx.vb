@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub btnRegistrarse_Click(sender As Object, e As EventArgs) Handles btnRegistrarse.Click
+        ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaFracaso()", True)
+    End Sub
 End Class

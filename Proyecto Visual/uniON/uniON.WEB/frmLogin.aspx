@@ -9,8 +9,18 @@
   <!-- partial:index.partial.html -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/login.css">
+    
 </head>
 <body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>function alertaFracaso() {
+            swal({
+                title: "¡Algo salió mal!",
+                text: "¡Corrobora que ambas contraseñas coincidan!",
+                icon: "error",
+                button: "Aceptar",
+            });
+}</script>
    <div class="container">
     <div class="frame">
       <div class="nav">
@@ -20,22 +30,23 @@
         </ul>
       </div>
       <div ng-app ng-init="checked = false">
-        <form class="form-signin" action="" method="post" name="form">
+        <form class="form-signin" action="" method="post" name="form" runat="server">
           <label for="username">Nombre de usuario</label>
           <input class="form-styling" type="text" name="username" placeholder="" />
           <label for="password">Contraseña</label>
           <input class="form-styling" type="text" name="password" placeholder="" />
           <input type="checkbox" id="checkbox" />
           <label for="checkbox"><span class="ui"></span>Mantenerme conectado</label>
-          <div class="btn-animate">
+            <asp:Button  ID="btnRegistrarse" runat="server" Text="Registrarse" />
+          <%--<div class="btn-animate">
             <a class="btn-signin">Entrar</a>
-          </div>
+          </div>--%>
         </form>
           </div>
         </div>
        </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
-  <script src="js/login.js"></script>
+   <%-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>--%>
+  <%--<script src="js/login.js"></script>--%>
 </body>
 </html>

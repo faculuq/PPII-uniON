@@ -63,7 +63,7 @@
                         <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>-->
                         
                         <div class="navbar-brand">
-                            <a href="frmRegistroLogin.aspx">Registrate!</a>
+                            <a href="frmRegistro.aspx">Registrate!</a>
                         </div>
                         
                     </ul>
