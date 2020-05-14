@@ -31,10 +31,12 @@
       </div>
       <div ng-app ng-init="checked = false">
         <form class="form-signin" action="" method="post" name="form" runat="server">
-          <label for="username">Nombre de usuario</label>
-          <input class="form-styling" type="text" name="username" placeholder="" />
+          <label for="username">Email</label>
+<%--          <input class="form-styling" type="text" name="username" placeholder="" />--%>
+            <asp:TextBox id="txtEmail" class="form-styling" type="text" name="username"  runat="server"></asp:TextBox>
           <label for="password">Contraseña</label>
-          <input class="form-styling" type="text" name="password" placeholder="" />
+            <asp:TextBox id="txtPassword" class="form-styling" type="password" name="password" runat="server"></asp:TextBox>
+          <%--<input class="form-styling" type="text" name="password" placeholder="" />--%>
           <input type="checkbox" id="checkbox" />
           <label for="checkbox"><span class="ui"></span>Mantenerme conectado</label>
             <asp:Button  ID="btnRegistrarse" runat="server" Text="Registrarse" />

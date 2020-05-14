@@ -103,6 +103,7 @@
     <Content Include="css\prettyPhoto.css" />
     <Content Include="css\responsive.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="frmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
     <Content Include="frmPrincipal.aspx" />
     <Content Include="frmRegistro.aspx" />
@@ -182,12 +183,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmInicio.aspx.designer.vb">
+      <DependentUpon>frmInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicio.aspx.vb">
+      <DependentUpon>frmInicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="frmLogin.aspx.designer.vb">
       <DependentUpon>frmLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.aspx.vb">
       <DependentUpon>frmLogin.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmPrincipal.aspx.designer.vb">
       <DependentUpon>frmPrincipal.aspx</DependentUpon>

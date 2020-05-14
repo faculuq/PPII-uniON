@@ -7,28 +7,33 @@
 <meta charset="UTF-8">
   <title>uniON</title>
   <!-- partial:index.partial.html -->
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/login.css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script>
-        function alertaExito(){
-            swal({
-                title: "¡Bienvenido a uniON!",
-                text: "¡Tu registro se completó exitosamente!",
-                icon: "success",
-                button: "Aceptar",
-            });
-        }
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" href="css/login.css"/>
 
-        function alertaFracaso() {
-            swal({
-                title: "¡Algo salió mal!",
-                text: "¡Corrobora que ambas contraseñas coincidan!",
-                icon: "error",
-                button: "Aceptar",
-            });
-        }
-    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+      <script> function alertaExito() {
+        Swal.fire(
+            '¡Bienvenido a uniON!',
+            'Tu registro se completó exitosamente',
+            'success'
+        )
+    }
+    function alertaPass() {
+        Swal.fire(
+            '¡Algo salió mal!',
+            'Ambas contraseñas deben coincidir',
+            'error'
+        )
+    }
+        function alertaCampos() {
+        Swal.fire(
+            '¡Algo salió mal!',
+            'Completar todos los campos requeridos',
+            'error'
+        )
+    }
+        </script>
 </head>
 <body>
    <div class="container">
@@ -48,13 +53,13 @@
             <asp:TextBox ID="txtEmail" runat="server" class="form-styling" type="text" name="email"></asp:TextBox>
           <%--<input id="txtEmail" runat="server" class="form-styling" type="text" name="email" placeholder="" />--%>
           <label  for="password">Contraseña</label>
-            <asp:TextBox id="txtPassword" runat="server" class="form-styling" type="text" name="password"></asp:TextBox>
+            <asp:TextBox id="txtPassword" runat="server" class="form-styling" type="password" name="password"></asp:TextBox>
 <%--          <input id="txtPassword" runat="server" class="form-styling" type="text" name="password" placeholder="" />--%>
           <label for="confirmpassword">Confirmar contraseña</label>
-            <asp:TextBox  id="txtPasswordConfirmar" runat="server" class="form-styling" type="text" name="confirmpassword"></asp:TextBox>
+            <asp:TextBox  id="txtPasswordConfirmar" runat="server" class="form-styling" type="password" name="confirmpassword"></asp:TextBox>
           <%--<input id="txtPasswordConfirmar" runat="server" class="form-styling" type="text" name="confirmpassword" placeholder="" />--%>
-         <%-- <input type="checkbox" id="checkbox" />--%>
-            <asp:CheckBox type="checkbox" id="checkbox" runat="server" />
+         <%-- <input id="checkbox" type="checkbox"  />--%>
+            <asp:CheckBox type="checkbox" id="chkTipo" runat="server" />
           <label for="checkbox"><span class="ui"></span>Registrarse como Empresa</label>
           <%--<div class="btn-animate">
             <a class="btn-signin">Registrarse</a>--%>
@@ -66,7 +71,10 @@
        </div>
  <%--   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>--%>
- <%-- <script src="js/login.js"></script>--%>
+  <script src="js/login.js"></script>
+    
+
+  
 
 </body>
 </html>

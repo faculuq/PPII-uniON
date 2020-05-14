@@ -37,6 +37,33 @@ uniON.WEB
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:uniON.WEB.frmInicio._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmLogin._txtEmail">
+<summary>
+Control txtEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmLogin._txtPassword">
+<summary>
+Control txtPassword.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:uniON.WEB.frmLogin._btnRegistrarse">
 <summary>
 Control btnRegistrarse.
@@ -82,9 +109,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmRegistro._checkbox">
+<member name="F:uniON.WEB.frmRegistro._chkTipo">
 <summary>
-Control checkbox.
+Control chkTipo.
 </summary>
 <remarks>
 Campo generado automáticamente.
