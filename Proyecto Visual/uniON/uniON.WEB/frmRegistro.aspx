@@ -10,30 +10,42 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
   <link rel="stylesheet" href="css/login.css"/>
 
+    <style>
+        .btn-signup:hover {
+            cursor: pointer
+        }
+        .btn-signup:hover {
+            background-color: #65AB50
+        }
+        .btn-signup:hover {
+            transition: background-color .5s
+        }
+    </style>
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
       <script> function alertaExito() {
-        Swal.fire(
-            '¡Bienvenido a uniON!',
-            'Tu registro se completó exitosamente',
-            'success'
-        )
-    }
-    function alertaPass() {
-        Swal.fire(
-            '¡Algo salió mal!',
-            'Ambas contraseñas deben coincidir',
-            'error'
-        )
-    }
-        function alertaCampos() {
-        Swal.fire(
-            '¡Algo salió mal!',
-            'Completar todos los campos requeridos',
-            'error'
-        )
-    }
+              Swal.fire(
+                  '¡Bienvenido a uniON!',
+                  'Tu registro se completó exitosamente',
+                  'success'
+              )
+          }
+          function alertaPass() {
+              Swal.fire(
+                  '¡Algo salió mal!',
+                  'Ambas contraseñas deben coincidir',
+                  'error'
+              )
+          }
+          function alertaCampos() {
+              Swal.fire(
+                  '¡Algo salió mal!',
+                  'Completar todos los campos requeridos',
+                  'error'
+              )
+          }
         </script>
+
 </head>
 <body>
    <div class="container">
@@ -41,7 +53,7 @@
       <div class="nav">
         <ul class="links">
             <li class="signup-active"><a  class ="btn">Registrarte</a></li>
-          <li class="signin-inactive"><a href="frmLogin.aspx" class="btn">Entrar</a></li>
+          <li class="signin-inactive"><a href="frmLogin.aspx" class="btn">Iniciar Secion</a></li>
           
         </ul>
       </div>
@@ -63,7 +75,8 @@
           <label for="checkbox"><span class="ui"></span>Registrarse como Empresa</label>
           <%--<div class="btn-animate">
             <a class="btn-signin">Registrarse</a>--%>
-              <asp:Button  ID="btnRegistrarse" runat="server" Text="Registrarse" />
+            
+              <asp:Button CssClass="btn-signup" ID="btnRegistrarse" runat="server" Text="Registrarse" style="cursor:pointer;;padding-top: 0px;"/>
         <%--  </div>--%>
         </form>
           </div>
