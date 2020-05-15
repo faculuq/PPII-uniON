@@ -92,9 +92,9 @@ Public Class frmCiudades
 
         oDs = oProvincia.BuscarTodos
 
-        cboPais.DataSource = oDs.Tables(0)
-        cboPais.ValueMember = oDs.Tables(0).Columns(0).ToString
-        cboPais.DisplayMember = oDs.Tables(0).Columns(1).ToString
+        cboProvincia.DataSource = oDs.Tables(0)
+        cboProvincia.ValueMember = oDs.Tables(0).Columns(0).ToString
+        cboProvincia.DisplayMember = oDs.Tables(0).Columns(1).ToString
 
         oDs = Nothing
         oProvincia = Nothing
@@ -122,7 +122,7 @@ Public Class frmCiudades
         oDs = oCiudad.BuscarPorID(ID)
 
         txtId.Text = oDs.Tables(0).Rows(0).Item("IdCiudad")
-        txtCiudad.Text = oDs.Tables(0).Rows(0).Item("Ciudad")
+        txtCiudad.Text = oDs.Tables(0).Rows(0).Item("Nombre")
         cboPais.SelectedValue = oDs.Tables(0).Rows(0).Item("IdPais")
         cboProvincia.SelectedValue = oDs.Tables(0).Rows(0).Item("IdProvincia")
         chkActivo.Checked = oDs.Tables(0).Rows(0).Item("Activo")

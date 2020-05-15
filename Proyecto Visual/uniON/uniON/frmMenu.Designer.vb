@@ -29,6 +29,7 @@ Partial Class frmMenu
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EstadosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CategoriasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,7 +70,7 @@ Partial Class frmMenu
         '
         'EstadosToolStripMenuItem
         '
-        Me.EstadosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EstadosToolStripMenuItem1})
+        Me.EstadosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CategoriasToolStripMenuItem, Me.EstadosToolStripMenuItem1})
         Me.EstadosToolStripMenuItem.Name = "EstadosToolStripMenuItem"
         Me.EstadosToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
         Me.EstadosToolStripMenuItem.Text = "Estados"
@@ -79,6 +80,12 @@ Partial Class frmMenu
         Me.EstadosToolStripMenuItem1.Name = "EstadosToolStripMenuItem1"
         Me.EstadosToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.EstadosToolStripMenuItem1.Text = "Estados"
+        '
+        'CategoriasToolStripMenuItem
+        '
+        Me.CategoriasToolStripMenuItem.Name = "CategoriasToolStripMenuItem"
+        Me.CategoriasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CategoriasToolStripMenuItem.Text = "Categorias"
         '
         'frmMenu
         '
@@ -103,4 +110,5 @@ Partial Class frmMenu
     Friend WithEvents CiudadesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EstadosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EstadosToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CategoriasToolStripMenuItem As ToolStripMenuItem
 End Class
