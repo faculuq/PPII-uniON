@@ -48,16 +48,17 @@
 
 </head>
 <body>
+   
    <div class="container">
     <div class="frame">
       <div class="nav">
         <ul class="links">
             <li class="signup-active"><a  class ="btn">Registrarte</a></li>
-          <li class="signin-inactive"><a href="frmLogin.aspx" class="btn">Iniciar Sesion</a></li>
-          
-        </ul>
+          <li class="signin-inactive"><a href="frmLogin.aspx" class="btn">Iniciar Sesión</a></li>
+            
+          </ul>
       </div>
-      <div ng-app ng-init="checked = false">
+      <div style="margin-top: -45px;" ng-app ng-init="checked = false">
         <form class="form-signin" action="" method="post" name="form" runat="server">
          <%-- <label for="username">Nombre de usuario</label>
           <input class="form-styling" type="text" runat="server" name="username" placeholder="" />--%>
@@ -72,7 +73,7 @@
           <%--<input id="txtPasswordConfirmar" runat="server" class="form-styling" type="text" name="confirmpassword" placeholder="" />--%>
          <%-- <input id="checkbox" type="checkbox"  />--%>
             <asp:CheckBox type="checkbox" id="chkTipo" runat="server" />
-          <label for="checkbox"><span class="ui"></span>Registrarse como Empresa</label>
+          <label for="checkbox"><span class="ui"></span>Registrarse como empresa</label>
           <%--<div class="btn-animate">
             <a class="btn-signin">Registrarse</a>--%>
             

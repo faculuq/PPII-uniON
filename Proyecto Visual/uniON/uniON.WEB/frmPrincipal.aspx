@@ -76,7 +76,7 @@
                         <div class="navbar-brand">
                             <a href="frmRegistro.aspx" style="">Registrate!</a>
                             <a href="#" style="font-size:20px"> |    </a>
-                            <a href="frmLogin.aspx" style="">Inicia Sesion</a>
+                            <a href="frmLogin.aspx" style="">Inicia Sesión</a>
                         </div>
                         
                     </ul>
@@ -96,7 +96,7 @@
                             <div class="col-md-12">
                                 <div class="carousel-content text-center">
                                     <h2>Bienvenidos a uni<span>ON</span>.</h2>
-                                    <p>La opcion para armar tu evento y ayudar a la sociedad.</p>
+                                    <p>La opción para armar tu evento y ayudar a la sociedad.</p>
                                     <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
                                 </div>
                             </div>
@@ -113,7 +113,7 @@
                                 <div class="carousel-content text-center">
 
                                     <h2>Bienvenidos a uni<span>ON</span>.</h2>
-                                    <p>La opcion para armar tu evento y ayudar a la sociedad.</p>
+                                    <p>La opción para armar tu evento y ayudar a la sociedad.</p>
                                     <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                             <div class="col-md-12">
                                 <div class="carousel-content text-center">
                                     <h2>Bienvenidos a uni<span>ON</span>.</h2>
-                                    <p>La opcion para armar tu evento y ayudar a la sociedad.</p>
+                                    <p>La opción para armar tu evento y ayudar a la sociedad.</p>
                                     <!--<a class="btn btn-primary btn-lg" href="#">Read More</a>-->
                                 </div>
                             </div>
