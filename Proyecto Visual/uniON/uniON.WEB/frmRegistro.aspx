@@ -53,7 +53,7 @@
       <div class="nav">
         <ul class="links">
             <li class="signup-active"><a  class ="btn">Registrarte</a></li>
-          <li class="signin-inactive"><a href="frmLogin.aspx" class="btn">Iniciar Secion</a></li>
+          <li class="signin-inactive"><a href="frmLogin.aspx" class="btn">Iniciar Sesion</a></li>
           
         </ul>
       </div>

@@ -18,6 +18,16 @@
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+
+    <style>
+        .navbar-brand a:hover{
+            color:#fff;
+            transition:0.5s;
+        }
+        li a{
+            transition:0.5s;
+        }
+    </style>
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -64,7 +74,9 @@
                         <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>-->
                         
                         <div class="navbar-brand">
-                            <a href="frmRegistro.aspx">Registrate!</a>
+                            <a href="frmRegistro.aspx" style="">Registrate!</a>
+                            <a href="#" style="font-size:20px"> |    </a>
+                            <a href="frmLogin.aspx" style="">Inicia Sesion</a>
                         </div>
                         
                     </ul>
