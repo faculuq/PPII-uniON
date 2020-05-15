@@ -41,11 +41,11 @@
     <div class="frame">
       <div class="nav">
         <ul class="links">
-          <li class="signin-active"><a class="btn">Iniciar Sesion</a></li>
+          <li class="signin-active"><a class="btn">Iniciar Sesión</a></li>
           <li class="signup-inactive"><a href="frmRegistro.aspx" class ="btn">Registrarte</a></li>
         </ul>
       </div>
-      <div ng-app ng-init="checked = false">
+      <div style="margin-top: -45px;" ng-app ng-init="checked = false">
         <form class="form-signin" action="" method="post" name="form" runat="server">
           <label for="username">Email</label>
 <%--          <input class="form-styling" type="text" name="username" placeholder="" />--%>
@@ -55,7 +55,7 @@
           <%--<input class="form-styling" type="text" name="password" placeholder="" />--%>
           <input type="checkbox" id="checkbox" />
           <label for="checkbox"><span class="ui"></span>Mantenerme conectado</label>
-            <asp:Button ID="btnRegistrarse" runat="server" style="cursor:pointer;padding-top: 0px;" Text="Iniciar Secion" CssClass="btn-signup"/>
+            <asp:Button ID="btnRegistrarse" runat="server" style="cursor:pointer;padding-top: 0px;" Text="Iniciar Sesión" CssClass="btn-signup"/>
           <%--<div class="btn-animate">
             <a class="btn-signin">Entrar</a>
           </div>--%>
