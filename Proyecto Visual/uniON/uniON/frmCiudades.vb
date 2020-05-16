@@ -71,20 +71,20 @@ Public Class frmCiudades
         BuscarTodos()
     End Sub
 
-    Private Sub CargarPais()
+    'Private Sub CargarPais()
 
-        Dim oDs As New DataSet
-        Dim oPais As New cPaises
+    '    Dim oDs As New DataSet
+    '    Dim oPais As New cPaises
 
-        oDs = oPais.BuscarTodos
+    '    oDs = oPais.BuscarTodos
 
-        cboPais.DataSource = oDs.Tables(0)
-        cboPais.ValueMember = oDs.Tables(0).Columns(0).ToString
-        cboPais.DisplayMember = oDs.Tables(0).Columns(1).ToString
+    '    cboPais.DataSource = oDs.Tables(0)
+    '    cboPais.ValueMember = oDs.Tables(0).Columns(0).ToString
+    '    cboPais.DisplayMember = oDs.Tables(0).Columns(1).ToString
 
-        oDs = Nothing
-        oPais = Nothing
-    End Sub
+    '    oDs = Nothing
+    '    oPais = Nothing
+    'End Sub
     Private Sub CargarProvincia()
 
         Dim oDs As New DataSet
@@ -94,7 +94,7 @@ Public Class frmCiudades
 
         cboProvincia.DataSource = oDs.Tables(0)
         cboProvincia.ValueMember = oDs.Tables(0).Columns(0).ToString
-        cboProvincia.DisplayMember = oDs.Tables(0).Columns(1).ToString
+        cboProvincia.DisplayMember = oDs.Tables(0).Columns(2).ToString
 
         oDs = Nothing
         oProvincia = Nothing
@@ -123,7 +123,7 @@ Public Class frmCiudades
 
         txtId.Text = oDs.Tables(0).Rows(0).Item("IdCiudad")
         txtCiudad.Text = oDs.Tables(0).Rows(0).Item("Nombre")
-        cboPais.SelectedValue = oDs.Tables(0).Rows(0).Item("IdPais")
+        'cboPais.SelectedValue = oDs.Tables(0).Rows(0).Item("IdPais")
         cboProvincia.SelectedValue = oDs.Tables(0).Rows(0).Item("IdProvincia")
         chkActivo.Checked = oDs.Tables(0).Rows(0).Item("Activo")
 
@@ -137,7 +137,7 @@ Public Class frmCiudades
         CargarGrilla()
         txtId.Text = ""
         txtCiudad.Text = ""
-        CargarPais()
+        'CargarPais()
         CargarProvincia()
         chkActivo.Checked = True
 
@@ -148,7 +148,7 @@ Public Class frmCiudades
 
         txtId.Enabled = True
         txtCiudad.Enabled = True
-        cboPais.Enabled = True
+        'cboPais.Enabled = True
         cboProvincia.Enabled = True
         chkActivo.Enabled = True
 
@@ -158,7 +158,7 @@ Public Class frmCiudades
 
         txtId.Enabled = False
         txtCiudad.Enabled = False
-        cboPais.Enabled = False
+        'cboPais.Enabled = False
         cboProvincia.Enabled = False
         chkActivo.Enabled = False
 
@@ -201,13 +201,13 @@ Public Class frmCiudades
                 Dim oCiudad As New cCiudades
 
                 If Me.Estado = EstadodelFormulario.eEditar Then
-                    oCiudad.Modificar(txtId.Text, cboPais.SelectedValue, cboProvincia.SelectedValue, txtCiudad.Text, chkActivo.Checked)
+                    oCiudad.Modificar(txtId.Text, cboProvincia.SelectedValue, txtCiudad.Text, chkActivo.Checked)
                     MsgBox("Se modificó correctamente la ciudad " + txtCiudad.Text + " con el código nro: " + txtId.Text, MsgBoxStyle.Information, "Exitos!")
                 End If
 
                 If Me.Estado = EstadodelFormulario.eAgregar Then
                     Dim resultado As Integer
-                    resultado = oCiudad.Agregar(cboPais.SelectedValue, cboProvincia.SelectedValue, txtCiudad.Text, chkActivo.Checked)
+                    resultado = oCiudad.Agregar(cboProvincia.SelectedValue, txtCiudad.Text, chkActivo.Checked)
                     MsgBox("Se agregó correctamente la ciudad " + txtCiudad.Text + " con el código nro: " + resultado.ToString, MsgBoxStyle.Information, "Exitos!")
                 End If
 

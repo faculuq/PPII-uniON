@@ -31,9 +31,7 @@ Partial Class frmCiudades
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cmdCancelar = New System.Windows.Forms.Button()
         Me.cmdAceptar = New System.Windows.Forms.Button()
-        Me.lblPais = New System.Windows.Forms.Label()
         Me.chkActivo = New System.Windows.Forms.CheckBox()
-        Me.cboPais = New System.Windows.Forms.ComboBox()
         Me.txtCiudad = New System.Windows.Forms.TextBox()
         Me.txtId = New System.Windows.Forms.TextBox()
         Me.lblCiudad = New System.Windows.Forms.Label()
@@ -51,7 +49,7 @@ Partial Class frmCiudades
         '
         Me.Panel1.Controls.Add(Me.lblAccion)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel1.Location = New System.Drawing.Point(0, 427)
+        Me.Panel1.Location = New System.Drawing.Point(0, 338)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(449, 23)
         Me.Panel1.TabIndex = 56
@@ -71,15 +69,13 @@ Partial Class frmCiudades
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.cmdCancelar)
         Me.GroupBox1.Controls.Add(Me.cmdAceptar)
-        Me.GroupBox1.Controls.Add(Me.lblPais)
         Me.GroupBox1.Controls.Add(Me.chkActivo)
-        Me.GroupBox1.Controls.Add(Me.cboPais)
         Me.GroupBox1.Controls.Add(Me.txtCiudad)
         Me.GroupBox1.Controls.Add(Me.txtId)
         Me.GroupBox1.Controls.Add(Me.lblCiudad)
         Me.GroupBox1.Location = New System.Drawing.Point(82, 197)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(259, 183)
+        Me.GroupBox1.Size = New System.Drawing.Size(259, 131)
         Me.GroupBox1.TabIndex = 55
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Ingrese datos"
@@ -87,7 +83,7 @@ Partial Class frmCiudades
         'lblProvincia
         '
         Me.lblProvincia.AutoSize = True
-        Me.lblProvincia.Location = New System.Drawing.Point(6, 78)
+        Me.lblProvincia.Location = New System.Drawing.Point(6, 42)
         Me.lblProvincia.Name = "lblProvincia"
         Me.lblProvincia.Size = New System.Drawing.Size(51, 13)
         Me.lblProvincia.TabIndex = 30
@@ -96,7 +92,7 @@ Partial Class frmCiudades
         'cboProvincia
         '
         Me.cboProvincia.FormattingEnabled = True
-        Me.cboProvincia.Location = New System.Drawing.Point(59, 75)
+        Me.cboProvincia.Location = New System.Drawing.Point(59, 39)
         Me.cboProvincia.Name = "cboProvincia"
         Me.cboProvincia.Size = New System.Drawing.Size(100, 21)
         Me.cboProvincia.TabIndex = 31
@@ -114,7 +110,7 @@ Partial Class frmCiudades
         '
         Me.cmdCancelar.Image = CType(resources.GetObject("cmdCancelar.Image"), System.Drawing.Image)
         Me.cmdCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.cmdCancelar.Location = New System.Drawing.Point(165, 101)
+        Me.cmdCancelar.Location = New System.Drawing.Point(165, 65)
         Me.cmdCancelar.Name = "cmdCancelar"
         Me.cmdCancelar.Size = New System.Drawing.Size(88, 23)
         Me.cmdCancelar.TabIndex = 16
@@ -125,43 +121,26 @@ Partial Class frmCiudades
         '
         Me.cmdAceptar.Image = CType(resources.GetObject("cmdAceptar.Image"), System.Drawing.Image)
         Me.cmdAceptar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.cmdAceptar.Location = New System.Drawing.Point(165, 73)
+        Me.cmdAceptar.Location = New System.Drawing.Point(165, 37)
         Me.cmdAceptar.Name = "cmdAceptar"
         Me.cmdAceptar.Size = New System.Drawing.Size(88, 23)
         Me.cmdAceptar.TabIndex = 17
         Me.cmdAceptar.Text = "Aceptar"
         Me.cmdAceptar.UseVisualStyleBackColor = True
         '
-        'lblPais
-        '
-        Me.lblPais.AutoSize = True
-        Me.lblPais.Location = New System.Drawing.Point(6, 45)
-        Me.lblPais.Name = "lblPais"
-        Me.lblPais.Size = New System.Drawing.Size(29, 13)
-        Me.lblPais.TabIndex = 19
-        Me.lblPais.Text = "País"
-        '
         'chkActivo
         '
         Me.chkActivo.AutoSize = True
-        Me.chkActivo.Location = New System.Drawing.Point(59, 131)
+        Me.chkActivo.Location = New System.Drawing.Point(59, 95)
         Me.chkActivo.Name = "chkActivo"
         Me.chkActivo.Size = New System.Drawing.Size(56, 17)
         Me.chkActivo.TabIndex = 20
         Me.chkActivo.Text = "Activo"
         Me.chkActivo.UseVisualStyleBackColor = True
         '
-        'cboPais
-        '
-        Me.cboPais.FormattingEnabled = True
-        Me.cboPais.Location = New System.Drawing.Point(59, 42)
-        Me.cboPais.Name = "cboPais"
-        Me.cboPais.Size = New System.Drawing.Size(100, 21)
-        Me.cboPais.TabIndex = 22
-        '
         'txtCiudad
         '
-        Me.txtCiudad.Location = New System.Drawing.Point(59, 105)
+        Me.txtCiudad.Location = New System.Drawing.Point(59, 69)
         Me.txtCiudad.Name = "txtCiudad"
         Me.txtCiudad.Size = New System.Drawing.Size(100, 20)
         Me.txtCiudad.TabIndex = 23
@@ -176,7 +155,7 @@ Partial Class frmCiudades
         'lblCiudad
         '
         Me.lblCiudad.AutoSize = True
-        Me.lblCiudad.Location = New System.Drawing.Point(6, 108)
+        Me.lblCiudad.Location = New System.Drawing.Point(6, 72)
         Me.lblCiudad.Name = "lblCiudad"
         Me.lblCiudad.Size = New System.Drawing.Size(40, 13)
         Me.lblCiudad.TabIndex = 24
@@ -184,7 +163,7 @@ Partial Class frmCiudades
         '
         'cmdSalir
         '
-        Me.cmdSalir.Location = New System.Drawing.Point(361, 335)
+        Me.cmdSalir.Location = New System.Drawing.Point(361, 305)
         Me.cmdSalir.Name = "cmdSalir"
         Me.cmdSalir.Size = New System.Drawing.Size(75, 23)
         Me.cmdSalir.TabIndex = 54
@@ -231,7 +210,7 @@ Partial Class frmCiudades
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(449, 450)
+        Me.ClientSize = New System.Drawing.Size(449, 361)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.cmdSalir)
@@ -258,9 +237,7 @@ Partial Class frmCiudades
     Friend WithEvents Label1 As Label
     Friend WithEvents cmdCancelar As Button
     Friend WithEvents cmdAceptar As Button
-    Friend WithEvents lblPais As Label
     Friend WithEvents chkActivo As CheckBox
-    Friend WithEvents cboPais As ComboBox
     Friend WithEvents txtCiudad As TextBox
     Friend WithEvents txtId As TextBox
     Friend WithEvents lblCiudad As Label
