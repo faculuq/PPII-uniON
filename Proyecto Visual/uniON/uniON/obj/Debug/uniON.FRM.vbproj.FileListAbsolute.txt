@@ -53,3 +53,7 @@ C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Deb
 C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmPremiosTipo.resources
 C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmProvincias.resources
 C:\Users\Daniele\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.frmUsuariosTipo.resources
+C:\Users\facul\OneDrive\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.FRM.vbprojAssemblyReference.cache
+C:\Users\facul\OneDrive\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.exe
+C:\Users\facul\OneDrive\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.xml
+C:\Users\facul\OneDrive\Documents\GitHub\PPII-uniON\Proyecto Visual\uniON\uniON\obj\Debug\uniON.pdb

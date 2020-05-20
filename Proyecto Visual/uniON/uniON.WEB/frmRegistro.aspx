@@ -50,7 +50,7 @@
 <body>
    
    <div class="container">
-    <div class="frame">
+    <div style="margin-bottom:20px; margin-top:-40px" class="frame">
       <div class="nav">
         <ul class="links">
             <li class="signup-active"><a  class ="btn">Registrarte</a></li>
