@@ -55,36 +55,36 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTitulo">
+<member name="F:uniON.WEB.frmCargaDatos._TxtNombre">
 <summary>
-Control TxtTitulo.
+Control TxtNombre.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtSubtitulo">
+<member name="F:uniON.WEB.frmCargaDatos._ddlPais">
 <summary>
-Control TxtSubtitulo.
+Control ddlPais.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._Span1">
+<member name="F:uniON.WEB.frmCargaDatos._ddlProvincia">
 <summary>
-Control Span1.
+Control ddlProvincia.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtDescripcion">
+<member name="F:uniON.WEB.frmCargaDatos._ddlCiudad">
 <summary>
-Control TxtDescripcion.
+Control ddlCiudad.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -103,51 +103,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:uniON.WEB.frmCargaDatos._ImgQS">
 <summary>
 Control ImgQS.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip1">
-<summary>
-Control TxtTooltip1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip2">
-<summary>
-Control TxtTooltip2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip3">
-<summary>
-Control TxtTooltip3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip4">
-<summary>
-Control TxtTooltip4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip5">
-<summary>
-Control TxtTooltip5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -184,6 +139,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:uniON.WEB.frmCargaDatos._btnVolver">
 <summary>
 Control btnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._form1">
+<summary>
+control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.

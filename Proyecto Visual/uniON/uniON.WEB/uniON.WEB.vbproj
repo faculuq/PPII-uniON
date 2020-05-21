@@ -1523,6 +1523,7 @@
     <Content Include="Formularios\Scripts\wowJs.js" />
     <Content Include="Formularios\Styles\Site.css" />
     <Content Include="frmCargaDatos.aspx" />
+    <Content Include="frmCargaDatosEmpresa.aspx" />
     <Content Include="frmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
     <Content Include="frmPrincipal.aspx" />
@@ -1608,6 +1609,13 @@
     </Compile>
     <Compile Include="frmCargaDatos.aspx.vb">
       <DependentUpon>frmCargaDatos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmCargaDatosEmpresa.aspx.designer.vb">
+      <DependentUpon>frmCargaDatosEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargaDatosEmpresa.aspx.vb">
+      <DependentUpon>frmCargaDatosEmpresa.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmInicio.aspx.designer.vb">
