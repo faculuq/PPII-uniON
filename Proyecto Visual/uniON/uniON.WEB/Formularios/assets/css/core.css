@@ -92,6 +92,7 @@ a:focus {
 }
 .container {
   width: auto;
+  
 }
 .container-alt {
   margin-left: auto;
@@ -515,7 +516,7 @@ a:focus {
 }
 /* Background colors */
 .bg-custom {
-  background-color: #ff6600 !important;
+  background-color: #72C05B !important;
 }
 .bg-primary {
   background-color: #188ae2 !important;
@@ -552,7 +553,7 @@ a:focus {
 }
 /* Text colors */
 .text-custom {
-  color: #ff6600 !important;
+  color: #72C05B !important;
 }
 .text-white {
   color: #ffffff !important;
@@ -652,7 +653,7 @@ textarea.form-control {
   padding: .3em .6em .3em;
 }
 .label-default {
-  background-color: #ff6600;
+  background-color: #72C05B;
 }
 .label-primary {
   background-color: #188ae2;
@@ -685,7 +686,7 @@ textarea.form-control {
   padding: 3px 5px;
   font-size: 12px;
   margin-top: 1px;
-  background-color: #ff6600;
+  background-color: #72C05B;
 }
 .badge-xs {
   font-size: 9px;
@@ -761,8 +762,8 @@ textarea.form-control {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  background-color: #ff6600;
-  border-color: #ff6600;
+  background-color: #72C05B;
+  border-color: #72C05B;
 }
 .pager li > a,
 .pager li > span {
@@ -943,11 +944,11 @@ textarea.form-control {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  background-color: #ff6600;
-  border-color: #ff6600;
+  background-color: #72C05B;
+  border-color: #72C05B;
 }
 .nav-pills > .active > a > .badge {
-  color: #ff6600;
+  color: #72C05B;
 }
 .has-success .form-control {
   border-color: #10c469;
@@ -988,7 +989,7 @@ textarea.form-control {
 }
 .popover .popover-title {
   background-color: transparent;
-  color: #ff6600;
+  color: #72C05B;
   font-weight: 600;
 }
 /* Code */

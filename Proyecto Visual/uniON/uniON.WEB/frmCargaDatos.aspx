@@ -267,13 +267,13 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Título</span>
+                                         <span style="color:#72C05B; font-size:18px; ">Título</span>
                                              <asp:TextBox ID="TxtTitulo" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                       
                                        <div class="col col-md-6">
-                                           <span runat="server" id="TituloOrden" style="color:#ef7f2d; font-size:18px;  " >Sub Título</span>
+                                           <span  id="TituloOrden" style=color:#72C05B; font-size:18px;  " >Sub Título</span>
                                              <asp:TextBox ID="TxtSubtitulo" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                       </div>
@@ -283,7 +283,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                             <div class="row">
 
                                            <div class="col col-md-12">
-                                           <span runat="server" id="Span1" style="color:#ef7f2d; font-size:18px;  " >Descripción</span>
+                                           <span runat="server" id="Span1" style="color:#72C05B; font-size:18px;  " >Descripción</span>
                                              <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="200px" Width="100%"></asp:TextBox>
                                       </div>
@@ -295,7 +295,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                                     <div class="col col-md-6">
                                                    <br />
-                                            <span style="color:#ef7f2d; font-size:18px; ">Subir Imágen</span>
+                                            <span style="color:#72C05B; font-size:18px; ">Subir Imágen</span>
                                         
                                         <script type="text/javascript">
                                             function readURL(input) {
@@ -341,17 +341,17 @@ background-color:rgba(0, 0, 0, 0.5);
                                                <div class="row">
                                       
                                        <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 1</span>
+                                         <span style="color:#72C05B; font-size:18px; ">Texto 1</span>
                                              <asp:TextBox ID="TxtTooltip1" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 2</span>
+                                         <span style="color:#72C05B; font-size:18px; ">Texto 2</span>
                                              <asp:TextBox ID="TxtTooltip2" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-4">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 3</span>
+                                         <span style="color:#72C05B; font-size:18px; ">Texto 3</span>
                                              <asp:TextBox ID="TxtTooltip3" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
@@ -362,12 +362,12 @@ background-color:rgba(0, 0, 0, 0.5);
                                              <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 4</span>
+                                         <span style="color:#72C05B; font-size:18px; ">Texto 4</span>
                                              <asp:TextBox ID="TxtTooltip4" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-6">
-                                         <span style="color:#ef7f2d; font-size:18px; ">Texto 5</span>
+                                         <span style="color:#72C05B; font-size:18px; ">Texto 5</span>
                                              <asp:TextBox ID="TxtTooltip5" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
@@ -391,7 +391,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                       <%--  <button type="button" style=" width:100%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     ACEPTAR</button>--%>
 
-                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#ef7f2d !important; border: 1px solid #ef7f2d !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
+                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#72C05B !important; border: 1px solid #72C05B !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
 
 
                                        </div>

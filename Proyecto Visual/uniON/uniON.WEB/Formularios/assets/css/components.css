@@ -59,8 +59,8 @@ File: Components
   color: #ffffff !important;
 }
 .btn-custom {
-  background-color: #ff6600;
-  border-color: #ff6600;
+  background-color: #72C05B;
+  border-color: #72C05B;
 }
 .btn-custom:hover,
 .btn-custom:focus,
@@ -214,7 +214,7 @@ File: Components
   border-bottom: 2px solid #c2d6e0 !important;
 }
 .btn-bordred.btn-custom {
-  background-color: #ff6600;
+  background-color: #72C05B;
   border-bottom: 2px solid #4fa4f8 !important;
 }
 .btn-bordred.btn-primary {
@@ -253,7 +253,7 @@ File: Components
 .btn-trans.btn-custom {
   border: 1px solid rgba(113, 182, 249, 0.1) !important;
   background-color: rgba(113, 182, 249, 0.15) !important;
-  color: #ff6600 !important;
+  color: #72C05B !important;
 }
 .btn-trans.btn-primary {
   border: 1px solid rgba(24, 138, 226, 0.1) !important;
@@ -435,8 +435,8 @@ File: Components
   height: 17px;
 }
 .checkbox-custom input[type="checkbox"]:checked + label::before {
-  background-color: #ff6600;
-  border-color: #ff6600;
+  background-color: #72C05B;
+  border-color: #72C05B;
 }
 .checkbox-custom input[type="checkbox"]:checked + label::after {
   color: #ffffff;
@@ -570,13 +570,13 @@ File: Components
   height: 17px;
 }
 .radio-custom input[type="radio"] + label::after {
-  background-color: #ff6600;
+  background-color: #72C05B;
 }
 .radio-custom input[type="radio"]:checked + label::before {
-  border-color: #ff6600;
+  border-color: #72C05B;
 }
 .radio-custom input[type="radio"]:checked + label::after {
-  background-color: #ff6600;
+  background-color: #72C05B;
 }
 .radio-primary input[type="radio"] + label::after {
   background-color: #188ae2;
@@ -679,7 +679,7 @@ File: Components
   color: #ffffff;
 }
 .panel-custom > .panel-heading {
-  background-color: #ff6600;
+  background-color: #72C05B;
 }
 .panel-primary > .panel-heading {
   background-color: #188ae2;
@@ -714,8 +714,8 @@ File: Components
   padding: 15px 20px 20px 20px;
 }
 .panel-border.panel-custom .panel-heading {
-  border-color: #ff6600 !important;
-  color: #ff6600 !important;
+  border-color: #72C05B !important;
+  color: #72C05B !important;
 }
 .panel-border.panel-primary .panel-heading {
   border-color: #188ae2 !important;
@@ -819,7 +819,7 @@ File: Components
   color: #435966 !important;
 }
 .card-tabs .nav-pills li.active a {
-  background-color: #ff6600 !important;
+  background-color: #72C05B !important;
   color: #ffffff !important;
 }
 .card-tabs .tab-content {
@@ -994,7 +994,7 @@ File: Components
   background-color: #ff8acc;
 }
 .progress-bar-custom {
-  background-color: #ff6600;
+  background-color: #72C05B;
 }
 /* Custom progressbars */
 .progress-bar-custom-alt {
@@ -1141,11 +1141,11 @@ th {
   border: 1px solid #ebeff2;
 }
 table.focus-on tbody tr.focused th {
-  background-color: #ff6600;
+  background-color: #72C05B;
   color: #ffffff;
 }
 table.focus-on tbody tr.focused td {
-  background-color: #ff6600;
+  background-color: #72C05B;
   color: #ffffff;
 }
 .table-rep-plugin .table-responsive {
@@ -1214,8 +1214,8 @@ table.focus-on tbody tr.focused td {
   cursor: not-allowed;
 }
 .table-rep-plugin .checkbox-row input[type="checkbox"]:checked + label::before {
-  background-color: #ff6600;
-  border-color: #ff6600;
+  background-color: #72C05B;
+  border-color: #72C05B;
 }
 .table-rep-plugin .checkbox-row input[type="checkbox"]:checked + label::after {
   color: #ffffff;
@@ -1287,7 +1287,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child:before
 /* Key Table */
 table.dataTable th.focus,
 table.dataTable td.focus {
-  outline: 3px solid #ff6600 !important;
+  outline: 3px solid #72C05B !important;
   outline-offset: -1px;
 }
 /* Tablesaw */
