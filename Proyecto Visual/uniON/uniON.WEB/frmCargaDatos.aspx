@@ -24,8 +24,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
-    <link rel="shortcut icon" href="Formularios/Imagenes/Fv.png">
-    <title>Hiercons - Backend</title>
+   
+    <title>uniON</title>
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="Formularios/assets/plugins/morris/morris.css">
     <!-- App css -->
@@ -252,7 +252,7 @@ background-color:rgba(0, 0, 0, 0.5);
             <!-- Start content -->
             <div class="content">
                  <div class="content">
-                <div class="container">
+                <div style="padding:0 0 0 0;" class="container">
                     <div class="row"  runat="server" id="PanelControles">
                         <div class="col-lg-12">
                             <div class="card-box">

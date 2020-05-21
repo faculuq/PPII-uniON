@@ -17,14 +17,22 @@ Public Class frmRegistro
             If txtPassword.Text = txtPasswordConfirmar.Text Then
                 If chkTipo.Checked = False Then
                     Dim iduser As Integer
+                    Dim idpersona As Integer
                     iduser = oUsuario.Agregar(txtEmail.Text, txtPassword.Text, 1)
-                    oPersona.Agregar(iduser)
+                    idpersona = oPersona.Agregar(iduser)
+                    Session("IdUsuario") = iduser
+                    Session("IdPersona") = idpersona
                     ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
+                    Response.Redirect("frmCargaDatosPersona.aspx")
                 Else
                     Dim iduser As Integer
-                    iduser = oUsuario.Agregar(txtEmail.Text, txtPassword.Text, 1)
-                    oEmpresa.Agregar(iduser)
+                    Dim idempresa As Integer
+                    iduser = oUsuario.Agregar(txtEmail.Text, txtPassword.Text, 2)
+                    idempresa = oEmpresa.Agregar(iduser)
+                    Session("IdUsuario") = iduser
+                    Session("IdEmpresa") = idempresa
                     ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
+                    Response.Redirect("frmCargaDatosEmpresa.aspx")
                 End If
 
             Else
