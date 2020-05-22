@@ -1523,8 +1523,10 @@
     <Content Include="Formularios\Scripts\wowJs.js" />
     <Content Include="Formularios\Styles\Site.css" />
     <Content Include="frmCargaDatos.aspx" />
+    <Content Include="frmCargaDatosPersona.aspx" />
     <Content Include="frmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
+    <Content Include="frmModificarDatosPersona.aspx" />
     <Content Include="frmPrincipal.aspx" />
     <Content Include="frmRegistro.aspx" />
     <Content Include="images\ico\apple-touch-icon-114-precomposed.png" />
@@ -1610,6 +1612,13 @@
       <DependentUpon>frmCargaDatos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="frmCargaDatosPersona.aspx.designer.vb">
+      <DependentUpon>frmCargaDatosPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargaDatosPersona.aspx.vb">
+      <DependentUpon>frmCargaDatosPersona.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="frmInicio.aspx.designer.vb">
       <DependentUpon>frmInicio.aspx</DependentUpon>
     </Compile>
@@ -1623,6 +1632,13 @@
     <Compile Include="frmLogin.aspx.vb">
       <DependentUpon>frmLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmModificarDatosPersona.aspx.designer.vb">
+      <DependentUpon>frmModificarDatosPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarDatosPersona.aspx.vb">
+      <DependentUpon>frmModificarDatosPersona.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmPrincipal.aspx.designer.vb">
       <DependentUpon>frmPrincipal.aspx</DependentUpon>
