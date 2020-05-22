@@ -190,6 +190,159 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:uniON.WEB.frmCrearEventos._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._PanelControles">
+<summary>
+PanelControles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTitulo">
+<summary>
+TxtTitulo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._Span1">
+<summary>
+Span1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtDescripcion">
+<summary>
+TxtDescripcion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip1">
+<summary>
+TxtTooltip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip2">
+<summary>
+TxtTooltip2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip3">
+<summary>
+TxtTooltip3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip4">
+<summary>
+TxtTooltip4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip5">
+<summary>
+TxtTooltip5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._btnSubirImg">
+<summary>
+btnSubirImg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._ImgQS">
+<summary>
+ImgQS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._BtnAceptar">
+<summary>
+BtnAceptar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._PanelVolver">
+<summary>
+PanelVolver control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._btnVolver">
+<summary>
+btnVolver control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:uniON.WEB.frmInicio._form1">
 <summary>
 Control form1.
