@@ -32,40 +32,40 @@ Partial Public Class frmCargaDatos
     Protected WithEvents PanelControles As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''Control TxtTitulo.
+    '''Control TxtNombre.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtTitulo As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtNombre As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control TxtSubtitulo.
+    '''Control ddlPais.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtSubtitulo As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents ddlPais As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control Span1.
+    '''Control ddlProvincia.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Span1 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    Protected WithEvents ddlProvincia As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control TxtDescripcion.
+    '''Control ddlCiudad.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents ddlCiudad As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control btnSubirImg.
@@ -84,51 +84,6 @@ Partial Public Class frmCargaDatos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents ImgQS As Global.System.Web.UI.HtmlControls.HtmlImage
-
-    '''<summary>
-    '''Control TxtTooltip1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip1 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip2 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip3 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip4 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control TxtTooltip5.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TxtTooltip5 As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control BtnAceptar.
