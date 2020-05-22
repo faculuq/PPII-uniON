@@ -92,8 +92,6 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\uniON.WEB.dll" />
-    <Content Include="bin\uniON.WEB.pdb" />
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.css" />
@@ -1525,6 +1523,10 @@
     <Content Include="Formularios\Scripts\wowJs.js" />
     <Content Include="Formularios\Styles\Site.css" />
     <Content Include="frmCargaDatos.aspx" />
+    <Content Include="frmCargaDatosEmpresa.aspx" />
+    <Content Include="frmCargaDatosPersona.aspx" />
+    <Content Include="frmCargaPremios.aspx" />
+    <Content Include="frmCrearEventos.aspx" />
     <Content Include="frmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
     <Content Include="frmModificarDatosPersona.aspx" />
@@ -1603,11 +1605,6 @@
     <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\respond.min.js" />
     <Content Include="js\wow.min.js" />
-    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
-    <Content Include="obj\Debug\uniON.WEB.dll" />
-    <Content Include="obj\Debug\uniON.WEB.pdb" />
-    <Content Include="obj\Debug\uniON.WEB.vbproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\uniON.WEB.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1630,14 +1627,21 @@
     </Compile>
     <Compile Include="frmCargaDatosPersona.aspx.vb">
       <DependentUpon>frmCargaDatosPersona.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmCargaPremios.aspx.designer.vb">
       <DependentUpon>frmCargaPremios.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmCargaPremios.aspx.vb">
       <DependentUpon>frmCargaPremios.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmCrearEventos.aspx.designer.vb">
+      <DependentUpon>frmCrearEventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearEventos.aspx.vb">
+      <DependentUpon>frmCrearEventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmInicio.aspx.designer.vb">
       <DependentUpon>frmInicio.aspx</DependentUpon>
@@ -1658,7 +1662,7 @@
     </Compile>
     <Compile Include="frmModificarDatosPersona.aspx.vb">
       <DependentUpon>frmModificarDatosPersona.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmPrincipal.aspx.designer.vb">
       <DependentUpon>frmPrincipal.aspx</DependentUpon>
@@ -1701,7 +1705,6 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\uniON.WEB.Resources.resources" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -1911,11 +1914,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\uniON.WEB.vbproj.CopyComplete" />
-    <Content Include="obj\Debug\uniON.WEB.vbproj.CoreCompileInputs.cache" />
-    <Content Include="obj\Debug\uniON.WEB.vbproj.GenerateResource.cache" />
-    <Content Include="obj\Debug\uniON.WEB.vbprojAssemblyReference.cache" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

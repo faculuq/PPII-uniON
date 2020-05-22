@@ -241,13 +241,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\obj\\project.nuget.cache : Invalid property identifier character: ]. Path 'version', line 4, position 2."
-    }
-  ]
+  }
 }

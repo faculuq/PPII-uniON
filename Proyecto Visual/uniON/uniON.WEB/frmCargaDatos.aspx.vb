@@ -60,7 +60,4 @@ Public Class frmCargaDatos
     End Sub
 #End Region
 
-    Protected Sub TxtDescripcion_TextChanged(sender As Object, e As EventArgs)
-
-    End Sub
 End Class

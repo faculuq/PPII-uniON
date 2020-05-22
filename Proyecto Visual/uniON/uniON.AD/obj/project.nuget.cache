@@ -7,12 +7,5 @@
     "C:\\Users\\facul\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\facul\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\obj\\project.nuget.cache : Invalid property identifier character: ]. Path 'version', line 4, position 2."
-    }
-  ]
+  "logs": []
 }
