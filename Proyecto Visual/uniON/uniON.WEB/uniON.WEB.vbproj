@@ -1525,9 +1525,6 @@
     <Content Include="Formularios\Scripts\wowJs.js" />
     <Content Include="Formularios\Styles\Site.css" />
     <Content Include="frmCargaDatos.aspx" />
-    <Content Include="frmCargaDatosEmpresa.aspx" />
-    <Content Include="frmCargaDatosPersona.aspx" />
-    <Content Include="frmCargaPremios.aspx" />
     <Content Include="frmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
     <Content Include="frmModificarDatosPersona.aspx" />
