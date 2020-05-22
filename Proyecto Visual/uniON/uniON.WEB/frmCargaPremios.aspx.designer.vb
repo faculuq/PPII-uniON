@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frmCargaDatos
+Partial Public Class frmCargaPremios
 
     '''<summary>
     '''Control form1.
@@ -32,40 +32,76 @@ Partial Public Class frmCargaDatos
     Protected WithEvents PanelControles As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''Control TxtNombre.
+    '''Control TxtTitulo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TxtNombre As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtTitulo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddlPais.
+    '''Control cboTipoPremio.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlPais As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cboTipoPremio As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control ddlProvincia.
+    '''Control Span1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlProvincia As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents Span1 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''Control ddlCiudad.
+    '''Control TxtDescripcion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlCiudad As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents TxtDescripcion As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control Span2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Span2 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Control TxtCantidad.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtCantidad As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control Span3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Span3 As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Control TxtCosto.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents TxtCosto As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control btnSubirImg.
