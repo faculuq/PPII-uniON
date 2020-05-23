@@ -55,36 +55,36 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTitulo">
+<member name="F:uniON.WEB.frmCargaDatos._TxtNombre">
 <summary>
-Control TxtTitulo.
+Control TxtNombre.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtSubtitulo">
+<member name="F:uniON.WEB.frmCargaDatos._ddlPais">
 <summary>
-Control TxtSubtitulo.
+Control ddlPais.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._Span1">
+<member name="F:uniON.WEB.frmCargaDatos._ddlProvincia">
 <summary>
-Control Span1.
+Control ddlProvincia.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtDescripcion">
+<member name="F:uniON.WEB.frmCargaDatos._ddlCiudad">
 <summary>
-Control TxtDescripcion.
+Control ddlCiudad.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -103,51 +103,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:uniON.WEB.frmCargaDatos._ImgQS">
 <summary>
 Control ImgQS.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip1">
-<summary>
-Control TxtTooltip1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip2">
-<summary>
-Control TxtTooltip2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip3">
-<summary>
-Control TxtTooltip3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip4">
-<summary>
-Control TxtTooltip4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCargaDatos._TxtTooltip5">
-<summary>
-Control TxtTooltip5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -190,6 +145,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._form1">
+<summary>
+control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:uniON.WEB.frmCargaDatosPersona._form1">
 <summary>
 Control form1.
@@ -217,9 +181,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatosPersona._TxtSubtitulo">
+<member name="F:uniON.WEB.frmCargaDatosPersona._txtApellido">
 <summary>
-Control TxtSubtitulo.
+Control txtApellido.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -296,6 +260,303 @@ Control PanelVolver.
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._PanelControles">
+<summary>
+Control PanelControles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._TxtTitulo">
+<summary>
+Control TxtTitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._cboTipoPremio">
+<summary>
+Control cboTipoPremio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._Span1">
+<summary>
+Control Span1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._TxtDescripcion">
+<summary>
+Control TxtDescripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._Span2">
+<summary>
+Control Span2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._TxtCantidad">
+<summary>
+Control TxtCantidad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._Span3">
+<summary>
+Control Span3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._TxtCosto">
+<summary>
+Control TxtCosto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._btnSubirImg">
+<summary>
+Control btnSubirImg.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._ImgQS">
+<summary>
+Control ImgQS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._BtnAceptar">
+<summary>
+Control BtnAceptar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._lblError">
+<summary>
+Control lblError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._PanelVolver">
+<summary>
+Control PanelVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaPremios._btnVolver">
+<summary>
+Control btnVolver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._PanelControles">
+<summary>
+PanelControles control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTitulo">
+<summary>
+TxtTitulo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._Span1">
+<summary>
+Span1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtDescripcion">
+<summary>
+TxtDescripcion control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip1">
+<summary>
+TxtTooltip1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip2">
+<summary>
+TxtTooltip2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip3">
+<summary>
+TxtTooltip3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip4">
+<summary>
+TxtTooltip4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._TxtTooltip5">
+<summary>
+TxtTooltip5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._btnSubirImg">
+<summary>
+btnSubirImg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._ImgQS">
+<summary>
+ImgQS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._BtnAceptar">
+<summary>
+BtnAceptar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._lblError">
+<summary>
+lblError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._PanelVolver">
+<summary>
+PanelVolver control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCrearEventos._btnVolver">
+<summary>
+btnVolver control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:uniON.WEB.frmInicio._form1">

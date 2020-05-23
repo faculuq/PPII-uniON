@@ -14,11 +14,9 @@ Public Class cProvincias
     End Sub
 
     Public Function BuscarTodos() As DataSet
-        Try
-            Return oDatabase.ExecuteDataSet("ProvinciasBuscarTodos")
-        Catch ex As System.Exception
-            Throw ex
-        End Try
+
+        Return oDatabase.ExecuteDataSet("ProvinciasBuscarTodos")
+
     End Function
 
     Public Function BuscarPorPais(ByVal IdPais As Integer) As DataSet

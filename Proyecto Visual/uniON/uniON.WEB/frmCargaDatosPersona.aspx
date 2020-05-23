@@ -46,6 +46,24 @@
 
       <link href="Formularios/css/wowCss.css" rel="stylesheet" type="text/css" />
 
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+      <script> function alertaExito() {
+              Swal.fire(
+                  '¡Bien hecho!',
+                  'Tus datos se cargaron correctamente',
+                  'success'
+              )
+          }
+          
+          function alertaCampos() {
+              Swal.fire(
+                  '¡Algo salió mal!',
+                  'Completar todos los campos requeridos',
+                  'error'
+              )
+          }
+        </script>
+
 </head>
 <style>
     
@@ -274,7 +292,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-6">
                                            <span style="color:#72C05B; font-size:18px; ">Apellido</span>
-                                             <asp:TextBox ID="TxtSubtitulo" required runat="server"  ForeColor="Black"
+                                             <asp:TextBox ID="txtApellido" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                       </div>
 
@@ -294,13 +312,13 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">País</span>
-                                             <asp:DropDownList ID="cboPais" required runat="server"  ForeColor="Black"
+                                             <asp:DropDownList ID="cboPais"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
                                        </div>
 
                                                  <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Provincia/Estado</span>
-<asp:DropDownList ID="cboProvincia" required runat="server"  ForeColor="Black"
+<asp:DropDownList ID="cboProvincia"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
                                              
                                        </div>
@@ -313,7 +331,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                                  <div class="row">
                                                  <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
-                                             <asp:DropDownList ID="cboCiudad" required runat="server"  ForeColor="Black"
+                                             <asp:DropDownList ID="cboCiudad"  runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
                                        </div>
 
