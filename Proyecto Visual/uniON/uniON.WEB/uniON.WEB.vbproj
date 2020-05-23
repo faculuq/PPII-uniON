@@ -1529,6 +1529,7 @@
     <Content Include="frmCrearEventos.aspx" />
     <Content Include="frmInicio.aspx" />
     <Content Include="frmLogin.aspx" />
+    <Content Include="frmModificarDatosEmpresa.aspx" />
     <Content Include="frmModificarDatosPersona.aspx" />
     <Content Include="frmPrincipal.aspx" />
     <Content Include="frmRegistro.aspx" />
@@ -1656,6 +1657,13 @@
     <Compile Include="frmLogin.aspx.vb">
       <DependentUpon>frmLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmModificarDatosEmpresa.aspx.designer.vb">
+      <DependentUpon>frmModificarDatosEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarDatosEmpresa.aspx.vb">
+      <DependentUpon>frmModificarDatosEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmModificarDatosPersona.aspx.designer.vb">
       <DependentUpon>frmModificarDatosPersona.aspx</DependentUpon>

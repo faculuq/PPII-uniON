@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmCargaDatos.aspx.vb" Inherits="uniON.WEB.frmCargaDatos" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmModificarDatosEmpresa.aspx.vb" Inherits="uniON.WEB.frmModificarDatosEmpresa" %>
 
 <!DOCTYPE html>
 
@@ -201,20 +201,6 @@ if it's not present, don't show loader */
         transition: 0.5s;
     }
 
-    /*Boton/BotonHover*/
-    .btn-success {
-        background-color: #72C05B !important;
-        border: 1px solid #72C05B !important;
-        border:solid 1px #627378 !important;
-        border-radius:2em !important;
-    }
-    .btn-success:hover{
-        background-color: #627378  !important;
-        border: 1px solid #627378  !important;
-        border:solid 1px #72C05B !important;
-        transition: 1s;
-    }
-
 </style>
 
 
@@ -359,21 +345,18 @@ if it's not present, don't show loader */
 
                                                 </div>
 
-                                                <div class="row">
+                                                <div  class="row">
 
-                                             <div class="col col-md-12">
-                                           <br />
-                                                 <asp:Button style="width:50%;color:white;" 
-                                                     class="btn-success" 
-                                                     ID="btnAceptar"  
-                                                     Text="Aceptar" 
-                                                     runat="server"></asp:Button>
-
+                                             <div class="col col-md-6">
+                                                 <br />
+                             <asp:Button style="width:100%;color:white;background-color:#72C05B;border:solid 1px #627378;border-radius:2em; margin-bottom:10px"  class="contact-form" ID="btnModificar" Text="Modificar" runat="server"></asp:Button>
+                                                 </div>
+                                             <div class="col col-md-6">
+                                                 <br />
+<asp:Button style="width:100%;color:white;background-color:#72C05B;border:solid 1px #627378;border-radius:2em" class="contact-form" ID="btnAceptar"  Text="Aceptar" runat="server"></asp:Button>
                                              </div>
+                                           </div>
 
-                                         </div>
-
-                                            </div>
 
                             <%-- <asp:HiddenField ID="HfID_Rubro" runat="server" />
                           <asp:HiddenField ID="HfID_MenuWeb" runat="server" />--%>
