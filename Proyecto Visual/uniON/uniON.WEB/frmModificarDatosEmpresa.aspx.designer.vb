@@ -86,15 +86,6 @@ Partial Public Class frmModificarDatosEmpresa
     Protected WithEvents ImgQS As Global.System.Web.UI.HtmlControls.HtmlImage
 
     '''<summary>
-    '''Control btnModificar.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnModificar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''Control btnAceptar.
     '''</summary>
     '''<remarks>
@@ -102,6 +93,15 @@ Partial Public Class frmModificarDatosEmpresa
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnAceptar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control Button1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control lblError.

@@ -370,9 +370,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaPremios._BtnAceptar">
+<member name="F:uniON.WEB.frmCargaPremios._btnAceptar">
 <summary>
-Control BtnAceptar.
+Control btnAceptar.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -667,18 +667,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._btnModificar">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._btnAceptar">
 <summary>
-Control btnModificar.
+Control btnAceptar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._btnAceptar">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._Button1">
 <summary>
-Control btnAceptar.
+Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -793,18 +793,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosPersona._btnModificar">
+<member name="F:uniON.WEB.frmModificarDatosPersona._btnAceptar">
 <summary>
-Control btnModificar.
+Control btnAceptar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosPersona._btnAceptar">
+<member name="F:uniON.WEB.frmModificarDatosPersona._Button1">
 <summary>
-Control btnAceptar.
+Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.

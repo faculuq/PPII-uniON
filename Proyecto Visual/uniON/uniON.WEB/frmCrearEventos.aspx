@@ -183,16 +183,27 @@ background-color:rgba(0, 0, 0, 0.5);
     left: 0;
     }
       
-      
-</style>
-<style>
-        .navbar-brand a:hover{
-            color:#fff;
-            transition:0.5s;
-        }
-        li a{
-            transition:0.5s;
-        }
+    .navbar-brand a:hover{
+    color:#fff;
+    transition:0.5s;
+    }
+    li a{
+    transition:0.5s;
+    }
+
+    /*Boton/BotonHover*/
+    .btn-success {
+        background-color: #72C05B !important;
+        border: 1px solid #72C05B !important;
+        border:solid 1px #627378 !important;
+        border-radius:2em !important;
+    }
+    .btn-success:hover{
+        background-color: #627378  !important;
+        border: 1px solid #627378  !important;
+        border:solid 1px #72C05B !important;
+        transition: 1s;
+    }
     </style>
 <body>
     <form id="form1" runat="server">
@@ -378,22 +389,16 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                          <div class="row">
 
-                                             <div class="col col-md-6">
-                                           
+                                             <div class="col col-md-12">
+                                           <br />
+                                                 <asp:Button style="width:50%;color:white;" 
+                                                     class="btn-success" 
+                                                     ID="btnAceptar"  
+                                                     Text="Aceptar" 
+                                                     runat="server"></asp:Button>
+
                                              </div>
 
-
-                                       <div class="col col-md-6">
-                                       <br />
-                                      <%--  <button type="button" style=" width:100%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="cmdAceptar" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
-                    ACEPTAR</button>--%>
-
-                                             <asp:Button  runat="server" id="BtnAceptar"   style=" width:100%; min-width:220px; color:White; background:#72C05B !important; border: 1px solid #72C05B !important; border-radius: 2em; padding: 6px 18px;" runat="server" Text="ACEPTAR"></asp:Button>
-
-
-                                       </div>
-
-                                      
                                          </div>
 
                                  

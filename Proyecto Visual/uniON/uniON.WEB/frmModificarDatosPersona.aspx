@@ -182,18 +182,31 @@ background-color:rgba(0, 0, 0, 0.5);
     bottom: 0;
     left: 0;
     }
+
+    .navbar-brand a:hover{
+    color:#fff;
+    transition:0.5s;
+    }
+    li a{
+    transition:0.5s;
+    }
       
 
-      
-</style>
-<style>
-        .navbar-brand a:hover{
-            color:#fff;
-            transition:0.5s;
-        }
-        li a{
-            transition:0.5s;
-        }
+    /*Boton/BotonHover*/
+    .btn-success {
+        background-color: #72C05B !important;
+        border: 1px solid #72C05B !important;
+        border:solid 1px #627378 !important;
+        border-radius:2em !important;
+    }
+    .btn-success:hover{
+        background-color: #627378  !important;
+        border: 1px solid #627378  !important;
+        border:solid 1px #72C05B !important;
+        transition: 1s;
+    }
+
+
     </style>
 
 
@@ -409,17 +422,29 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                             <br />
 
-                                       
-
-                                         <div  class="row">
+                                          <div class="row">
 
                                              <div class="col col-md-6">
-                             <asp:Button style="width:100%;color:white;background-color:#72C05B;border:solid 1px #627378;border-radius:2em; margin-bottom:10px"  class="contact-form" ID="btnModificar" Text="Modificar" runat="server"></asp:Button>
-                                                 </div>
-                                             <div class="col col-md-6">
-<asp:Button style="width:100%;color:white;background-color:#72C05B;border:solid 1px #627378;border-radius:2em" class="contact-form" ID="btnAceptar"  Text="Aceptar" runat="server"></asp:Button>
+                                           <br />
+                                                 <asp:Button style="width:100%;color:white;" 
+                                                     class="btn-success" 
+                                                     ID="btnAceptar"  
+                                                     Text="Modificar" 
+                                                     runat="server"></asp:Button>
+
                                              </div>
-</div>
+
+                                                <div class="col col-md-6">
+                                           <br />
+                                                 <asp:Button style="width:100%;color:white;" 
+                                                     class="btn-success" 
+                                                     ID="Button1"  
+                                                     Text="Aceptar" 
+                                                     runat="server"></asp:Button>
+
+                                             </div>
+
+                                         </div>
                                      
                                       
                                                   

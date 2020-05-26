@@ -122,13 +122,13 @@ Partial Public Class frmCargaPremios
     Protected WithEvents ImgQS As Global.System.Web.UI.HtmlControls.HtmlImage
 
     '''<summary>
-    '''Control BtnAceptar.
+    '''Control btnAceptar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents BtnAceptar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnAceptar As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control lblError.
