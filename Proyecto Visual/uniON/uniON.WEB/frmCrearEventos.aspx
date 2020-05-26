@@ -45,6 +45,22 @@
     <script src="Formularios/assets/js/modernizr.min.js"></script>
 
       <link href="Formularios/css/wowCss.css" rel="stylesheet" type="text/css" />
+          <script> function alertaExito() {
+                  Swal.fire(
+                      '¡Bien hecho!',
+                      'Tus datos se cargaron correctamente',
+                      'success'
+                  )
+              }
+
+              function alertaCampos() {
+                  Swal.fire(
+                      '¡Algo salió mal!',
+                      'Completar todos los campos requeridos',
+                      'error'
+                  )
+              }
+        </script>
 
 </head>
     <style>
@@ -273,12 +289,12 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Nombre del Evento</span>
-                                             <asp:TextBox ID="TxtTitulo" required runat="server"  ForeColor="Black"
+                                             <asp:TextBox ID="TxtNombre" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
                                            <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Tipo de Evento</span>
-                                             <asp:DropDownList ID="TextBox1" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                             <asp:DropDownList ID="cboTipoEvento" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
                                          
                                                 
                                        </div>
@@ -303,19 +319,17 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Pais</span>
-                                             <asp:TextBox ID="TxtTooltip1" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                          <asp:DropDownList ID="cboPais" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                         
                                        </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Provincia</span>
-                                             <asp:TextBox ID="TxtTooltip2" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
+                                     <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                            </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
-                                             <asp:TextBox ID="TxtTooltip3" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
+                                     <asp:DropDownList ID="cboCiudad" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                      </div>
 
 
                                                                                                
@@ -324,12 +338,12 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Fecha del Evento</span>
-                                             <asp:TextBox ID="TxtTooltip4" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                             <asp:TextBox ID="TxtTFecha" required runat="server"  ForeColor="Black"
+                                                    class="form-control"  Height="50px" Width="100%" TextMode="Date"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Puntos </span>
-                                             <asp:TextBox ID="TxtTooltip5" required runat="server"  ForeColor="Black"
+                                             <asp:TextBox ID="TxtPuntos" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
 
