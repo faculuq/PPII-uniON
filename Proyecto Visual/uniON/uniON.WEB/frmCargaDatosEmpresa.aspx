@@ -190,8 +190,7 @@ if it's not present, don't show loader */
         bottom: 0;
         left: 0;
     }
-</style>
-<style>
+
     .navbar-brand a:hover {
         color: #000;
         transition: 0.5s;

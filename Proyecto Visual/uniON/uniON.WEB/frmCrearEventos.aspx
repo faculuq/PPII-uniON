@@ -253,7 +253,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
 
-        <div class="content-page">
+        <div class="content-page" style="margin-top:-40px; margin-left:auto;">
             <!-- Start content -->
             <div class="content">
                  <div class="content">

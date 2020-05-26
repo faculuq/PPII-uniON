@@ -201,20 +201,6 @@ background-color:rgba(0, 0, 0, 0.5);
     left: 0;
     }
       
-    /*Boton/BotonHover*/
-    .btn-success {
-        background-color: #72C05B !important;
-        border: 1px solid #72C05B !important;
-        border:solid 1px #627378 !important;
-        border-radius:2em !important;
-    }
-    .btn-success:hover{
-        background-color: #627378  !important;
-        border: 1px solid #627378  !important;
-        border:solid 1px #72C05B !important;
-        transition: 1s;
-    }
-      
     .navbar-brand a:hover{
     color:#fff;
     transition:0.5s;
@@ -291,7 +277,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
 
-        <div class="content-page">
+        <div class="content-page" style="margin-top:-40px; margin-left:auto;">
             <!-- Start content -->
             <div class="content">
                  <div class="content">
