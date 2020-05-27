@@ -31,16 +31,16 @@ Public Class cPremios
             Throw ex
         End Try
     End Function
-    Public Function Agregar(ByVal IdEmpresa As Integer, ByVal IdTipoPremio As Integer, ByVal Titulo As String, ByVal Descripcion As String, ByVal Cantidad As String, ByVal IdEstado As Integer, ByVal CostoPuntos As String) As Double
+    Public Function Agregar(ByVal IdEmpresa As Integer, ByVal IdTipoPremio As Integer, ByVal Titulo As String, ByVal Descripcion As String, ByVal Cantidad As String, ByVal CostoPuntos As Integer) As Double
         Try
-            Return oDatabase.ExecuteScalar("PremiosAgregar", IdEmpresa, IdTipoPremio, Titulo, Descripcion, Cantidad, IdEstado, CostoPuntos)
+            Return oDatabase.ExecuteScalar("PremiosAgregar", IdEmpresa, IdTipoPremio, Titulo, Descripcion, Cantidad, CostoPuntos)
         Catch ex As System.Exception
             Throw ex
         End Try
     End Function
-    Public Function Modificar(ByVal IdPremio As Integer, ByVal IdEmpresa As Integer, ByVal IdTipoPremio As Integer, ByVal Titulo As String, ByVal Descripcion As String, ByVal Cantidad As String, ByVal IdEstado As Integer, ByVal CostoPuntos As String) As DataSet
+    Public Function Modificar(ByVal IdPremio As Integer, ByVal IdEmpresa As Integer, ByVal IdTipoPremio As Integer, ByVal Titulo As String, ByVal Descripcion As String, ByVal Cantidad As String, ByVal CostoPuntos As String) As Double
         Try
-            Return oDatabase.ExecuteDataSet("PremiosModificar", IdPremio, IdEmpresa, IdTipoPremio, Titulo, Descripcion, Cantidad, IdEstado, CostoPuntos)
+            Return oDatabase.ExecuteScalar("PremiosModificar", IdPremio, IdEmpresa, IdTipoPremio, Titulo, Descripcion, Cantidad, CostoPuntos)
         Catch ex As System.Exception
             Throw ex
         End Try
