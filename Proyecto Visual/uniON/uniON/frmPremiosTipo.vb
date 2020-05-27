@@ -88,7 +88,7 @@ Public Class frmPremiosTipo
         Dim oDs As New DataSet
         Dim oPremioTipo As New cPremiosTipo
 
-        oDs = oPremioTipo.PremiosTiposBuscarTodos
+        oDs = oPremioTipo.BuscarTodos
 
         grl_grilla.DataSource = oDs.Tables(0)
 
@@ -103,7 +103,7 @@ Public Class frmPremiosTipo
         Dim oDs As New DataSet
         Dim oPremioTipo As New cPremiosTipo
 
-        oDs = oPremioTipo.PremiosTiposBuscarPorId(IdTipoPremio)
+        oDs = oPremioTipo.BuscarPorId(IdTipoPremio)
 
         txtIdPremio.Text = oDs.Tables(0).Rows(0).Item("IdTipoPremio")
         txtDescripcion.Text = oDs.Tables(0).Rows(0).Item("Descripcion")
