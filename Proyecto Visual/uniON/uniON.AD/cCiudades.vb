@@ -21,7 +21,7 @@ Public Class cCiudades
         End Try
     End Function
 
-    Public Function BuscarPorIdPais(ByVal IdProvincia As Integer) As DataSet
+    Public Function BuscarPorProvincia(ByVal IdProvincia As Integer) As DataSet
         Try
             Return oDatabase.ExecuteDataSet("CiudadesBuscarPorIdProvincia", IdProvincia)
         Catch ex As System.Exception
