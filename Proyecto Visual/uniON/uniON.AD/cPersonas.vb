@@ -21,4 +21,12 @@ Public Class cPersonas
         Return oDatabase.ExecuteScalar("PersonasCargarDatos", IdPersona, IdCiudad, Nombre, Apellido)
     End Function
 
+    Public Function BuscarPorId(ByVal IdPersona As Integer)
+        Return oDatabase.ExecuteDataSet("PersonasBuscarPorId", IdPersona)
+    End Function
+
+    Public Function ModificarDatos(ByVal IdPersona As Integer, ByVal IdCiudad As Integer, ByVal Nombre As String, ByVal Apellido As String)
+        Return oDatabase.ExecuteScalar("PersonasModificarDatos", IdPersona, IdCiudad, Nombre, Apellido)
+    End Function
+
 End Class

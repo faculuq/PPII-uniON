@@ -8,16 +8,16 @@ Public Class frmCargaPremios
         End If
     End Sub
     Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
-        'Solucionar error aca!
+
         If TxtTitulo.Text <> Nothing And cboTipoPremio.SelectedValue <> Nothing And TxtDescripcion.Text <> Nothing And TxtCantidad.Text <> Nothing And TxtCosto.Text <> Nothing Then
 
             Dim oPremios As New cPremios
-            oPremios.CargarDatos(Session("IdPremio"), TxtTitulo.Text, cboTipoPremio.SelectedValue, TxtDescripcion.Text, TxtCantidad.Text, TxtCosto.Text)
-            ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
+            oPremios.Agregar(1, cboTipoPremio.SelectedValue, TxtTitulo.Text, TxtDescripcion.Text, TxtCantidad.Text, TxtCosto.Text)
+            'ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
 
         Else
 
-            ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)
+            'ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)
 
         End If
 

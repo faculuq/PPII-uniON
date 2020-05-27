@@ -13,8 +13,20 @@ Public Class cEmpresas
         oDatabase = DatabaseFactory.CreateDatabase("Conn")
     End Sub
 
+    Public Function BuscarPorId(ByVal IdEmpresa As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("EmpresasBuscarPorId", IdEmpresa)
+    End Function
+
     Public Function Agregar(ByVal IdUsuario As Integer) As Double
         Return oDatabase.ExecuteScalar("EmpresasAgregar", IdUsuario)
+    End Function
+
+    Public Function EmpresasCargarDatos(ByVal Nombre As String, ByVal IdCiudad As Integer)
+        Return oDatabase.ExecuteScalar("EmpresaCargarDatos", Nombre, IdCiudad)
+    End Function
+
+    Public Function Modificar(ByVal Nombre As String, ByVal IdCiudad As Integer) As Double
+        Return oDatabase.ExecuteScalar("EmpresaModificar", Nombre, IdCiudad)
     End Function
 
 End Class

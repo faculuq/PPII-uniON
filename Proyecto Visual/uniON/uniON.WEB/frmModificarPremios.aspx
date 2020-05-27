@@ -1,8 +1,8 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmModificarDatosPersona.aspx.vb" Inherits="uniON.WEB.frmModificarDatosPersona" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmModificarPremios.aspx.vb" Inherits="uniON.WEB.frmModificarPremios" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
 
     <%--ESTILOS CABECERA--%>
@@ -182,7 +182,7 @@ background-color:rgba(0, 0, 0, 0.5);
     bottom: 0;
     left: 0;
     }
-
+      
     .navbar-brand a:hover{
     color:#fff;
     transition:0.5s;
@@ -190,7 +190,6 @@ background-color:rgba(0, 0, 0, 0.5);
     li a{
     transition:0.5s;
     }
-      
 
     /*Boton/BotonHover*/
     .btn-success {
@@ -205,26 +204,8 @@ background-color:rgba(0, 0, 0, 0.5);
         border:solid 1px #72C05B !important;
         transition: 1s;
     }
-
-
     </style>
-     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-      <script> function alertaExito() {
-              Swal.fire(
-                  '¡Bien hecho!',
-                  'Tus datos se cargaron correctamente',
-                  'success'
-              )
-          }
 
-          function alertaCampos() {
-              Swal.fire(
-                  '¡Algo salió mal!',
-                  'Completar todos los campos requeridos',
-                  'error'
-              )
-          }
-        </script>
 
 <body>
     <form id="form1" runat="server">
@@ -278,7 +259,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
 
-        <div class="content-page" style="margin-top:-40px; margin-left:auto;>
+        <div class="content-page" style="margin-top:-40px; margin-left:auto;">
             <!-- Start content -->
             <div class="content">
                  <div class="content">
@@ -297,61 +278,40 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
-                                         <span style="color:#72C05B; font-size:18px; ">Nombre</span>
-                                             <asp:TextBox ID="txtNombre" required runat="server"  ForeColor="Black"
+                                         <span style="color:#72C05B; font-size:18px; ">Título</span>
+                                             <asp:TextBox ID="TxtTitulo" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="50px" Width="100%"></asp:TextBox>
                                        </div>
-                                      
-                                       <div class="col col-md-6">
-                                           <span style="color:#72C05B; font-size:18px; ">Apellido</span>
-                                             <asp:TextBox ID="txtApellido" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                      </div>
-
+                                           <div class="col col-md-6">
+                                               <span style="color:#72C05B; font-size:18px; ">Tipo Premio</span>
+<asp:DropDownList ID="cboTipoPremio" required runat="server"  ForeColor="Black"
+                                                    class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
                                            </div>
 
-<%--                                            <div class="row">
+                                            <div class="row">
 
                                            <div class="col col-md-12">
                                            <span runat="server" id="Span1" style="color:#72C05B; font-size:18px;  " >Descripción</span>
-                                             <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
+                                             <asp:TextBox ID="TxtDescripcion" required runat="server"  ForeColor="Black"
                                                     class="form-control"  Height="200px" Width="100%"></asp:TextBox>
                                       </div>
-</div>--%>
-                                            <br />
+                                                </div> 
 
                                              <div class="row">
-                                      
-                                       <div class="col col-md-6">
-                                         <span style="color:#72C05B; font-size:18px; ">País</span>
-                                             <asp:DropDownList ID="cboPais" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
-                                       </div>
 
-                                                 <div class="col col-md-6">
-                                         <span style="color:#72C05B; font-size:18px; ">Provincia/Estado</span>
-<asp:DropDownList ID="cboProvincia" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
-                                             
-                                       </div>
-                                                 
+                                           <div class="col col-md-6">
+                                           <span runat="server" id="Span2" style="color:#72C05B; font-size:18px;  " >Cantidad</span>
+                                             <asp:TextBox ID="TxtCantidad" required runat="server"  ForeColor="Black"
+                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                      </div>
+                                           
+
+                                           <div class="col col-md-6">
+                                           <span runat="server" id="Span3" style="color:#72C05B; font-size:18px;  " >Costo(puntos)</span>
+                                             <asp:TextBox ID="TxtCosto" required runat="server"  ForeColor="Black"
+                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                      </div>
 </div>
-                                                
-                                                 <br />
-
-
-                                                 <div class="row">
-                                                 <div class="col col-md-6">
-                                         <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
-                                             <asp:DropDownList ID="cboCiudad" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
-                                       </div>
-
-
-                                                 </div>
-
-                                                 
-
                                             <div class="row">
 
                                                     <div class="col col-md-6">
@@ -397,70 +357,24 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                                             </div>
+                                       
 
-
-                                              <%-- <div class="row">
-                                      
-                                       <div class="col col-md-4">
-                                         <span style="color:#72C05B; font-size:18px; ">Texto 1</span>
-                                             <asp:TextBox ID="TxtTooltip1" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
-                                                    <div class="col col-md-4">
-                                         <span style="color:#72C05B; font-size:18px; ">Texto 2</span>
-                                             <asp:TextBox ID="TxtTooltip2" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
-                                                    <div class="col col-md-4">
-                                         <span style="color:#72C05B; font-size:18px; ">Texto 3</span>
-                                             <asp:TextBox ID="TxtTooltip3" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
-
-
-
-</div>--%>
-                                             <%--<div class="row">
-                                      
-                                       <div class="col col-md-6">
-                                         <span style="color:#72C05B; font-size:18px; ">Texto 4</span>
-                                             <asp:TextBox ID="TxtTooltip4" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
-                                                    <div class="col col-md-6">
-                                         <span style="color:#72C05B; font-size:18px; ">Texto 5</span>
-                                             <asp:TextBox ID="TxtTooltip5" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
-                                       </div>
-
-
-</div>--%>
-
-                                            <br />
-
-                                          <div class="row">
-
+                                         <div  class="row">
+                                             <br />
                                              <div class="col col-md-6">
-                                           <br />
-                                                 <asp:Button style="width:100%;color:white;" 
-                                                     class="btn-success" 
-                                                     ID="btnModificar"  
-                                                     Text="Modificar" 
-                                                     runat="server"></asp:Button>
-
+                                                 
+                             <asp:Button style="width:100%;color:white;background-color:#72C05B;border:solid 1px #627378;border-radius:2em; margin-bottom:10px"  class="contact-form" ID="btnModificar" Text="Modificar" runat="server"></asp:Button>
+                                                 </div>
+                                             <div class="col col-md-6">
+<asp:Button style="width:100%;color:white;background-color:#72C05B;border:solid 1px #627378;border-radius:2em" class="contact-form" ID="btnAceptar"  Text="Aceptar" runat="server"></asp:Button>
                                              </div>
+</div>
 
-                                                <div class="col col-md-6">
-                                           <br />
-                                                 <asp:Button style="width:100%;color:white;" 
-                                                     class="btn-success" 
-                                                     ID="btnAceptar"  
-                                                     Text="Aceptar" 
-                                                     runat="server"></asp:Button>
 
-                                             </div>
 
-                                         </div>
+
+                                     
+                                       </div>
                                      
                                       
                                                   
@@ -474,7 +388,7 @@ background-color:rgba(0, 0, 0, 0.5);
                             </div>
                             
                            
-                            </div>
+                        </div>
                        
                       
                        <%-- <asp:HiddenField ID="HfID_Rubro" runat="server" />
@@ -500,7 +414,10 @@ background-color:rgba(0, 0, 0, 0.5);
 
 
                                        <br />
-                                       
+                                       <center>
+                                        <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
+                    VOLVER A QUIENES SOMOS</button>
+                    </center>
                                        </div>
                                        </section>
 
@@ -509,7 +426,7 @@ background-color:rgba(0, 0, 0, 0.5);
                 
                 
                 </div>
-            </div></div>
+            </div>
      
                 <!-- container -->
             </div>
@@ -520,4 +437,4 @@ background-color:rgba(0, 0, 0, 0.5);
         </div>
     </form>
 </body>
-        </html>
+</html>
