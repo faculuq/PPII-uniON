@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+
     "C:\\Users\\usuario\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\uniON.AD.vbproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\uniON.AD.vbproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\obj\\",
+
+    "C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\uniON.AD.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\uniON.AD.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\uniON.AD.vbproj",
+        "projectName": "uniON.AD",
+        "projectPath": "C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\uniON.AD.vbproj",
+        "packagesPath": "C:\\Users\\facul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facul\\OneDrive\\Documents\\GitHub\\PPII-uniON\\Proyecto Visual\\uniON\\uniON.AD\\obj\\",
+
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+
+          "C:\\Users\\facul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

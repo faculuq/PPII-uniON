@@ -324,13 +324,13 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">País</span>
                                              <asp:DropDownList ID="cboPais"  runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                                    class="form-control"  Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
                                        </div>
 
                                                  <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Provincia/Estado</span>
 <asp:DropDownList ID="cboProvincia"  runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                                    class="form-control"  Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
                                              
                                        </div>
                                                  
@@ -343,7 +343,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                                  <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
                                              <asp:DropDownList ID="cboCiudad"  runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                                    class="form-control"  Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
                                        </div>
 
 
