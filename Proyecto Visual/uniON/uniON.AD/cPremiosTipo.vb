@@ -46,9 +46,9 @@ Public Class cPremiosTipo
             Throw ex
         End Try
     End Function
-    Public Function CargarDatosByVal(IdTipoPremio As Integer, ByVal Descripcion As String, ByVal Activo As Boolean)
-        Return oDatabase.ExecuteScalar("PremiosTiposCargarDatos", IdTipoPremio, Descripcion, Activo)
-    End Function
+    'Public Function CargarDatosByVal(IdTipoPremio As Integer, ByVal Descripcion As String, ByVal Activo As Boolean)
+    '    Return oDatabase.ExecuteScalar("PremiosTiposCargarDatos", IdTipoPremio, Descripcion, Activo)
+    'End Function
 
 
 

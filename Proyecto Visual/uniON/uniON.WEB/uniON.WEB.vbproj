@@ -1531,6 +1531,7 @@
     <Content Include="frmLogin.aspx" />
     <Content Include="frmModificarDatosEmpresa.aspx" />
     <Content Include="frmModificarDatosPersona.aspx" />
+    <Content Include="frmModificarPremios.aspx" />
     <Content Include="frmPrincipal.aspx" />
     <Content Include="frmRegistro.aspx" />
     <Content Include="images\ico\apple-touch-icon-114-precomposed.png" />
@@ -1670,6 +1671,13 @@
     </Compile>
     <Compile Include="frmModificarDatosPersona.aspx.vb">
       <DependentUpon>frmModificarDatosPersona.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frmModificarPremios.aspx.designer.vb">
+      <DependentUpon>frmModificarPremios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarPremios.aspx.vb">
+      <DependentUpon>frmModificarPremios.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frmPrincipal.aspx.designer.vb">
