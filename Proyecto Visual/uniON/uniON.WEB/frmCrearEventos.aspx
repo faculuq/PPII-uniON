@@ -338,8 +338,8 @@ background-color:rgba(0, 0, 0, 0.5);
                                       
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Fecha del Evento</span>
-                                             <asp:TextBox ID="TxtTFecha" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%" TextMode="Date"></asp:TextBox>
+                                             <asp:TextBox ID="TxtFecha" required runat="server"  ForeColor="Black"
+                                                    class="form-control"  Height="50px" Width="100%" ></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Puntos </span>

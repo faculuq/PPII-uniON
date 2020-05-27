@@ -95,13 +95,13 @@ Partial Public Class frmCrearEventos
     Protected WithEvents cboCiudad As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''TxtTFecha control.
+    '''TxtFecha control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TxtTFecha As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TxtFecha As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''TxtPuntos control.
