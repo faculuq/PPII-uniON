@@ -9,73 +9,43 @@ Public Class frmCargaDatos
     End Sub
 
 #Region "Combos"
-    Private Sub CargarPaises()
+    Private Sub CargarPais()
         Dim oDs As New DataSet
         Dim oPais As New cPaises
 
         oDs = oPais.BuscarTodos
 
         ddlPais.DataSource = oDs.Tables(0)
-        ddlPais.DataTextField = oDs.Tables(0).Columns("Nombre").ToString
-        ddlPais.DataValueField = oDs.Tables(0).Columns("IdPais").ToString
+        ddlPais.DataTextField = oDs.Tables(0).Columns(1).ToString
+        ddlPais.DataValueField = oDs.Tables(0).Columns(0).ToString
         ddlPais.DataBind()
 
     End Sub
 
-    Private Sub CargarProvincias()
+    Private Sub CargarProvincia()
         Dim oDs As New DataSet
         Dim oProvincia As New cProvincias
 
-        oDs = oProvincia.BuscarPorPais(ddlPais.SelectedValue)
+        oDs = oProvincia.BuscarTodos
 
         ddlProvincia.DataSource = oDs.Tables(0)
-        ddlProvincia.DataTextField = oDs.Tables(0).Columns("Nombre").ToString
-        ddlProvincia.DataValueField = oDs.Tables(0).Columns("IdProvincia").ToString
+        ddlProvincia.DataTextField = oDs.Tables(0).Columns(2).ToString
+        ddlProvincia.DataValueField = oDs.Tables(0).Columns(0).ToString
         ddlProvincia.DataBind()
 
     End Sub
 
-    Private Sub CargarCiudades()
+    Private Sub CargarCiudad()
         Dim oDs As New DataSet
         Dim oCiudad As New cCiudades
 
-        oDs = oCiudad.BuscarPorIdProvincia(ddlProvincia.SelectedValue)
+        oDs = oCiudad.BuscarTodos
 
         ddlCiudad.DataSource = oDs.Tables(0)
-        ddlCiudad.DataTextField = oDs.Tables(0).Columns("Nombre").ToString
-        ddlCiudad.DataValueField = oDs.Tables(0).Columns("IdCiudad").ToString
+        ddlCiudad.DataTextField = oDs.Tables(0).Columns(2).ToString
+        ddlCiudad.DataValueField = oDs.Tables(0).Columns(0).ToString
         ddlCiudad.DataBind()
 
-    End Sub
-
-    Protected Sub ddlPais_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddlPais.SelectedIndexChanged
-
-        CargarProvincias()
-
-    End Sub
-
-    Protected Sub ddlProvincia_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles ddlProvincia.SelectedIndexChanged
-
-        CargarCiudades()
-
-    End Sub
-
-
-#End Region
-
-#Region "Cargar"
-    Protected Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
-        If TxtNombre.Text <> Nothing And ddlCiudad.SelectedValue <> Nothing Then
-
-            Dim oPersona As New cEmpresas
-            oPersona.EmpresasCargarDatos(TxtNombre.Text, ddlCiudad.SelectedValue)
-            '    ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
-
-            'Else
-
-            '    ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)
-
-        End If
     End Sub
 #End Region
 
@@ -84,10 +54,9 @@ Public Class frmCargaDatos
         ddlPais.SelectedIndex = 0
         ddlProvincia.SelectedIndex = 0
         ddlCiudad.SelectedIndex = 0
-        TxtNombre.Text = Nothing
-        CargarPaises()
-        CargarProvincias()
-        CargarCiudades()
+        CargarPais()
+        CargarProvincia()
+        CargarCiudad()
     End Sub
 #End Region
 
