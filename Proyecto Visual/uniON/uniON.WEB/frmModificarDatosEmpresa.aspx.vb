@@ -12,8 +12,8 @@ Public Class frmModificarDatosEmpresa
     Protected Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
         If TxtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
-            Dim oPersona As New cEmpresas
-            oPersona.ModificarDatos(Session("IdEmpresa"), cboCiudad.SelectedValue, TxtNombre.Text)
+            Dim oEmpresa As New cEmpresas
+            oEmpresa.ModificarDatos(Session("IdEmpresa"), TxtNombre.Text, cboCiudad.SelectedValue)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
 
         Else
@@ -80,9 +80,9 @@ Public Class frmModificarDatosEmpresa
     Private Sub CargarDatos()
 
         Dim ods As New DataSet
-        Dim oPersona As New cPersonas
+        Dim oEmpresa As New cEmpresas
 
-        ods = oPersona.BuscarPorId(Session("IdPersona"))
+        ods = oEmpresa.BuscarPorId(Session("IdEmpresa"))
 
         If ods.Tables(0).Rows.Count > 0 Then
 
