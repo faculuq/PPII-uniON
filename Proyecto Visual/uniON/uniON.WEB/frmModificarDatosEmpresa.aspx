@@ -295,17 +295,17 @@ if it's not present, don't show loader */
 
                                                     <div class="col col-md-6">
                                                         <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >País</span>
-                                                        <asp:DropDownList ID="ddlPais" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
+                                                        <asp:DropDownList ID="cboPais" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
                                                         <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >Provincia</span>
-                                                        <asp:DropDownList ID="ddlProvincia" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
+                                                        <asp:DropDownList ID="cboProvincia" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
                                                         <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >Ciudad</span>
-                                                        <asp:DropDownList ID="ddlCiudad" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
+                                                        <asp:DropDownList ID="cboCiudad" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
                                                     </div>
                                                 </div>
 
@@ -364,7 +364,7 @@ if it's not present, don't show loader */
                                            <br />
                                                  <asp:Button style="width:100%;color:white;" 
                                                      class="btn-success" 
-                                                     ID="btnAceptar"  
+                                                     ID="btnModificar"  
                                                      Text="Modificar" 
                                                      runat="server"></asp:Button>
 
@@ -374,7 +374,7 @@ if it's not present, don't show loader */
                                            <br />
                                                  <asp:Button style="width:100%;color:white;" 
                                                      class="btn-success" 
-                                                     ID="Button1"  
+                                                     ID="btnAceptar"  
                                                      Text="Aceptar" 
                                                      runat="server"></asp:Button>
 

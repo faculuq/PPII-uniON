@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmCargaDatos.aspx.vb" Inherits="uniON.WEB.frmCargaDatos" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frmCargaDatosEmpresa.aspx.vb" Inherits="uniON.WEB.frmCargaDatosEmpresa" %>
 
 <!DOCTYPE html>
 
@@ -294,18 +294,18 @@ if it's not present, don't show loader */
                                                     </div>
 
                                                     <div class="col col-md-6">
-                                                        <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >País</span>
-                                                        <asp:DropDownList ID="ddlPais" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
+                                                        <span style="color:#72C05B; font-size:18px;" >País</span>
+                                                        <asp:DropDownList ID="cboPais" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
-                                                        <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >Provincia</span>
-                                                        <asp:DropDownList ID="ddlProvincia" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
+                                                        <span style="color:#72C05B; font-size:18px;" >Provincia</span>
+                                                        <asp:DropDownList ID="cboProvincia" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
-                                                        <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >Ciudad</span>
-                                                        <asp:DropDownList ID="ddlCiudad" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
+                                                        <span style="color:#72C05B; font-size:18px;" >Ciudad</span>
+                                                        <asp:DropDownList ID="cboCiudad" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
                                                 </div>
 

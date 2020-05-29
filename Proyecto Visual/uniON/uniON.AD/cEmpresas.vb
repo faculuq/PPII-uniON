@@ -17,4 +17,15 @@ Public Class cEmpresas
         Return oDatabase.ExecuteScalar("EmpresasAgregar", IdUsuario)
     End Function
 
+    Public Function CargarDatos(ByVal IdEmpresa As Integer, ByVal Nombre As String, ByVal IdCiudad As Integer)
+        Return oDatabase.ExecuteScalar("EmpresaCargarDatos", IdEmpresa, Nombre, IdCiudad)
+    End Function
+
+    Public Function BuscarPorId(ByVal IdEmpresa As Integer)
+        Return oDatabase.ExecuteDataSet("EmpresaBuscarPorId", IdEmpresa)
+    End Function
+
+    Public Function ModificarDatos(ByVal IdEmpresa As Integer, ByVal Nombre As String, ByVal IdCiudad As Integer)
+        Return oDatabase.ExecuteScalar("EmpresaModificarDatos", IdEmpresa, Nombre, IdCiudad)
+    End Function
 End Class

@@ -41,31 +41,31 @@ Partial Public Class frmModificarDatosEmpresa
     Protected WithEvents TxtNombre As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control ddlPais.
+    '''Control cboPais.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlPais As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cboPais As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control ddlProvincia.
+    '''Control cboProvincia.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlProvincia As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cboProvincia As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control ddlCiudad.
+    '''Control cboCiudad.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlCiudad As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cboCiudad As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control btnSubirImg.
@@ -86,6 +86,15 @@ Partial Public Class frmModificarDatosEmpresa
     Protected WithEvents ImgQS As Global.System.Web.UI.HtmlControls.HtmlImage
 
     '''<summary>
+    '''Control btnModificar.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnModificar As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''Control btnAceptar.
     '''</summary>
     '''<remarks>
@@ -93,15 +102,6 @@ Partial Public Class frmModificarDatosEmpresa
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnAceptar As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control Button1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control lblError.
