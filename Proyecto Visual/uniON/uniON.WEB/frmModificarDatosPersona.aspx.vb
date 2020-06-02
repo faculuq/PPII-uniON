@@ -29,11 +29,11 @@ Public Class frmModificarDatosPersona
 
     End Sub
 
-    Protected Sub btnModificar_Click(sender As Object, e As EventArgs) Handles btnModificar.Click
+    'Protected Sub btnModificar_Click(sender As Object, e As EventArgs) Handles btnModificar.Click
 
-        HabilitarEdicion()
+    '    HabilitarEdicion()
 
-    End Sub
+    'End Sub
 
 #End Region
 
@@ -93,23 +93,23 @@ Public Class frmModificarDatosPersona
 #End Region
 
 #Region "Funciones"
-    Private Sub HabilitarEdicion()
-        txtApellido.Enabled = True
-        txtNombre.Enabled = True
-        cboCiudad.Enabled = True
-        cboPais.Enabled = True
-        cboProvincia.Enabled = True
-        btnAceptar.Enabled = True
-    End Sub
+    'Private Sub HabilitarEdicion()
+    '    txtApellido.Enabled = True
+    '    txtNombre.Enabled = True
+    '    cboCiudad.Enabled = True
+    '    cboPais.Enabled = True
+    '    cboProvincia.Enabled = True
+    '    btnAceptar.Enabled = True
+    'End Sub
 
-    Private Sub DeshabilitarEdicion()
-        txtApellido.Enabled = False
-        txtNombre.Enabled = False
-        cboCiudad.Enabled = False
-        cboPais.Enabled = False
-        cboProvincia.Enabled = False
-        btnAceptar.Enabled = False
-    End Sub
+    'Private Sub DeshabilitarEdicion()
+    '    txtApellido.Enabled = False
+    '    txtNombre.Enabled = False
+    '    cboCiudad.Enabled = False
+    '    cboPais.Enabled = False
+    '    cboProvincia.Enabled = False
+    '    btnAceptar.Enabled = False
+    'End Sub
 
     Private Sub CargarDatos()
 
@@ -137,7 +137,7 @@ Public Class frmModificarDatosPersona
         CargarPaises()
         CargarProvincias()
         CargarCiudades()
-        DeshabilitarEdicion()
+        'DeshabilitarEdicion()
 
     End Sub
 

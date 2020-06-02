@@ -440,7 +440,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                           <div class="row">
 
-                                             <div class="col col-md-6">
+                                            <%-- <div class="col col-md-6">
                                            <br />
                                                  <asp:Button style="width:100%;color:white;" 
                                                      class="btn-success" 
@@ -448,11 +448,11 @@ background-color:rgba(0, 0, 0, 0.5);
                                                      Text="Modificar" 
                                                      runat="server"></asp:Button>
 
-                                             </div>
+                                             </div>--%>
 
-                                                <div class="col col-md-6">
+                                                <div class="col col-md-12">
                                            <br />
-                                                 <asp:Button style="width:100%;color:white;" 
+                                                 <asp:Button style="width:50%;color:white;" 
                                                      class="btn-success" 
                                                      ID="btnAceptar"  
                                                      Text="Aceptar" 

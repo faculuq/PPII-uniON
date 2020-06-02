@@ -883,15 +883,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosPersona._btnModificar">
-<summary>
-Control btnModificar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:uniON.WEB.frmModificarDatosPersona._btnAceptar">
 <summary>
 Control btnAceptar.
