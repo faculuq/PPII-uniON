@@ -13,7 +13,7 @@ Public Class frmModificarDatosEmpresa
         If TxtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
             Dim oEmpresa As New cEmpresas
-            oEmpresa.ModificarDatos(Session("IdEmpresa"), TxtNombre.Text, cboCiudad.SelectedValue)
+            oEmpresa.ModificarDatos(Session("IdUsuario"), TxtNombre.Text, cboCiudad.SelectedValue)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
 
         Else
