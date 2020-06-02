@@ -155,27 +155,27 @@ Public Class frmPremiosTipo
     End Sub
 
     Private Sub cmdAceptar_Click(sender As Object, e As EventArgs) Handles cmbAceptar.Click
-        Try
-            If Validar() = True Then
+        'Try
+        '    If Validar() = True Then
 
-                Dim oPremioTipo As New cPremiosTipo
+        '        Dim oPremioTipo As New cPremiosTipo
 
-                If Me.Estado = EstadodelFormulario.eEditar Then
-                    oPremioTipo.PremiosTiposModificar(txtIdPremio.Text, txtDescripcion.Text, chkActivo.Checked)
-                    MsgBox("Se modificó correctamente el Premio con el código nro: " + txtIdPremio.Text, MsgBoxStyle.Information, "Exitos!")
-                End If
+        '        If Me.Estado = EstadodelFormulario.eEditar Then
+        '            oPremioTipo.PremiosTiposModificar(txtIdPremio.Text, txtDescripcion.Text, chkActivo.Checked)
+        '            MsgBox("Se modificó correctamente el Premio con el código nro: " + txtIdPremio.Text, MsgBoxStyle.Information, "Exitos!")
+        '        End If
 
-                If Me.Estado = EstadodelFormulario.eAgregar Then
-                    Dim resultado As Integer
-                    resultado = oPremioTipo.PremiosTiposAgregar(txtDescripcion.Text, chkActivo.Checked)
-                    MsgBox("Se agregó correctamente el Premio " + txtDescripcion.Text + " con el código nro: " + resultado.ToString, MsgBoxStyle.Information, "Exitos!")
-                End If
+        '        If Me.Estado = EstadodelFormulario.eAgregar Then
+        '            Dim resultado As Integer
+        '            resultado = oPremioTipo.PremiosTiposAgregar(txtDescripcion.Text, chkActivo.Checked)
+        '            MsgBox("Se agregó correctamente el Premio " + txtDescripcion.Text + " con el código nro: " + resultado.ToString, MsgBoxStyle.Information, "Exitos!")
+        '        End If
 
-                Me.Estado = EstadodelFormulario.eConsulta
-            End If
-        Catch
-            MsgBox("Sucedió un error", MsgBoxStyle.Critical, "Error")
-        End Try
+        '        Me.Estado = EstadodelFormulario.eConsulta
+        '    End If
+        'Catch
+        '    MsgBox("Sucedió un error", MsgBoxStyle.Critical, "Error")
+        'End Try
     End Sub
 
     Private Sub cmdCancelar_Click(sender As Object, e As EventArgs) Handles cmbCancelar.Click

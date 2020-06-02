@@ -64,27 +64,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._ddlPais">
+<member name="F:uniON.WEB.frmCargaDatos._cboPais">
 <summary>
-Control ddlPais.
+Control cboPais.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._ddlProvincia">
+<member name="F:uniON.WEB.frmCargaDatos._cboProvincia">
 <summary>
-Control ddlProvincia.
+Control cboProvincia.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaDatos._ddlCiudad">
+<member name="F:uniON.WEB.frmCargaDatos._cboCiudad">
 <summary>
-Control ddlCiudad.
+Control cboCiudad.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -147,7 +147,97 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:uniON.WEB.frmCargaDatosEmpresa._form1">
 <summary>
-control form1.
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._PanelControles">
+<summary>
+Control PanelControles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._txtNombre">
+<summary>
+Control txtNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._cboPais">
+<summary>
+Control cboPais.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._cboProvincia">
+<summary>
+Control cboProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._cboCiudad">
+<summary>
+Control cboCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._btnSubirImg">
+<summary>
+Control btnSubirImg.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._ImgQS">
+<summary>
+Control ImgQS.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._btnAceptar">
+<summary>
+Control btnAceptar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._lblError">
+<summary>
+Control lblError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:uniON.WEB.frmCargaDatosEmpresa._PanelVolver">
+<summary>
+Control PanelVolver.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -487,9 +577,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCrearEventos._TxtTFecha">
+<member name="F:uniON.WEB.frmCrearEventos._TxtFecha">
 <summary>
-TxtTFecha control.
+TxtFecha control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -622,27 +712,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._ddlPais">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._cboPais">
 <summary>
-Control ddlPais.
+Control cboPais.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._ddlProvincia">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._cboProvincia">
 <summary>
-Control ddlProvincia.
+Control cboProvincia.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._ddlCiudad">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._cboCiudad">
 <summary>
-Control ddlCiudad.
+Control cboCiudad.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -667,18 +757,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._btnAceptar">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._btnModificar">
 <summary>
-Control btnAceptar.
+Control btnModificar.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmModificarDatosEmpresa._Button1">
+<member name="F:uniON.WEB.frmModificarDatosEmpresa._btnAceptar">
 <summary>
-Control Button1.
+Control btnAceptar.
 </summary>
 <remarks>
 Campo generado automáticamente.
