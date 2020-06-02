@@ -2,7 +2,7 @@
 Public Class frmCargaDatosEmpresa
     Inherits System.Web.UI.Page
 
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+    Private Sub frmCargaDatosEmpresa_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Page.IsPostBack = False Then
             Limpiar()
         End If
@@ -10,12 +10,12 @@ Public Class frmCargaDatosEmpresa
 
     Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
 
-        If txtNombre.Text <> Nothing And txtApellido.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
+        If txtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
-            Dim oPersona As New cPersonas
-            oPersona.CargarDatos(Session("IdPersona"), cboCiudad.SelectedValue, txtNombre.Text, txtApellido.Text)
+            Dim oEmpresa As New cEmpresas
+            oEmpresa.CargarDatos(txtNombre.Text, cboCiudad.SelectedValue)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
-            Response.Redirect("frmModificarDatosPersona.aspx")
+            Response.Redirect("frmModificarDatosEmpresa.aspx")
         Else
 
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)
@@ -64,17 +64,9 @@ Public Class frmCargaDatosEmpresa
 
     End Sub
 
-    Protected Sub cboPais_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cboPais.SelectedIndexChanged
 
-        CargarProvincias()
 
-    End Sub
 
-    Protected Sub cboProvincia_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cboProvincia.SelectedIndexChanged
-
-        CargarCiudades()
-
-    End Sub
 
 
 #End Region
@@ -84,12 +76,25 @@ Public Class frmCargaDatosEmpresa
         cboPais.SelectedIndex = 0
         cboProvincia.SelectedIndex = 0
         cboCiudad.SelectedIndex = 0
-        txtApellido.Text = Nothing
+        ' txtApellido.Text = Nothing
         txtNombre.Text = Nothing
         CargarPaises()
         CargarProvincias()
         CargarCiudades()
     End Sub
+
+
+
+    Private Sub cboPais_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboPais.SelectedIndexChanged
+        CargarProvincias()
+    End Sub
+
+    Private Sub cboProvincia_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProvincia.SelectedIndexChanged
+        CargarCiudades()
+    End Sub
+
+
+
 #End Region
 
 End Class
