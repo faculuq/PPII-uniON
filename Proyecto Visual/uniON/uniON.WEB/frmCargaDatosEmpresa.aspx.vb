@@ -2,22 +2,20 @@
 Public Class frmCargaDatosEmpresa
     Inherits System.Web.UI.Page
 
-    Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Page.IsPostBack = False Then
             Limpiar()
         End If
     End Sub
 
-#Region "Aceptar"
-    Protected Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+    Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
 
-        If TxtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
+        If txtNombre.Text <> Nothing And txtApellido.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
-            Dim oEmpresa As New cEmpresas
-            oEmpresa.CargarDatos(TxtNombre.Text, cboCiudad.SelectedValue)
+            Dim oPersona As New cPersonas
+            oPersona.CargarDatos(Session("IdPersona"), cboCiudad.SelectedValue, txtNombre.Text, txtApellido.Text)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
-            Response.Redirect("frmModificarDatosEmpresa.aspx")
-
+            Response.Redirect("frmModificarDatosPersona.aspx")
         Else
 
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)
@@ -25,7 +23,6 @@ Public Class frmCargaDatosEmpresa
         End If
 
     End Sub
-#End Region
 
 #Region "Combos"
     Private Sub CargarPaises()
@@ -78,6 +75,8 @@ Public Class frmCargaDatosEmpresa
         CargarCiudades()
 
     End Sub
+
+
 #End Region
 
 #Region "Limpiar"
@@ -85,7 +84,8 @@ Public Class frmCargaDatosEmpresa
         cboPais.SelectedIndex = 0
         cboProvincia.SelectedIndex = 0
         cboCiudad.SelectedIndex = 0
-        TxtNombre.Text = Nothing
+        txtApellido.Text = Nothing
+        txtNombre.Text = Nothing
         CargarPaises()
         CargarProvincias()
         CargarCiudades()
