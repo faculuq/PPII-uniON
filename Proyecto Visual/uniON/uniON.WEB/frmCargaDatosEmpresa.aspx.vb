@@ -8,12 +8,13 @@ Public Class frmCargaDatosEmpresa
         End If
     End Sub
 
+#Region "Agregar"
     Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
 
         If txtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
             Dim oEmpresa As New cEmpresas
-            oEmpresa.CargarDatos(txtNombre.Text, cboCiudad.SelectedValue)
+            oEmpresa.CargarDatos(Session("IdPersona"), txtNombre.Text, cboCiudad.SelectedValue)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
             Response.Redirect("frmModificarDatosEmpresa.aspx")
         Else
@@ -23,6 +24,7 @@ Public Class frmCargaDatosEmpresa
         End If
 
     End Sub
+#End Region
 
 #Region "Combos"
     Private Sub CargarPaises()
