@@ -360,19 +360,9 @@ if it's not present, don't show loader */
 
                                             <div class="row">
 
-                                             <div class="col col-md-6">
+                                                <div class="col col-md-12">
                                            <br />
-                                                 <asp:Button style="width:100%;color:white;" 
-                                                     class="btn-success" 
-                                                     ID="btnModificar"  
-                                                     Text="Modificar" 
-                                                     runat="server"></asp:Button>
-
-                                             </div>
-
-                                                <div class="col col-md-6">
-                                           <br />
-                                                 <asp:Button style="width:100%;color:white;" 
+                                                 <asp:Button style="width:50%;color:white;" 
                                                      class="btn-success" 
                                                      ID="btnAceptar"  
                                                      Text="Aceptar" 
