@@ -43,9 +43,19 @@
             <nav class="collapse navbar-collapse navbar-right" role="navigation">
                 <div class="main-menu">
                     <ul id="nav" class="nav navbar-nav">
-                        <li class="scroll button"><a href="#home" data-section="#home">Eventos</a></li>
-                        <li class="scroll"><a href="#about" data-section="#about">Premios</a></li>
-                        <li class="scroll"><a href="frmModificardatosPersona.aspx" data-section="#features">Mi info</a></li>
+                       <li class="nav-item"><a href="#" class="nav-link">Mi Info</a></li>
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Eventos</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Todos los Eventos</a>
+                                <a href="#" class="dropdown-item">Mis Eventos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Premios</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Todos los Premios</a>
+                                <a href="#" class="dropdown-item">Mis Premios</a>
+                            </div>
+                        </li>
                         <%--<li class="scroll"><a href="#services" data-section="#services" style="color: #72C05B;">Servicios</a></li>
                         <li class="scroll"><a href="#portfolio" data-section="#portfolio" style="color: #72C05B;">Galeria</a></li>
                         <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>--%>
