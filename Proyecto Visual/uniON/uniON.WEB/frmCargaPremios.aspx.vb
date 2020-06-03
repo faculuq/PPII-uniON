@@ -7,6 +7,7 @@ Public Class frmCargaPremios
             Limpiar()
         End If
     End Sub
+
     Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
 
         If TxtTitulo.Text <> Nothing And cboTipoPremio.SelectedValue <> Nothing And TxtDescripcion.Text <> Nothing And TxtCantidad.Text <> Nothing And TxtCosto.Text <> Nothing Then
@@ -22,6 +23,7 @@ Public Class frmCargaPremios
         End If
 
     End Sub
+
 #Region "Combos"
     Private Sub CargarPremiosTipos()
         Dim oDs As New DataSet
