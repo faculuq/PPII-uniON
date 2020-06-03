@@ -497,14 +497,11 @@ a:focus {
 .dropdown-menu > li > a {
   padding: 6px 20px;
 }
-.dropdown-menu > li > a:focus,
-.dropdown-menu > li > a:hover {
-  background-color: rgba(218, 230, 236, 0.3) !important;
-}
+
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  background-color: rgba(152, 166, 173, 0.1);
+  /* background-color: rgba(152, 166, 173, 0.1); */
   color: #435966;
 }
 /*Well */
@@ -799,7 +796,7 @@ textarea.form-control {
 .nav > li > a:focus,
 .nav > li > a:hover {
   text-decoration: none;
-  background-color: #f4f8fb;
+ /*  background-color: #f4f8fb; */
 }
 .nav .open > a,
 .nav .open > a:focus,

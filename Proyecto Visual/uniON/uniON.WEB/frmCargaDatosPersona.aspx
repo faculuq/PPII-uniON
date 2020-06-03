@@ -5,6 +5,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
+    <%--   BOOTSTRAP--%>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <%--ESTILOS CABECERA--%>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -29,10 +42,10 @@
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="Formularios/assets/plugins/morris/morris.css">
     <!-- App css -->
-    <link href="Formularios/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <%--<link href="Formularios/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />--%>
     <link href="Formularios/assets/css/core.css" rel="stylesheet" type="text/css" />
-    <link href="Formularios/assets/css/components.css" rel="stylesheet" type="text/css" />
-    <link href="Formularios/assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <%--<link href="Formularios/assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="Formularios/assets/css/icons.css" rel="stylesheet" type="text/css" />--%>
     <link href="Formularios/assets/css/pages.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/menu.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/responsive.css" rel="stylesheet" type="text/css" />
@@ -201,13 +214,13 @@ background-color:rgba(0, 0, 0, 0.5);
     left: 0;
     }
       
-    .navbar-brand a:hover{
+    /*.navbar-brand a:hover{
     color:#fff;
     transition:0.5s;
     }
     li a{
     transition:0.5s;
-    }
+    }*/
 
         /*Boton/BotonHover*/
     .btn-success {
@@ -251,25 +264,25 @@ background-color:rgba(0, 0, 0, 0.5);
             </div>
 
             <!-- main nav -->
-            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+            <%--<nav class="collapse navbar-collapse navbar-right" role="navigation">
                 <div class="main-menu">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="scroll button"><a href="#home" data-section="#home">Inicio</a></li>
+                    <ul id="nav" class="nav navbar-nav">--%>
+                        <%--<li class="scroll button"><a href="#home" data-section="#home">Inicio</a></li>
                         <li class="scroll"><a href="#about" data-section="#about">Acerca de</a></li>
-                        <li class="scroll"><a href="#features" data-section="#features">Caracteristicas</a></li>
+                        <li class="scroll"><a href="#features" data-section="#features">Caracteristicas</a></li>--%>
                         <!--<li class="scroll"><a href="#services" data-section="#services" style="color: #72C05B;">Servicios</a></li>
                         <li class="scroll"><a href="#portfolio" data-section="#portfolio" style="color: #72C05B;">Galeria</a></li>
                         <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>-->
                         
-                        <div class="navbar-brand">
+                       <%-- <div class="navbar-brand">
                             <a href="frmRegistro.aspx" style="">Registrate!</a>
                             <a href="#" style="font-size:20px"> |    </a>
                             <a href="frmLogin.aspx" style="">Inicia Sesión</a>
-                        </div>
+                        </div>--%>
                         
-                    </ul>
+                   <%-- </ul>
                 </div>
-            </nav>
+            </nav>--%>
             <!-- /main nav -->
 
         </div>
