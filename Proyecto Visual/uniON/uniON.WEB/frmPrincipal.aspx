@@ -38,6 +38,29 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <style>
+        /*Boton/BotonHover*/
+    .btn-success {
+        background-color: #72C05B !important;
+        border: 1px solid #72C05B !important;
+        /*border: solid 1px #000 !important;*/
+        border-radius: 2em !important;
+    }
+
+    .btn-success:hover {
+        background-color: #627378 !important;
+        border: 1px solid #627378 !important;
+        /*border: solid 1px #000 !important;*/
+        transition: 1s;
+    }
+
+    #contact-area .form-control:focus, #focusedInput {
+    border: 1px solid #72C05B;
+    box-shadow: none;
+    }
+
+    </style>
 </head>
 <body id="home" class="homepage">
     <form id="form1" runat="server">
@@ -552,16 +575,16 @@
 
                         <div class="form-group">
                             <label for="name"></label>
-                            <input id="name" type="text" name="name" class="form-control" placeholder="Nombre" required>
+                            <input id="name" type="text" name="name" style="border-radius:16px;" class="form-control" placeholder="Nombre" required>
                         </div>
                         <div class="form-group">
                             <label for="email"></label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email"
+                            <input type="email" id="email" name="email" style="border-radius:16px;" class="form-control" placeholder="Email"
                                 required>
                         </div>
                         <div class="form-group">
                             <label for="subject"></label>
-                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Asunto"
+                            <input type="text" id="subject" name="subject" style="border-radius:16px;" class="form-control" placeholder="Asunto"
                                 required>
                         </div>
 
@@ -569,14 +592,14 @@
                     <div class="col-lg-6 animated animate-from-right" style="opacity: 1; right: 0px;">
                         <div class="form-group">
                             <label for="message"></label>
-                            <textarea name="message" id="message" class="form-control" rows="8" placeholder="Mensaje"
+                            <textarea name="message" id="message" style="border-radius:16px;" class="form-control" rows="8" placeholder="Mensaje"
                                 required></textarea>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="text-center">
 
-                        <button type="submit" class="btn btn-primary btn-lg btn-send-msg btn-success" style="width:30%;color:white;">Enviar Mensaje</button>
+                        <button type="submit" class="btn-success" style="width:30%; height:50px; color:white;">Enviar Mensaje</button>
 
                     </div>
 
