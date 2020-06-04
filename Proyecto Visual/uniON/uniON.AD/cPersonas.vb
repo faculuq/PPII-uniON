@@ -29,4 +29,8 @@ Public Class cPersonas
         Return oDatabase.ExecuteScalar("PersonasModificarDatos", IdPersona, IdCiudad, Nombre, Apellido)
     End Function
 
+    Public Function BuscarPorIdUsuario(ByVal IdUsuario As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("PersonasBuscarPorIdUsuario", IdUsuario)
+    End Function
+
 End Class

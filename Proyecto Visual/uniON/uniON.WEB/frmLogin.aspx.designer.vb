@@ -32,11 +32,11 @@ Partial Public Class frmLogin
     Protected WithEvents txtPassword As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control btnRegistrarse.
+    '''Control btnLogin.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnRegistrarse As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnLogin As Global.System.Web.UI.WebControls.Button
 End Class

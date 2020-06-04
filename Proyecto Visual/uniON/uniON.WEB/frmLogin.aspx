@@ -55,7 +55,7 @@
           <%--<input class="form-styling" type="text" name="password" placeholder="" />--%>
           <input type="checkbox" id="checkbox" />
           <label for="checkbox"><span class="ui"></span>Mantenerme conectado</label>
-            <asp:Button ID="btnRegistrarse" runat="server" style="                    cursor: pointer;
+            <asp:Button ID="btnLogin" runat="server" style="                    cursor: pointer;
                     padding-top: 0px;
             " Text="Iniciar Sesión" CssClass="btn-signup"/>
           <%--<div class="btn-animate">

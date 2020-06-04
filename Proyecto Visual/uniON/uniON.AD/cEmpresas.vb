@@ -28,4 +28,9 @@ Public Class cEmpresas
     Public Function ModificarDatos(ByVal IdEmpresa As Integer, ByVal Nombre As String, ByVal IdCiudad As Integer)
         Return oDatabase.ExecuteScalar("EmpresaModificar", IdEmpresa, Nombre, IdCiudad)
     End Function
+
+    Public Function BuscarPorIdUsuario(ByVal IdUsuario As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("EmpresasBuscarPorIdUsuario", IdUsuario)
+    End Function
+
 End Class
