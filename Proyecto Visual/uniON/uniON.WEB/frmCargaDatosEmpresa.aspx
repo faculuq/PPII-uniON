@@ -242,32 +242,7 @@ if it's not present, don't show loader */
 <body>
     <form id="form1" runat="server">
 
-        <header>
-        <nav class="menu">
-            <div class="container-menu">
-                <div class="logo">
-                    <div class="logo-name">
-                        <img src="img/Logo.png" alt="">
-                        <a href="#">CodigoMaster</a>
-                    </div>
-                    <div class="icon-menu">
-                        <a href="#" id="btn-menu" class="btn-menu"><span class="fa fa-bars"></span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu-link">
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">ACERCA DE</a></li>
-                    <li><a href="#">CONTACTO</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-
-        <%--<header id="top-header" class="navbar-inverse navbar-fixed-top">
+       <header id="top-header" class="navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
@@ -282,7 +257,7 @@ if it's not present, don't show loader */
                     <!-- logo -->
                     <div class="navbar-brand">
                         <a class="smooth-scroll" data-section="#home" href="#home">
-                            uniON
+                            <img src="images/logo.png" alt="">
                         </a>
                     </div>
                     <!-- /logo -->
@@ -311,7 +286,7 @@ if it's not present, don't show loader */
                 <!-- /main nav -->
 
             </div>
-        </header>--%>
+        </header>
 
         <div class="content-page" style="margin-top:-40px; margin-left:auto;">
             <!-- Start content -->
