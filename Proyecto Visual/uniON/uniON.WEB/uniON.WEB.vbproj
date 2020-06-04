@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="css\animate.min.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\estilos.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\login.css" />
@@ -1598,12 +1599,14 @@
     <Content Include="images\undraw_takeout_boxes_ap54.svg" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery-3.5.0.min.js" />
     <Content Include="js\jquery.inview.min.js" />
     <Content Include="js\jquery.isotope.min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\jquery.prettyPhoto.js" />
     <Content Include="js\login.js" />
     <Content Include="js\main.js" />
+    <Content Include="js\menu.js" />
     <Content Include="js\mousescroll.js" />
     <Content Include="js\owl.carousel.min.js" />
     <Content Include="js\respond.min.js" />
