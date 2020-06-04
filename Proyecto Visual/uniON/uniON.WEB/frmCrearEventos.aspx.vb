@@ -3,7 +3,10 @@ Public Class frmCrearEventos
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        CargarEventosTipos()
+        '' CargarEventosTipos
+        If Page.IsPostBack = False Then
+            Limpiar()
+        End If
     End Sub
 
     Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
@@ -34,8 +37,8 @@ Public Class frmCrearEventos
 
         oDs = oEventoTipo.BuscarTodos
         cboTipoEvento.DataSource = oDs.Tables(0)
-        cboTipoEvento.DataTextField = oDs.Tables(0).Columns("Nombre").ToString
-        cboTipoEvento.DataValueField = oDs.Tables(0).Columns("IdEventoTipo").ToString
+        cboTipoEvento.DataValueField = oDs.Tables(0).Columns("IdTipoEvento").ToString
+        cboTipoEvento.DataTextField = oDs.Tables(0).Columns("Descripcion").ToString
         cboTipoEvento.DataBind()
 
 
@@ -67,18 +70,17 @@ Public Class frmCrearEventos
 
     End Sub
 
-    'Private Sub CargarCiudades()
-    '    Dim oDs As New DataSet
-    '    Dim oCiudad As New cCiudades
+    Private Sub CargarCiudades()
+        Dim oDs As New DataSet
+        Dim oCiudad As New cCiudades
 
-    '    oDs = oCiudad.BuscarPorIdProvincia(cboProvincia.SelectedValue)
+        oDs = oCiudad.BuscarPorProvincia(cboProvincia.SelectedValue)
 
-    '    cboCiudad.DataSource = oDs.Tables(0)
-    '    cboCiudad.DataTextField = oDs.Tables(0).Columns("Nombre").ToString
-    '    cboCiudad.DataValueField = oDs.Tables(0).Columns("IdCiudad").ToString
-    '    cboCiudad.DataBind()
-
-    'End Sub
+        cboCiudad.DataSource = oDs.Tables(0)
+        cboCiudad.DataTextField = oDs.Tables(0).Columns("Nombre").ToString
+        cboCiudad.DataValueField = oDs.Tables(0).Columns("IdCiudad").ToString
+        cboCiudad.DataBind()
+    End Sub
 
     Protected Sub cboPais_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cboPais.SelectedIndexChanged
 
@@ -88,7 +90,7 @@ Public Class frmCrearEventos
 
     Protected Sub cboProvincia_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cboProvincia.SelectedIndexChanged
 
-        'CargarCiudades()
+        CargarCiudades()
 
     End Sub
 
@@ -106,7 +108,8 @@ Public Class frmCrearEventos
         TxtFecha.Text = Nothing
         CargarPaises()
         CargarProvincias()
-        'CargarCiudades()
+        CargarCiudades()
+        CargarEventosTipos()
     End Sub
 #End Region
 

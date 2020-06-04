@@ -324,7 +324,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                        </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Provincia</span>
-                                     <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                      <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
                                             </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Ciudad</span>

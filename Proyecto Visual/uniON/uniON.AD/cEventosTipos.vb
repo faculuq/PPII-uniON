@@ -29,6 +29,8 @@ Public Class cEventosTipos
         End Try
     End Function
 
+
+
     Public Function Agregar(ByVal Descripcion As String, ByVal Activo As Boolean) As Double
         Try
             Return oDatabase.ExecuteScalar("EventosTiposAgregar", Descripcion, Activo)
