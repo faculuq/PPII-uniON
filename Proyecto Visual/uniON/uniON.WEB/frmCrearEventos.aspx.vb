@@ -15,7 +15,7 @@ Public Class frmCrearEventos
         If TxtNombre.Text <> Nothing And TxtDescripcion.Text <> Nothing And cboCiudad.SelectedValue <> Nothing And cboTipoEvento.SelectedValue <> Nothing And TxtPuntos.Text <> Nothing And TxtFecha.Text <> Nothing Then
 
             Dim oEventos As New cEventos
-            oEventos.CrearEventos(cboTipoEvento.SelectedValue, cboCiudad.SelectedValue, 1, TxtNombre.Text, TxtDescripcion.Text, TxtPuntos.Text, TxtFecha.Text)
+            oEventos.CrearEventos(cboTipoEvento.SelectedValue, cboCiudad.SelectedValue, 1, TxtNombre.Text, TxtDescripcion.Text, TxtPuntos.Text, TxtFecha.Text, True)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
 
         Else

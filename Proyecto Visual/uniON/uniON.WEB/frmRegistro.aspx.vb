@@ -13,17 +13,17 @@ Public Class frmRegistro
         Dim oPersona As New cPersonas
         Dim oEmpresa As New cEmpresas
         Dim iduser As Integer
-        Dim existeMail As Integer
+        'Dim existeMail As Integer
 
         If txtEmail.Text <> Nothing And txtPassword.Text <> Nothing And txtPasswordConfirmar.Text <> Nothing Then
 
             If txtPassword.Text = txtPasswordConfirmar.Text Then
 
-                existeMail = oUsuario.ComprobarExistencia(txtEmail.Text)
+                'existeMail = oUsuario.ComprobarExistencia(txtEmail.Text)
 
-                If existeMail = 1 Then
+                'If existeMail = 1 Then
 
-                    If checkbox.Checked = False Then
+                If checkbox.Checked = False Then
 
                         Dim idpersona As Integer
                         iduser = oUsuario.Agregar(txtEmail.Text, txtPassword.Text, 1)
@@ -44,11 +44,11 @@ Public Class frmRegistro
                         Response.Redirect("frmCargaDatosEmpresa.aspx")
 
                     End If
-                Else
+                'Else
 
-                    MsgBox("Este mail ya se encuentra registrado") 'Cambiar por una alerta
+                '    MsgBox("Este mail ya se encuentra registrado") 'Cambiar por una alerta
 
-                End If
+                'End If
 
             Else
 
