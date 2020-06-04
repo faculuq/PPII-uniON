@@ -27,4 +27,8 @@ Public Class cUsuarios
         Return oDatabase.ExecuteScalar("UsuariosAgregar", Email, Password, IdTipo)
     End Function
 
+    Public Function ComprobarExistencia(ByVal Email As String) As Double
+        Return oDatabase.ExecuteScalar("UsuariosComprobarExistencia", Email)
+    End Function
+
 End Class
