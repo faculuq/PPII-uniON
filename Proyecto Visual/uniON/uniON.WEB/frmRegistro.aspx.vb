@@ -13,15 +13,15 @@ Public Class frmRegistro
         Dim oPersona As New cPersonas
         Dim oEmpresa As New cEmpresas
         Dim iduser As Integer
-        Dim existencia As Integer
+        Dim existeMail As Integer
 
         If txtEmail.Text <> Nothing And txtPassword.Text <> Nothing And txtPasswordConfirmar.Text <> Nothing Then
 
             If txtPassword.Text = txtPasswordConfirmar.Text Then
 
-                existencia = oUsuario.ComprobarExistencia(txtEmail.Text)
+                existeMail = oUsuario.ComprobarExistencia(txtEmail.Text)
 
-                If existencia = 1 Then
+                If existeMail = 1 Then
 
                     If checkbox.Checked = False Then
 
@@ -46,7 +46,7 @@ Public Class frmRegistro
                     End If
                 Else
 
-                    MsgBox("Este mail ya se encuentra registrado")
+                    MsgBox("Este mail ya se encuentra registrado") 'Cambiar por una alerta
 
                 End If
 
