@@ -347,16 +347,16 @@ if it's not present, don't show loader */
                                       
                                        <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Pais</span>
-                                          <asp:DropDownList ID="cboPais" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="55%"></asp:DropDownList>
+                                          <asp:DropDownList ID="cboPais" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="55%" AutoPostBack="True"></asp:DropDownList>
                                          
                                        </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Provincia</span>
-                                      <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="55%"></asp:DropDownList>
+                                      <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="55%" AutoPostBack="True"></asp:DropDownList>
                                             </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
-                                     <asp:DropDownList ID="cboCiudad" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="55%"></asp:DropDownList>
+                                     <asp:DropDownList ID="cboCiudad" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="55%" AutoPostBack="True"></asp:DropDownList>
                                       </div>
                                       </div>
 
@@ -368,7 +368,7 @@ if it's not present, don't show loader */
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Fecha del Evento</span>
                                              <asp:TextBox ID="TxtFecha" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="70%" ></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%"  TextMode="Date"></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Puntos </span>
