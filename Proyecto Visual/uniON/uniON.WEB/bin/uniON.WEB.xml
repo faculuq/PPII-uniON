@@ -1063,9 +1063,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmRegistro._chkTipo">
+<member name="F:uniON.WEB.frmRegistro._checkbox">
 <summary>
-Control chkTipo.
+Control checkbox.
 </summary>
 <remarks>
 Campo generado automáticamente.

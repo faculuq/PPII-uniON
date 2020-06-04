@@ -14,8 +14,11 @@ Public Class frmRegistro
         Dim oEmpresa As New cEmpresas
 
         If txtEmail.Text <> Nothing And txtPassword.Text <> Nothing And txtPasswordConfirmar.Text <> Nothing Then
+
             If txtPassword.Text = txtPasswordConfirmar.Text Then
-                If chkTipo.Checked = False Then
+
+                If checkbox.Checked = False Then
+
                     Dim iduser As Integer
                     Dim idpersona As Integer
                     iduser = oUsuario.Agregar(txtEmail.Text, txtPassword.Text, 1)
@@ -24,7 +27,9 @@ Public Class frmRegistro
                     Session("IdPersona") = idpersona
                     ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
                     Response.Redirect("frmCargaDatosPersona.aspx")
+
                 Else
+
                     Dim iduser As Integer
                     Dim idempresa As Integer
                     iduser = oUsuario.Agregar(txtEmail.Text, txtPassword.Text, 2)
@@ -33,15 +38,20 @@ Public Class frmRegistro
                     Session("IdEmpresa") = idempresa
                     ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
                     Response.Redirect("frmCargaDatosEmpresa.aspx")
+
                 End If
 
             Else
+
                 ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaPass()", True)
+
             End If
 
 
         Else
+
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)
+
         End If
 
     End Sub

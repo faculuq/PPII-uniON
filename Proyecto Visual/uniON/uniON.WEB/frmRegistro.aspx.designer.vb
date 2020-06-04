@@ -41,13 +41,13 @@ Partial Public Class frmRegistro
     Protected WithEvents txtPasswordConfirmar As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control chkTipo.
+    '''Control checkbox.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents chkTipo As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents checkbox As Global.System.Web.UI.HtmlControls.HtmlInputCheckBox
 
     '''<summary>
     '''Control btnRegistrarse.
