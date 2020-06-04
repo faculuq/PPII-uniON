@@ -640,6 +640,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:uniON.WEB.frmInicioEmpresa._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:uniON.WEB.frmLogin._txtEmail">
 <summary>
 Control txtEmail.
@@ -658,9 +667,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmLogin._btnRegistrarse">
+<member name="F:uniON.WEB.frmLogin._btnLogin">
 <summary>
-Control btnRegistrarse.
+Control btnLogin.
 </summary>
 <remarks>
 Campo generado automáticamente.
