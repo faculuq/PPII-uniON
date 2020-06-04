@@ -195,13 +195,13 @@ background-color:rgba(0, 0, 0, 0.5);
     .btn-success {
         background-color: #72C05B !important;
         border: 1px solid #72C05B !important;
-        border:solid 1px #627378 !important;
+        /*border:solid 1px #627378 !important;*/
         border-radius:2em !important;
     }
     .btn-success:hover{
         background-color: #627378  !important;
         border: 1px solid #627378  !important;
-        border:solid 1px #72C05B !important;
+        /*border:solid 1px #72C05B !important;*/
         transition: 1s;
     }
     </style>
@@ -274,18 +274,28 @@ background-color:rgba(0, 0, 0, 0.5);
                                         <br />
                                     
                                         <div  class="form-group">
+
+                                            <div class="row">
+                                                    <div class="col col-md-12">
+                                                        <span
+                                                            style="color:#72C05B; font-size:28px; font-weight:700;">Carga los Premios</span>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <br />
                                           
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Título</span>
                                              <asp:TextBox ID="TxtTitulo" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%"></asp:TextBox>
                                        </div>
                                            <div class="col col-md-6">
                                                <span style="color:#72C05B; font-size:18px; ">Tipo Premio</span>
 <asp:DropDownList ID="cboTipoPremio" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                                    class="form-control"  Height="50px" Width="70%"></asp:DropDownList>
                                            </div>
 
                                             <div class="row">
@@ -293,7 +303,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                            <div class="col col-md-12">
                                            <span runat="server" id="Span1" style="color:#72C05B; font-size:18px;  " >Descripción</span>
                                              <asp:TextBox ID="TxtDescripcion" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="200px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="100px" Width="85%"></asp:TextBox>
                                       </div>
                                                 </div> 
 
@@ -302,14 +312,14 @@ background-color:rgba(0, 0, 0, 0.5);
                                            <div class="col col-md-6">
                                            <span runat="server" id="Span2" style="color:#72C05B; font-size:18px;  " >Cantidad</span>
                                              <asp:TextBox ID="TxtCantidad" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%"></asp:TextBox>
                                       </div>
                                            
 
                                            <div class="col col-md-6">
                                            <span runat="server" id="Span3" style="color:#72C05B; font-size:18px;  " >Costo(puntos)</span>
                                              <asp:TextBox ID="TxtCosto" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%"></asp:TextBox>
                                       </div>
 </div>
                                             <div class="row">
@@ -363,7 +373,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                              <div class="col col-md-12">
                                            <br />
-                                                 <asp:Button style="width:50%;color:white;" 
+                                                 <asp:Button style="width:30%;color:white;" 
                                                      class="btn-success" 
                                                      ID="btnAceptar"  
                                                      Text="Aceptar" 
@@ -413,7 +423,7 @@ background-color:rgba(0, 0, 0, 0.5);
                     
                        <div class="card-box" style="    min-height: 200px;">
                                 <section class="icon-list-demo" >
-                      <div class="col col-md-12">
+                    <%--  <div class="col col-md-12">
 
 
                                        <br />
@@ -421,7 +431,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                         <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A QUIENES SOMOS</button>
                     </center>
-                                       </div>
+                                       </div>--%>
                                        </section>
 
                     </div>
@@ -434,9 +444,9 @@ background-color:rgba(0, 0, 0, 0.5);
                 <!-- container -->
             </div>
             <!-- content -->
-            <footer class="footer text-right">
+            <%--<footer class="footer text-right">
                      2020 © uniON.
-                </footer>
+                </footer>--%>
         </div>
     </form>
 </body>
