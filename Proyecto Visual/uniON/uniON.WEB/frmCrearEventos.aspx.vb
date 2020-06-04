@@ -12,10 +12,10 @@ Public Class frmCrearEventos
     Protected Sub BtnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
 
 
-        If TxtNombre.Text <> Nothing And TxtDescripcion.Text <> Nothing And cboCiudad.SelectedValue <> Nothing And cboPais.SelectedValue <> Nothing And cboProvincia.SelectedValue <> Nothing And cboTipoEvento.SelectedValue <> Nothing And TxtPuntos.Text <> Nothing And TxtFecha.Text <> Nothing Then
+        If TxtNombre.Text <> Nothing And TxtDescripcion.Text <> Nothing And cboCiudad.SelectedValue <> Nothing And cboTipoEvento.SelectedValue <> Nothing And TxtPuntos.Text <> Nothing And TxtFecha.Text <> Nothing Then
 
-            'Dim oPersona As New cEventos
-            'oPersona.CrearEventos(Session("IdPersona"), cboTipoEvento.SelectedValue, cboCiudad.SelectedValue, TxtNombre.Text, TxtDescripcion.Text, TxtPuntos.Text, TxtFecha.Text)
+            Dim oEventos As New cEventos
+            oEventos.CrearEventos(cboTipoEvento.SelectedValue, cboCiudad.SelectedValue, 1, TxtNombre.Text, TxtDescripcion.Text, TxtPuntos.Text, TxtFecha.Text)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
 
         Else
