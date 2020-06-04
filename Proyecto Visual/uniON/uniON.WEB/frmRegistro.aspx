@@ -81,7 +81,7 @@
 
             <%--<asp:CheckBox type="checkbox" id="chkTipo" runat="server" />--%>
               
-            <input id="checkbox" type="checkbox"><asp:CheckBox ID="chkTipo" runat="server"/>
+            <input id="checkbox" type="checkbox" runat="server">
             <label for="checkbox"><span class="ui"></span>Registrarse como empresa</label>
              
           <%--<div class="btn-animate">
