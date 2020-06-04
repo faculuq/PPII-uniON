@@ -5,19 +5,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <%--   BOOTSTRAP--%>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
     <%--ESTILOS CABECERA--%>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -37,15 +24,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
-   
+
     <title>uniON</title>
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="Formularios/assets/plugins/morris/morris.css">
     <!-- App css -->
-   <%-- <link href="Formularios/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />--%>
+    <link href="Formularios/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/core.css" rel="stylesheet" type="text/css" />
-    <%--<link href="Formularios/assets/css/components.css" rel="stylesheet" type="text/css" />
-    <link href="Formularios/assets/css/icons.css" rel="stylesheet" type="text/css" />--%>
+    <link href="Formularios/assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="Formularios/assets/css/icons.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/pages.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/menu.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/responsive.css" rel="stylesheet" type="text/css" />
@@ -57,234 +44,248 @@
         <![endif]-->
     <script src="Formularios/assets/js/modernizr.min.js"></script>
 
-      <link href="Formularios/css/wowCss.css" rel="stylesheet" type="text/css" />
-          <script> function alertaExito() {
-                  Swal.fire(
-                      '¡Bien hecho!',
-                      'Tus datos se cargaron correctamente',
-                      'success'
-                  )
-              }
+    <link href="Formularios/css/wowCss.css" rel="stylesheet" type="text/css" />
 
-              function alertaCampos() {
-                  Swal.fire(
-                      '¡Algo salió mal!',
-                      'Completar todos los campos requeridos',
-                      'error'
-                  )
-              }
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+        function alertaExito() {
+            Swal.fire(
+                '¡Bien hecho!',
+                'Tus datos se cargaron correctamente',
+                'success'
+            )
+        }
+
+        function alertaCampos() {
+            Swal.fire(
+                '¡Algo salió mal!',
+                'Completar todos los campos requeridos',
+                'error'
+            )
+        }
+    </script>
 
 </head>
     <style>
-    
-     /* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
+    /* Paste this css to your style sheet file or under head tag */
+    /* This only works with JavaScript, 
 if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(https://gifimage.net/wp-content/uploads/2018/04/loading-gif-orange-8.gif) center no-repeat #fff;
-	 background-size:100px 100px;
-}
-    
- #FondoProgeso {
-  width: 100%; height: 100%; min-height:100%; 
-  background: white;
-    
-     overflow: hidden;
-    position: absolute;
-    z-index:999;
-     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;"
-}
-
- .StatusModal
-      {
-          
-     background:white;  
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  height:300px; 
-    width:100%; 
-    max-width:300px; 
-    border-radius:15px; 
-    padding: 15px  15px 15px 15px;
-       margin-top:250px;
-        } 
-        
-        
-        .icon-list-demo .col-md-4:hover {
-     background-color: transparent;
-}
-
-
-input[type=checkbox], input[type=radio] {
-    margin: 11px 0 0;
-    margin-top: 1px\9;
-    line-height: normal;
-    cursor:pointer;
-}
-
-
-
-.BigCheckBox input
-        {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle !important;
-            -webkit-appearance: none;
-  -moz-appearance: none;
-  background: lightgray;
-  appearance: none;
-    border:1px solid #ef7f2d;
-        }
-        
-        .BigCheckBox input[type=checkbox]:checked + label
-        {
-            color: #ef7f2d !important;
-            
-        }
-        
-      
-      input[type="checkbox"]:checked {
-  background: #ef7f2d;
-  
-}
-
-input[type="checkbox"]:hover {
-  filter: brightness(90%);
-}
-
-
-
-input[type="checkbox"]:disabled {
-  background: #e6e6e6;
-  opacity: 0.6;
-  
-  pointer-events: none;
-  
-}
-
-input[type="checkbox"]:after {
-  content: '';
-  position: relative;
-  
-  left: 40%;
-  top: 16%;
-  width: 25%;
-  height: 50%;
-  border: solid #fff;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  display: none;
-}
-
-input[type="checkbox"]:checked:after {
-  display: block;
-  
-}
-
-input[type="checkbox"]:disabled:after {
-  border-color: #7b7b7b;
- 
-}
-
-.Status
-{  width: 100%;
-    height: 100%;
-     min-height:100%; 
-background-color:rgba(0, 0, 0, 0.5);
-    
-     overflow: hidden;
-    position: absolute;
-    z-index:99999;
-     top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    .no-js #loader {
+        display: none;
     }
-      
-    .navbar-brand a:hover{
-    color:#fff;
-    transition:0.5s;
+
+    .js #loader {
+        display: block;
+        position: absolute;
+        left: 100px;
+        top: 0;
     }
-    li a{
-    transition:0.5s;
+
+    .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url(https://gifimage.net/wp-content/uploads/2018/04/loading-gif-orange-8.gif) center no-repeat #fff;
+        background-size: 100px 100px;
+    }
+
+    #FondoProgeso {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        background: white;
+
+        overflow: hidden;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        "
+
+    }
+
+    .StatusModal {
+
+        background: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        height: 300px;
+        width: 100%;
+        max-width: 300px;
+        border-radius: 15px;
+        padding: 15px 15px 15px 15px;
+        margin-top: 250px;
+    }
+
+
+    .icon-list-demo .col-md-4:hover {
+        background-color: transparent;
+    }
+
+
+    input[type=checkbox],
+    input[type=radio] {
+        margin: 11px 0 0;
+        margin-top: 1px\9;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+
+
+    .BigCheckBox input {
+        width: 24px;
+        height: 24px;
+        vertical-align: middle !important;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: lightgray;
+        appearance: none;
+        border: 1px solid #ef7f2d;
+    }
+
+    .BigCheckBox input[type=checkbox]:checked+label {
+        color: #ef7f2d !important;
+
+    }
+
+
+    input[type="checkbox"]:checked {
+        background: #ef7f2d;
+
+    }
+
+    input[type="checkbox"]:hover {
+        filter: brightness(90%);
+    }
+
+
+
+    input[type="checkbox"]:disabled {
+        background: #e6e6e6;
+        opacity: 0.6;
+
+        pointer-events: none;
+
+    }
+
+    input[type="checkbox"]:after {
+        content: '';
+        position: relative;
+
+        left: 40%;
+        top: 16%;
+        width: 25%;
+        height: 50%;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+        display: none;
+    }
+
+    input[type="checkbox"]:checked:after {
+        display: block;
+
+    }
+
+    input[type="checkbox"]:disabled:after {
+        border-color: #7b7b7b;
+
+    }
+
+    .Status {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+
+        overflow: hidden;
+        position: absolute;
+        z-index: 99999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+
+    .navbar-brand a:hover {
+        color: #fff;
+        transition: 0.5s;
+    }
+
+    li a {
+        transition: 0.5s;
     }
 
     /*Boton/BotonHover*/
     .btn-success {
         background-color: #72C05B !important;
         border: 1px solid #72C05B !important;
-        border:solid 1px #627378 !important;
-        border-radius:2em !important;
+        /*border: solid 1px #000 !important;*/
+        border-radius: 2em !important;
     }
-    .btn-success:hover{
-        background-color: #627378  !important;
-        border: 1px solid #627378  !important;
-        border:solid 1px #72C05B !important;
+
+    .btn-success:hover {
+        background-color: #627378 !important;
+        border: 1px solid #627378 !important;
+        /*border: solid 1px #000 !important;*/
         transition: 1s;
     }
-    </style>
+
+</style>
 <body>
     <form id="form1" runat="server">
 
 
   <header id="top-header" class="navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <!-- responsive nav button -->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- /responsive nav button -->
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
 
-                <!-- logo -->
-                <div class="navbar-brand">
-                    <a class="smooth-scroll" data-section="#home" href="#home">
-                        <img src="images/logo.png" alt="">
-                    </a>
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a class="smooth-scroll" data-section="#home" href="#home">
+                            uniON
+                        </a>
+                    </div>
+                    <!-- /logo -->
                 </div>
-                <!-- /logo -->
+
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li class="scroll button"><a href="#home" data-section="#home">Inicio</a></li>
+                            <li class="scroll"><a href="#about" data-section="#about">Acerca de</a></li>
+                            <li class="scroll"><a href="#features" data-section="#features">Caracteristicas</a></li>
+                            <!--<li class="scroll"><a href="#services" data-section="#services" style="color: #72C05B;">Servicios</a></li>
+                        <li class="scroll"><a href="#portfolio" data-section="#portfolio" style="color: #72C05B;">Galeria</a></li>
+                        <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>-->
+
+                            <div class="navbar-brand">
+                                <a href="frmRegistro.aspx" style="">Registrate!</a>
+                                <a href="#" style="font-size:20px"> | </a>
+                                <a href="frmLogin.aspx" style="">Inicia Sesión</a>
+                            </div>
+
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+
             </div>
-
-            <!-- main nav -->
-            <nav class="navbar navbar-expand-sm navbar-right" role="navigation">
-                <div class="main-menu">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li style="margin-left:10px" class="drop"><a href="frmInicio.aspx" class="nav-link">Home</a></li>
-                       <li style="margin-left:10px" class="drop"><a href="frmModificarDatosPersona.aspx" class="nav-link">Mi Info</a></li>
-                        <li style="margin-left:10px" class="drop"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Eventos</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Todos los Eventos</a>
-                                <a href="#" class="dropdown-item">Mis Eventos</a>
-                                <a href="frmCrearEventos.aspx" class="dropdown-item">Crear Evento</a>
-                            </div>
-                        </li>
-                       <li style="margin-left:10px" class="drop"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Premios</a>
-                            <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Todos los Premios</a>
-                                <a href="#" class="dropdown-item">Mis Premios</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!-- /main nav -->
-
-        </div>
-    </header>
+        </header>
 
 
 
@@ -303,17 +304,27 @@ background-color:rgba(0, 0, 0, 0.5);
                                         <br />
                                     
                                         <div  class="form-group">
+
+                                            <div class="row">
+                                                    <div class="col col-md-12">
+                                                        <span
+                                                            style="color:#72C05B; font-size:28px; font-weight:700;">Crea tu evento</span>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <br />
                                           
                                        <div class="row">
                                       
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Nombre del Evento</span>
                                              <asp:TextBox ID="TxtNombre" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%"></asp:TextBox>
                                        </div>
                                            <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Tipo de Evento</span>
-                                             <asp:DropDownList ID="cboTipoEvento" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                             <asp:DropDownList ID="cboTipoEvento" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="70%"></asp:DropDownList>
                                          
                                                 
                                        </div>
@@ -330,24 +341,25 @@ background-color:rgba(0, 0, 0, 0.5);
                                            <div class="col col-md-12">
                                            <span runat="server" id="Span1" style="color:#72C05B; font-size:18px;  " >Descripción</span>
                                              <asp:TextBox ID="TxtDescripcion" TextMode="MultiLine" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="200px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="100px" Width="85%"></asp:TextBox>
                                       </div>
 </div>
 
-                                                                                           <div class="row">
+                                     <div class="row">
                                       
                                        <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Pais</span>
-                                          <asp:DropDownList ID="cboPais" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                          <asp:DropDownList ID="cboPais" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="70%"></asp:DropDownList>
                                          
                                        </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Provincia</span>
-                                      <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                      <asp:DropDownList ID="cboProvincia" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="70%"></asp:DropDownList>
                                             </div>
                                                     <div class="col col-md-4">
                                          <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
-                                     <asp:DropDownList ID="cboCiudad" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="100%"></asp:DropDownList>
+                                     <asp:DropDownList ID="cboCiudad" required runat="server" ForeColor="Black" class="form-control"  Height="50px" Width="70%"></asp:DropDownList>
+                                      </div>
                                       </div>
 
 
@@ -358,12 +370,12 @@ background-color:rgba(0, 0, 0, 0.5);
                                        <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Fecha del Evento</span>
                                              <asp:TextBox ID="TxtFecha" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%" ></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%" ></asp:TextBox>
                                        </div>
                                                     <div class="col col-md-6">
                                          <span style="color:#72C05B; font-size:18px; ">Puntos </span>
                                              <asp:TextBox ID="TxtPuntos" required runat="server"  ForeColor="Black"
-                                                    class="form-control"  Height="50px" Width="100%"></asp:TextBox>
+                                                    class="form-control"  Height="50px" Width="70%"></asp:TextBox>
                                        </div>
 
 
@@ -424,7 +436,7 @@ background-color:rgba(0, 0, 0, 0.5);
 
                                              <div class="col col-md-12">
                                            <br />
-                                                 <asp:Button style="width:50%;color:white;" 
+                                                 <asp:Button style="width:30%;color:white;" 
                                                      class="btn-success" 
                                                      ID="btnAceptar"  
                                                      Text="Aceptar" 
@@ -463,7 +475,7 @@ background-color:rgba(0, 0, 0, 0.5);
                     
                        <div class="card-box" style="    min-height: 200px;">
                                 <section class="icon-list-demo" >
-                      <div class="col col-md-12">
+                      <%--<div class="col col-md-12">
 
 
                                        <br />
@@ -471,7 +483,7 @@ background-color:rgba(0, 0, 0, 0.5);
                                         <button  type="button" style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;" id="btnVolver" runat="server" class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                     VOLVER A QUIENES SOMOS</button>
                     </center>
-                                       </div>
+                                       </div>--%>
                                        </section>
 
                     </div>
@@ -484,9 +496,9 @@ background-color:rgba(0, 0, 0, 0.5);
                 <!-- container -->
             </div>
             <!-- content -->
-            <footer class="footer text-right">
+            <%--<footer class="footer text-right">
                      2020 © uniON.
-                </footer>
+                </footer>--%>
         </div>
     </form>
 </body>

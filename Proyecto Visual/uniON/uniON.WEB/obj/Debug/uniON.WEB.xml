@@ -487,15 +487,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:uniON.WEB.frmCargaPremios._btnVolver">
-<summary>
-Control btnVolver.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:uniON.WEB.frmCrearEventos._form1">
 <summary>
 Control form1.
@@ -634,15 +625,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:uniON.WEB.frmCrearEventos._PanelVolver">
 <summary>
 Control PanelVolver.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmCrearEventos._btnVolver">
-<summary>
-Control btnVolver.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1030,15 +1012,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:uniON.WEB.frmModificarPremios._PanelVolver">
 <summary>
 Control PanelVolver.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:uniON.WEB.frmModificarPremios._btnVolver">
-<summary>
-Control btnVolver.
 </summary>
 <remarks>
 Campo generado automáticamente.
