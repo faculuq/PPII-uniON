@@ -13,7 +13,7 @@ Public Class frmModificarDatosEmpresa
         If TxtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
             Dim oEmpresa As New cEmpresas
-            oEmpresa.ModificarDatos(1, TxtNombre.Text, cboCiudad.SelectedValue)
+            oEmpresa.ModificarDatos(Session("IdEmpresa"), TxtNombre.Text, cboCiudad.SelectedValue)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
 
         Else
@@ -82,13 +82,13 @@ Public Class frmModificarDatosEmpresa
         Dim ods As New DataSet
         Dim oEmpresa As New cEmpresas
 
-        ods = oEmpresa.BuscarPorId(1)
+        ods = oEmpresa.BuscarPorId(Session("IdEmpresa"))
 
         If ods.Tables(0).Rows.Count > 0 Then
 
             TxtNombre.Text = (ods.Tables(0).Rows(0).Item("Nombre"))
-            'cboPais.SelectedValue = (ods.Tables(0).Rows(0).Item("IdPais"))
-            'cboProvincia.SelectedValue = (ods.Tables(0).Rows(0).Item("IdProvincia"))
+            cboPais.SelectedValue = (ods.Tables(0).Rows(0).Item("IdPais"))
+            cboProvincia.SelectedValue = (ods.Tables(0).Rows(0).Item("IdProvincia"))
             cboCiudad.SelectedValue = (ods.Tables(0).Rows(0).Item("IdCiudad"))
 
         End If

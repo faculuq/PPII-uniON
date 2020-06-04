@@ -5,6 +5,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
+    <%--   BOOTSTRAP--%>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <%--ESTILOS CABECERA--%>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -29,10 +42,10 @@
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="Formularios/assets/plugins/morris/morris.css">
     <!-- App css -->
-    <link href="Formularios/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <%-- <link href="Formularios/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />--%>
     <link href="Formularios/assets/css/core.css" rel="stylesheet" type="text/css" />
-    <link href="Formularios/assets/css/components.css" rel="stylesheet" type="text/css" />
-    <link href="Formularios/assets/css/icons.css" rel="stylesheet" type="text/css" />
+    <%--<link href="Formularios/assets/css/components.css" rel="stylesheet" type="text/css" />
+    <link href="Formularios/assets/css/icons.css" rel="stylesheet" type="text/css" />--%>
     <link href="Formularios/assets/css/pages.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/menu.css" rel="stylesheet" type="text/css" />
     <link href="Formularios/assets/css/responsive.css" rel="stylesheet" type="text/css" />
@@ -247,18 +260,24 @@ background-color:rgba(0, 0, 0, 0.5);
             </div>
 
             <!-- main nav -->
-            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+            <nav class="navbar navbar-expand-sm navbar-right" role="navigation">
                 <div class="main-menu">
                     <ul id="nav" class="nav navbar-nav">
-                        <li class="scroll button"><a href="#home" data-section="#home">-----</a></li>
-                        <li class="scroll"><a href="#about" data-section="#about"> .....</a></li>
-                        <li class="scroll"><a href="#features" data-section="#features">////</a></li>
-                        <!--<li class="scroll"><a href="#services" data-section="#services" style="color: #72C05B;">Servicios</a></li>
-                        <li class="scroll"><a href="#portfolio" data-section="#portfolio" style="color: #72C05B;">Galeria</a></li>
-                        <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>-->
-                        
-             
-                        
+                        <li style="margin-left:10px" class="drop"><a href="frmInicio.aspx" class="nav-link">Home</a></li>
+                       <li style="margin-left:10px" class="drop"><a href="frmModificarDatosPersona.aspx" class="nav-link">Mi Info</a></li>
+                        <li style="margin-left:10px" class="drop"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Eventos</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Todos los Eventos</a>
+                                <a href="#" class="dropdown-item">Mis Eventos</a>
+                                <a href="frmCrearEventos.aspx" class="dropdown-item">Crear Evento</a>
+                            </div>
+                        </li>
+                       <li style="margin-left:10px" class="drop"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Premios</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Todos los Premios</a>
+                                <a href="#" class="dropdown-item">Mis Premios</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>

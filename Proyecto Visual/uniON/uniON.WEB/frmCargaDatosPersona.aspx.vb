@@ -16,6 +16,7 @@ Public Class frmCargaDatosPersona
             oPersona.CargarDatos(Session("IdPersona"), cboCiudad.SelectedValue, txtNombre.Text, txtApellido.Text)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
             Response.Redirect("frmModificarDatosPersona.aspx")
+
         Else
 
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)

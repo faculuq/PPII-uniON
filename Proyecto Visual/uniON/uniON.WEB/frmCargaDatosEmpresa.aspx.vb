@@ -14,9 +14,10 @@ Public Class frmCargaDatosEmpresa
         If txtNombre.Text <> Nothing And cboCiudad.SelectedValue <> Nothing Then
 
             Dim oEmpresa As New cEmpresas
-            oEmpresa.AgregarDatos(Session("IdUsuario"), txtNombre.Text, cboCiudad.SelectedValue)
+            oEmpresa.CargarDatos(Session("IdEmpresa"), txtNombre.Text, cboCiudad.SelectedValue)
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaExito()", True)
             Response.Redirect("frmModificarDatosEmpresa.aspx")
+
         Else
 
             ScriptManager.RegisterClientScriptBlock(Me, GetType(String), "mensaje", "alertaCampos()", True)

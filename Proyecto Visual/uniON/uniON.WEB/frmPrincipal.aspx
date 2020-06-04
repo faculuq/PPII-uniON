@@ -38,6 +38,29 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+    <style>
+        /*Boton/BotonHover*/
+    .btn-success {
+        background-color: #72C05B !important;
+        border: 1px solid #72C05B !important;
+        /*border: solid 1px #000 !important;*/
+        border-radius: 2em !important;
+    }
+
+    .btn-success:hover {
+        background-color: #627378 !important;
+        border: 1px solid #627378 !important;
+        /*border: solid 1px #000 !important;*/
+        transition: 1s;
+    }
+
+    #contact-area .form-control:focus, #focusedInput {
+    border: 1px solid #72C05B;
+    box-shadow: none;
+    }
+
+    </style>
 </head>
 <body id="home" class="homepage">
     <form id="form1" runat="server">
@@ -69,9 +92,11 @@
                         <li class="scroll button"><a href="#home" data-section="#home">Inicio</a></li>
                         <li class="scroll"><a href="#about" data-section="#about">Acerca de</a></li>
                         <li class="scroll"><a href="#features" data-section="#features">Caracteristicas</a></li>
-                        <!--<li class="scroll"><a href="#services" data-section="#services" style="color: #72C05B;">Servicios</a></li>
-                        <li class="scroll"><a href="#portfolio" data-section="#portfolio" style="color: #72C05B;">Galeria</a></li>
-                        <li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>-->
+                        <li class="scroll"><a href="#portfolio" data-section="#portfolio">Galeria</a></li>
+                        <li class="scroll"><a href="#contact-area" data-section="#contact-area">Contacto</a></li>
+                        <%--<li class="scroll"><a href="#services" data-section="#services" style="color: #72C05B;">Servicios</a></li>--%>
+                        <%--<li class="scroll"><a href="#portfolio" data-section="#portfolio" style="color: #72C05B;">Galeria</a></li>--%>
+                        <%--<li class="scroll"><a href="#contact-area" data-section="#contact-area" style="color: #72C05B;">Contacto</a></li>--%>
                         
                         <div class="navbar-brand">
                             <a href="frmRegistro.aspx" style="">Registrate!</a>
@@ -365,22 +390,21 @@
     </section>-->
     <!--/#services-->
 
-    <!--<section id="portfolio">
+    <section id="portfolio">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Galeria</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p class="text-center wow fadeInDown">En esta sección le mostraremos imagenes de como es la interfaz de la aplicación y como funciona.</p>
             </div>
 
-            <div class="text-center">
+<%--            <div class="text-center">
                 <ul class="portfolio-filter">
                     <li><a class="active" href="#" data-filter="*">All Works</a></li>
                     <li><a href="#" data-filter=".animation">Animation</a></li>
                     <li><a href="#" data-filter=".Business">Business</a></li>
                     <li><a href="#" data-filter=".art">Art</a></li>
                 </ul>
-            </div>
+            </div>--%>
 
             <div class="portfolio-items">
                 <div class="portfolio-item animation">
@@ -451,7 +475,7 @@
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
                         <div class="portfolio-info">
-                            <h3>Portfolio Item 5</h3>
+                            <h3>Portfolio Item 6</h3>
                             <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto">
                                 <img src="images/portfolio/expand.png" alt="">
 
@@ -460,7 +484,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio-item animation art">
+<%--                <div class="portfolio-item animation art">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
                         <div class="portfolio-info">
@@ -484,10 +508,10 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div>--%>
             </div>
         </div>
-    </section>-->
+    </section>
 
 
     <!--<section id="testimonial">
@@ -538,45 +562,44 @@
 
 
 
-    <!--<section id="contact-area">
+    <section id="contact-area">
         <div class="container">
             <div class="row">
                 <div class="section-header">
                     <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible;">Contacto
                     </h2>
-                    <p class="text-center wow fadeInDown animated" style="visibility: visible;">Drop a line to us. Your
-                        word is most important to us.</p>
+                    <p class="text-center wow fadeInDown animated" style="visibility: visible;">Llena los campos y te contactaremos enseguida para resolver tus dudas</p>
                 </div>
                 <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
                     <div class="col-lg-6 animated animate-from-left" style="opacity: 1; left: 0px;">
 
                         <div class="form-group">
-                            <label for="name">Your Name (Required)</label>
-                            <input id="name" type="text" name="name" class="form-control" placeholder="Name" required>
+                            <label for="name"></label>
+                            <input id="name" type="text" name="name" style="border-radius:16px;" class="form-control" placeholder="Nombre" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email"
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" style="border-radius:16px;" class="form-control" placeholder="Email"
                                 required>
                         </div>
                         <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject"
+                            <label for="subject"></label>
+                            <input type="text" id="subject" name="subject" style="border-radius:16px;" class="form-control" placeholder="Asunto"
                                 required>
                         </div>
 
                     </div>
                     <div class="col-lg-6 animated animate-from-right" style="opacity: 1; right: 0px;">
                         <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="8" placeholder="Message"
+                            <label for="message"></label>
+                            <textarea name="message" id="message" style="border-radius:16px;" class="form-control" rows="8" placeholder="Mensaje"
                                 required></textarea>
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="text-center">
 
-                        <button type="submit" class="btn btn-primary btn-lg btn-send-msg">Send Message</button>
+                        <button type="submit" class="btn-success" style="width:30%; height:50px; color:white;">Enviar Mensaje</button>
 
                     </div>
 
@@ -585,7 +608,7 @@
             </div>
         </div>
 
-    </section>-->
+    </section>
     <!--/#bottom-->
 
     <footer id="footer">

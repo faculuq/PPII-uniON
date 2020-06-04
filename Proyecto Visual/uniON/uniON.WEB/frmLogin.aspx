@@ -12,13 +12,13 @@
 
     <style>
         .btn-signup:hover {
-            cursor: pointer
+            cursor: pointer;
         }
         .btn-signup:hover {
-            background-color: #65AB50
+            background-color: #627378;
         }
         .btn-signup:hover {
-            transition: background-color .5s
+            transition: background-color .5s;
         }
     </style>
 
@@ -38,7 +38,7 @@
 <body>
 
    <div class="container">
-    <div style="margin-bottom:20px; margin-top:-40px" class="frame">
+    <div style="margin-bottom:20px; margin-top:-40px; background:rgba(0,0,0,0.9);" class="frame">
       <div class="nav">
         <ul class="links">
           <li class="signin-active"><a class="btn">Iniciar Sesión</a></li>
@@ -55,7 +55,9 @@
           <%--<input class="form-styling" type="text" name="password" placeholder="" />--%>
           <input type="checkbox" id="checkbox" />
           <label for="checkbox"><span class="ui"></span>Mantenerme conectado</label>
-            <asp:Button ID="btnRegistrarse" runat="server" style="cursor:pointer;padding-top: 0px;" Text="Iniciar Sesión" CssClass="btn-signup"/>
+            <asp:Button ID="btnRegistrarse" runat="server" style="                    cursor: pointer;
+                    padding-top: 0px;
+            " Text="Iniciar Sesión" CssClass="btn-signup"/>
           <%--<div class="btn-animate">
             <a class="btn-signin">Entrar</a>
           </div>--%>

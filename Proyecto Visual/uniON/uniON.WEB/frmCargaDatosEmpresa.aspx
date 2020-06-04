@@ -226,16 +226,17 @@ if it's not present, don't show loader */
     .btn-success {
         background-color: #72C05B !important;
         border: 1px solid #72C05B !important;
-        border: solid 1px #627378 !important;
+        /*border: solid 1px #000 !important;*/
         border-radius: 2em !important;
     }
 
     .btn-success:hover {
         background-color: #627378 !important;
         border: 1px solid #627378 !important;
-        border: solid 1px #72C05B !important;
+        /*border: solid 1px #000 !important;*/
         transition: 1s;
     }
+
 </style>
 
 
@@ -306,19 +307,33 @@ if it's not present, don't show loader */
                                             <div class="form-group">
 
                                                 <div class="row">
+                                                    <div class="col col-md-12">
+                                                        <span
+                                                            style="color:#72C05B; font-size:28px; font-weight:700;">Carga
+                                                            los datos
+                                                            <br />
+                                                            de tu Empresa</span>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <br />
+
+                                                <div class="row">
 
                                                     <div class="col col-md-6">
-                                                        <span style="color:#72C05B; font-size:18px; ">Nombre de la Empresa</span>
+                                                        <span style="color:#72C05B; font-size:18px; ">Nombre de la
+                                                            Empresa</span>
                                                         <asp:TextBox ID="txtNombre" required runat="server"
-                                                         ForeColor="Black" class="form-control" Height="50px"
-                                                         Width="100%"></asp:TextBox>
+                                                            ForeColor="Black" class="form-control" Height="50px"
+                                                            Width="70%"></asp:TextBox>
                                                     </div>
 
                                                     <div class="col col-md-6">
                                                         <span style="color:#72C05B; font-size:18px; ">País</span>
                                                         <asp:DropDownList ID="cboPais" runat="server" ForeColor="Black"
-                                                        class="form-control" Height="50px" Width="100%"
-                                                        AutoPostBack="True"></asp:DropDownList>
+                                                            class="form-control" Height="50px" Width="70%"
+                                                            AutoPostBack="True"></asp:DropDownList>
                                                     </div>
 
                                                 </div>
@@ -328,17 +343,18 @@ if it's not present, don't show loader */
                                                 <div class="row">
 
                                                     <div class="col col-md-6">
-                                                        <span style="color:#72C05B; font-size:18px; ">Provincia/Estado</span>
+                                                        <span
+                                                            style="color:#72C05B; font-size:18px; ">Provincia/Estado</span>
                                                         <asp:DropDownList ID="cboProvincia" runat="server"
                                                             ForeColor="Black" class="form-control" Height="50px"
-                                                            Width="100%" AutoPostBack="True"></asp:DropDownList>
+                                                            Width="70%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
                                                         <span style="color:#72C05B; font-size:18px; ">Ciudad</span>
                                                         <asp:DropDownList ID="cboCiudad" runat="server"
                                                             ForeColor="Black" class="form-control" Height="50px"
-                                                            Width="100%" AutoPostBack="True"></asp:DropDownList>
+                                                            Width="70%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
 
                                                 </div>
@@ -351,7 +367,8 @@ if it's not present, don't show loader */
 
                                                         <br />
 
-                                                        <span style="color:#72C05B; font-size:18px; ">Subir Imágen</span>
+                                                        <span style="color:#72C05B; font-size:18px; ">Subir
+                                                            Imágen</span>
 
                                                         <script type="text/javascript">
                                                             function readURL(input) {
@@ -389,21 +406,22 @@ if it's not present, don't show loader */
 
                                                         <br />
 
-                                                        <img src="" id="ImgQS" runat="server" style=" width:300px;  height:100px;border: 8px solid #fff;
+                                                        <img src="" id="ImgQS" runat="server"
+                                                            style=" width:300px;  height:100px;border: 8px solid #fff;
                                                         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); object-fit:cover;" />
 
                                                     </div>
 
                                                 </div>
 
-                                                <br />
+
 
                                                 <div class="row">
 
                                                     <div class="col col-md-12">
                                                         <br />
-                                                        <asp:Button style="width:50%;color:white;" class="btn-success"
-                                                        ID="btnAceptar" Text="Aceptar" runat="server"></asp:Button>
+                                                        <asp:Button style="width:30%;color:white;" class="btn-success"
+                                                            ID="btnAceptar" Text="Aceptar" runat="server"></asp:Button>
 
                                                     </div>
 
@@ -433,7 +451,7 @@ if it's not present, don't show loader */
 
                         <div class="row" runat="server" id="PanelVolver" visible="false">
 
-                            <div class="card-box" style="    min-height: 200px;">
+                            <div class="card-box" style="min-height: 200px;">
                                 <section class="icon-list-demo">
                                     <div class="col col-md-12">
 
@@ -453,9 +471,9 @@ if it's not present, don't show loader */
                 <!-- container -->
             </div>
             <!-- content -->
-            <footer class="footer text-right">
+            <%--<footer class="footer text-right">
                 2020 © uniON.
-            </footer>
+            </footer>--%>
         </div>
     </form>
 </body>

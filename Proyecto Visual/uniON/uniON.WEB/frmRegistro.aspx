@@ -12,13 +12,13 @@
 
     <style>
         .btn-signup:hover {
-            cursor: pointer
+            cursor: pointer;
         }
         .btn-signup:hover {
-            background-color: #65AB50
+            background-color: #627378;
         }
         .btn-signup:hover {
-            transition: background-color .5s
+            transition: background-color .5s;
         }
     </style>
 
@@ -50,7 +50,7 @@
 <body>
    
    <div class="container">
-    <div style="margin-bottom:20px; margin-top:-40px" class="frame">
+    <div style="margin-bottom:20px; margin-top:-40px; background:rgba(0,0,0,0.9);" class="frame">
       <div class="nav">
         <ul class="links">
             <li class="signup-active"><a  class ="btn">Registrarte</a></li>
@@ -58,22 +58,32 @@
             
           </ul>
       </div>
+
       <div style="margin-top: -45px;" ng-app ng-init="checked = false">
         <form class="form-signin" action="" method="post" name="form" runat="server">
-         <%-- <label for="username">Nombre de usuario</label>
+        
+            <%-- <label for="username">Nombre de usuario</label>
           <input class="form-styling" type="text" runat="server" name="username" placeholder="" />--%>
             <label for="email">Correo electrónico</label>
             <asp:TextBox ID="txtEmail" runat="server" class="form-styling" type="text" name="email"></asp:TextBox>
-          <%--<input id="txtEmail" runat="server" class="form-styling" type="text" name="email" placeholder="" />--%>
-          <label  for="password">Contraseña</label>
+          
+            <%--<input id="txtEmail" runat="server" class="form-styling" type="text" name="email" placeholder="" />--%>
+          
+            <label  for="password">Contraseña</label>
             <asp:TextBox id="txtPassword" runat="server" class="form-styling" type="password" name="password"></asp:TextBox>
-<%--          <input id="txtPassword" runat="server" class="form-styling" type="text" name="password" placeholder="" />--%>
-          <label for="confirmpassword">Confirmar contraseña</label>
+<%--          
+    <input id="txtPassword" runat="server" class="form-styling" type="text" name="password" placeholder="" />--%>
+          
+            <label for="confirmpassword">Confirmar contraseña</label>
             <asp:TextBox  id="txtPasswordConfirmar" runat="server" class="form-styling" type="password" name="confirmpassword"></asp:TextBox>
-          <%--<input id="txtPasswordConfirmar" runat="server" class="form-styling" type="text" name="confirmpassword" placeholder="" />--%>
-         <%-- <input id="checkbox" type="checkbox"  />--%>
-            <asp:CheckBox type="checkbox" id="chkTipo" runat="server" />
-          <label for="checkbox"><span class="ui"></span>Registrarse como empresa</label>
+         
+            <%--<input id="txtPasswordConfirmar" runat="server" class="form-styling" type="text" name="confirmpassword" placeholder="" />--%>
+
+            <%--<asp:CheckBox type="checkbox" id="chkTipo" runat="server" />--%>
+              
+            <input id="checkbox" type="checkbox"><asp:CheckBox ID="chkTipo" runat="server"/>
+            <label for="checkbox"><span class="ui"></span>Registrarse como empresa</label>
+             
           <%--<div class="btn-animate">
             <a class="btn-signin">Registrarse</a>--%>
             

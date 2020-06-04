@@ -204,16 +204,16 @@ if it's not present, don't show loader */
     .btn-success {
         background-color: #72C05B !important;
         border: 1px solid #72C05B !important;
-        border:solid 1px #627378 !important;
-        border-radius:2em !important;
-    }
-    .btn-success:hover{
-        background-color: #627378  !important;
-        border: 1px solid #627378  !important;
-        border:solid 1px #72C05B !important;
-        transition: 1s;
+        /*border:solid 1px #627378 !important;*/
+        border-radius: 2em !important;
     }
 
+    .btn-success:hover {
+        background-color: #627378 !important;
+        border: 1px solid #627378 !important;
+        /*border:solid 1px #72C05B !important;*/
+        transition: 1s;
+    }
 </style>
 
 
@@ -284,31 +284,60 @@ if it's not present, don't show loader */
                                             <div class="form-group">
 
                                                 <div class="row">
+                                                    <div class="col col-md-12">
+                                                        <span
+                                                            style="color:#72C05B; font-size:28px; font-weight:700;">Modifica
+                                                            los datos
+                                                            <br />
+                                                            de tu Empresa</span>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <br />
+
+                                                <div class="row">
 
                                                     <div class="col col-md-6">
                                                         <span style="color:#72C05B; font-size:18px; ">Nombre de la
                                                             Empresa</span>
                                                         <asp:TextBox ID="TxtNombre" required runat="server"
                                                             ForeColor="Black" class="form-control" Height="50px"
-                                                            Width="100%"></asp:TextBox>
+                                                            Width="70%"></asp:TextBox>
                                                     </div>
 
                                                     <div class="col col-md-6">
-                                                        <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >País</span>
-                                                        <asp:DropDownList ID="cboPais" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
+                                                        <span id="TituloOrden"
+                                                            style="color:#72C05B; font-size:18px;">País</span>
+                                                        <asp:DropDownList ID="cboPais" runat="server" ForeColor="Black"
+                                                            class="form-control" Height="50px" Width="70%">
+                                                        </asp:DropDownList>
+                                                    </div>
+
+                                                </div>
+
+                                                <br />
+
+                                                <div class="row">
+
+                                                    <div class="col col-md-6">
+                                                        <span id="TituloOrden"
+                                                            style="color:#72C05B; font-size:18px;">Provincia/Estado</span>
+                                                        <asp:DropDownList ID="cboProvincia" runat="server"
+                                                            ForeColor="Black" class="form-control" Height="50px"
+                                                            Width="70%"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
-                                                        <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >Provincia</span>
-                                                        <asp:DropDownList ID="cboProvincia" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
-                                                    </div>
-
-                                                    <div class="col col-md-6">
-                                                        <span id="TituloOrden" style="color:#72C05B; font-size:18px;" >Ciudad</span>
-                                                        <asp:DropDownList ID="cboCiudad" runat="server" ForeColor="Black" class="form-control" Height="50px" Width="100%"></asp:DropDownList>
+                                                        <span id="TituloOrden"
+                                                            style="color:#72C05B; font-size:18px;">Ciudad</span>
+                                                        <asp:DropDownList ID="cboCiudad" runat="server"
+                                                            ForeColor="Black" class="form-control" Height="50px"
+                                                            Width="70%"></asp:DropDownList>
                                                     </div>
                                                 </div>
 
+                                                <br />
 
                                                 <div class="row">
 
@@ -358,19 +387,23 @@ if it's not present, don't show loader */
 
                                                 </div>
 
-                                            <div class="row">
+                                                <div class="row">
 
-                                                <div class="col col-md-12">
-                                           <br />
-                                                 <asp:Button style="width:50%;color:white;" 
-                                                     class="btn-success" 
-                                                     ID="btnAceptar"  
-                                                     Text="Aceptar" 
-                                                     runat="server"></asp:Button>
+                                                    <div class="col col-md-12">
+                                                        <br />
+                                                        <asp:Button style="width:30%;color:white;" class="btn-success"
+                                                            ID="btnAceptar" Text="Aceptar" runat="server"></asp:Button>
 
-                                             </div>
+                                                    </div>
 
-                                         </div>
+                                                </div>
+
+
+                                            </div>
+
+                                </div>
+
+                            </div>
 
 
                             <%-- <asp:HiddenField ID="HfID_Rubro" runat="server" />
@@ -389,18 +422,18 @@ if it's not present, don't show loader */
 
                         <div class="row" runat="server" id="PanelVolver" visible="false">
 
-                            <div class="card-box" style="    min-height: 200px;">
+                            <div class="card-box" style="min-height: 200px;">
                                 <section class="icon-list-demo">
                                     <div class="col col-md-12">
 
                                         <br />
-                                        <center>
+                                        <%-- <center>
                                             <button type="button"
                                                 style=" width:50%; background:#ef7f2d !important; border: 1px solid #ef7f2d !important;"
                                                 id="btnVolver" runat="server"
                                                 class="btn btn-success btn-rounded w-md waves-effect waves-light m-b-5">
                                                 VOLVER A QUIENES SOMOS</button>
-                                        </center>
+                                        </center>--%>
                                     </div>
                                 </section>
 
@@ -413,9 +446,9 @@ if it's not present, don't show loader */
                 <!-- container -->
             </div>
             <!-- content -->
-            <footer class="footer text-right" style="margin-left: -50px;">
+            <%--<footer class="footer text-right">
                 2020 © uniON.
-            </footer>
+            </footer>--%>
         </div>
     </form>
 </body>
