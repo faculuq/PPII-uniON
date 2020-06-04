@@ -310,7 +310,7 @@ if it's not present, don't show loader */
                                                         <span id="TituloOrden"
                                                             style="color:#72C05B; font-size:18px;">País</span>
                                                         <asp:DropDownList ID="cboPais" runat="server" ForeColor="Black"
-                                                            class="form-control" Height="50px" Width="70%">
+                                                            class="form-control" Height="50px" Width="70%" AutoPostBack="True">
                                                         </asp:DropDownList>
                                                     </div>
 
@@ -325,7 +325,7 @@ if it's not present, don't show loader */
                                                             style="color:#72C05B; font-size:18px;">Provincia/Estado</span>
                                                         <asp:DropDownList ID="cboProvincia" runat="server"
                                                             ForeColor="Black" class="form-control" Height="50px"
-                                                            Width="70%"></asp:DropDownList>
+                                                            Width="70%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
 
                                                     <div class="col col-md-6">
@@ -333,7 +333,7 @@ if it's not present, don't show loader */
                                                             style="color:#72C05B; font-size:18px;">Ciudad</span>
                                                         <asp:DropDownList ID="cboCiudad" runat="server"
                                                             ForeColor="Black" class="form-control" Height="50px"
-                                                            Width="70%"></asp:DropDownList>
+                                                            Width="70%" AutoPostBack="True"></asp:DropDownList>
                                                     </div>
                                                 </div>
 
