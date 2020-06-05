@@ -46,6 +46,25 @@
 
     <link href="Formularios/css/wowCss.css" rel="stylesheet" type="text/css" />
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+        function alertaExito() {
+            Swal.fire(
+                '¡Bien hecho!',
+                'Tus datos se cargaron correctamente',
+                'success'
+            )
+        }
+
+        function alertaCampos() {
+            Swal.fire(
+                '¡Algo salió mal!',
+                'Completar todos los campos requeridos',
+                'error'
+            )
+        }
+    </script>
+
 </head>
 <style>
     /* Paste this css to your style sheet file or under head tag */
