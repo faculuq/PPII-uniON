@@ -8,7 +8,7 @@
   <title>uniON</title>
   <!-- partial:index.partial.html -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/login.css">
+  <%--<link rel="stylesheet" href="css/login.css">--%>
 
     <style>
 
@@ -539,7 +539,7 @@ a.btn-goback:hover {
     <script>function alertaFracaso() {
             swal({
                 title: "¡Algo salió mal!",
-                text: "¡Corrobora que ambas contraseñas coincidan!",
+                text: "¡Corrobora que los datos esten correctos!",
                 icon: "error",
                 button: "Aceptar",
             });

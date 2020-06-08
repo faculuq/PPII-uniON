@@ -65,8 +65,7 @@
         }
     </script>
 
-</head>
-<style>
+    <style>
     /* Paste this css to your style sheet file or under head tag */
     /* This only works with JavaScript, 
 if it's not present, don't show loader */
@@ -234,6 +233,9 @@ if it's not present, don't show loader */
         transition: 1s;
     }
 </style>
+
+
+</head>
 
 
 <body>

@@ -65,8 +65,7 @@
         }
     </script>
 
-</head>
-<style>
+    <style>
     /* Paste this css to your style sheet file or under head tag */
     /* This only works with JavaScript, 
 if it's not present, don't show loader */
@@ -237,6 +236,8 @@ if it's not present, don't show loader */
     }
 
 </style>
+
+</head>
 
 <body>
     <form id="form1" runat="server">

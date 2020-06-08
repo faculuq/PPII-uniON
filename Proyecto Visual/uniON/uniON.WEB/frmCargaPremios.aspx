@@ -46,8 +46,7 @@
 
       <link href="Formularios/css/wowCss.css" rel="stylesheet" type="text/css" />
 
-</head>
-<style>
+    <style>
     
      /* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
@@ -205,6 +204,9 @@ background-color:rgba(0, 0, 0, 0.5);
         transition: 1s;
     }
     </style>
+
+
+</head>
 
 
 <body>
