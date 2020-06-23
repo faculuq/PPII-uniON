@@ -20,6 +20,7 @@
     <meta name="author" content="Coderthemes">
 
     <title>uniON</title>
+    <link  rel="icon"   href="images/LogoUnion.png" type="image/png" />
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="Formularios/assets/plugins/morris/morris.css">
     <!-- App css -->

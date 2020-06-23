@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>uniON</title>
+    <link  rel="icon"   href="images/LogoUnion.png" type="image/png" />
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">

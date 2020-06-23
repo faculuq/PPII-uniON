@@ -6,6 +6,7 @@
 <head runat="server">
 <meta charset="UTF-8">
   <title>uniON</title>
+  <link  rel="icon"   href="images/LogoUnion.png" type="image/png" />
   <!-- partial:index.partial.html -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'/>
   <%--<link rel="stylesheet" href="css/login.css"/>--%>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css"/>
 
     <title>uniON</title>
+    <link  rel="icon"   href="images/LogoUnion.png" type="image/png" />
 
     </head>
 <body>
