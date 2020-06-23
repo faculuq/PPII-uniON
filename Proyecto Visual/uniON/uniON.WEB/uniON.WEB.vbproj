@@ -101,7 +101,7 @@
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\owl.transitions.css" />
     <Content Include="css\prettyPhoto.css" />
-    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Formularios\assets\css\bootstrap.min.css" />
     <Content Include="Formularios\assets\css\components.css" />
@@ -1535,6 +1535,7 @@
     <Content Include="frmModificarPremios.aspx" />
     <Content Include="frmPrincipal.aspx" />
     <Content Include="frmRegistro.aspx" />
+    <Content Include="images\fondo.jpg" />
     <Content Include="images\ico\apple-touch-icon-114-precomposed.png" />
     <Content Include="images\ico\apple-touch-icon-144-precomposed.png" />
     <Content Include="images\ico\apple-touch-icon-57-precomposed.png" />
