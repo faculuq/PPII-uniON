@@ -26,9 +26,15 @@
             <div class="nav-btn">
                 <div class="nav-links">
                     <ul>
+
+                        <li class="nav-link" style="--i: .4s">
+                            <a href="frmInicio.aspx">Home</a>
+                        </li>
+
                         <li class="nav-link" style="--i: .6s">
                             <a href="#">Mi Info</a>
                         </li>
+
                         <li class="nav-link" style="--i: .85s">
                             <a href="#">Eventos<i class="fas fa-caret-down"></i></a>
                             <div class="dropdown">
@@ -59,6 +65,7 @@
                                 </ul>
                             </div>
                         </li>
+
                         <li class="nav-link" style="--i: 1.35s">
                             <a href="#"></a>
                         </li>
