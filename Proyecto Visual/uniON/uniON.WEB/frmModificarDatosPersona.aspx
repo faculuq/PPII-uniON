@@ -54,6 +54,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow: auto;
+    background: #fff;
 }
 
 ul{
